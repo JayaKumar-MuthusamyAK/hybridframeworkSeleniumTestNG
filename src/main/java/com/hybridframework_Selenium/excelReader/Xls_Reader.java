@@ -9,6 +9,10 @@ import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Font;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.*;
+
+import com.hybridframework_Selenium.testScripts.Keywords;
+import com.hybridframework_Selenium.testUtils.TestUtils;
+
 import org.apache.poi.ss.usermodel.DataFormatter;
 
 import java.io.*;
@@ -22,10 +26,10 @@ public class Xls_Reader {
 	public  String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
-	private XSSFWorkbook workbook = null;
-	private XSSFSheet sheet = null;
-	private XSSFRow row   =null;
-	private XSSFCell cell = null;
+	public  XSSFWorkbook workbook = null;
+	public XSSFSheet sheet = null;
+	public XSSFRow row   =null;
+	public XSSFCell cell = null;
 	
 	public Xls_Reader(String path) {
 		
@@ -217,7 +221,7 @@ public class Xls_Reader {
 	public boolean setCellData(String sheetName,String colName,int rowNum, String data){
 		try{
 		fis = new FileInputStream(path); 
-		System.out.println(path);
+		//System.out.println(path);
 		workbook = new XSSFWorkbook(fis);
 
 		if(rowNum<=0)
@@ -243,7 +247,8 @@ public class Xls_Reader {
 			//System.out.println(sheet.getRow(j).getCell(i).getStringCellValue().trim());
 			if(sheet.getRow(j).getCell(i).getStringCellValue().trim().equalsIgnoreCase(colName.trim()))
 			{
-				col_Num=i;
+				//System.out.println(i);
+				col_Num=i-1;
 			    break;
 			}   
 			
@@ -261,9 +266,9 @@ public class Xls_Reader {
 			return false;
 
 		sheet.autoSizeColumn(col_Num); 
-		row = sheet.getRow(rowNum-1);
+		row = sheet.getRow(rowNum);
 		if (row == null)
-			row = sheet.createRow(rowNum-1);
+			row = sheet.createRow(rowNum);
 		
 		cell = row.getCell(col_Num);	
 		if (cell == null)
@@ -534,9 +539,187 @@ public class Xls_Reader {
 	    	}
 	    }
 		return -1;
-		//9036.303836
+		
 	}
 		
+	public boolean setCellDataInparticularCell(String testcases,String sheetName,String colName, String data){
+		
+		
+		try{
+		
+		fis = new FileInputStream(path); 
+		System.out.println(path);
+		workbook = new XSSFWorkbook(fis);
+		int testStartsRowNum = 0;
+		int index = workbook.getSheetIndex(sheetName);
+		int colNum=-1;
+		if(index==-1)
+			return false;
+		
+		
+		sheet = workbook.getSheetAt(index);
+		//System.out.println("A");
+		row=sheet.getRow(0);
+		for (int rNum = 1; rNum <= getRowCount("Test Data"); rNum++) {
+			if (testcases.equals(getCellData("Test Data", 0, rNum))) {
+				//System.out.println(xls.getCellData("Test Data", 0, rNum));
+				testStartsRowNum = rNum;
+				break;
+			}
+		}
+		if(testStartsRowNum<=0)
+			return false;
+		int columnStartNum = testStartsRowNum + 1;
+		int cols = 0;
+
+		while (!getCellData("Test Data", cols, columnStartNum).equals("")) {
+			//System.out.println(cols);
+			cols++;
+		}
+		
+		int rowStartNum = testStartsRowNum + 2;
+		int rows = 0;
+
+		while (!getCellData("Test Data", 0, (rowStartNum + rows)).equals("")) {
+			//System.out.println(rows);
+			rows++;
+		}
+		
+		row=sheet.getRow(testStartsRowNum);
+		System.out.println(testStartsRowNum);
+		System.out.println(rows);
+		System.out.println(columnStartNum);
+		System.out.println(rowStartNum);
+		for (int rNum = rowStartNum; rNum < (rowStartNum + rows); rNum++) {
+			for (int cNum = 0; cNum < cols; cNum++) {
+				//System.out.print(xls.getCellData("Test Data", cNum, columnStartNum) + "--"+ xls.getCellData("Test Data", cNum, rNum) + " --");
+				System.out.println(getCellData("Test Data", cNum, columnStartNum));
+				System.out.println(getCellData("Test Data", cNum, rNum) + " --");
+				if(getCellData("Test Data", cNum, columnStartNum).equalsIgnoreCase(colName)){
+					
+					int rw =rNum;
+					while(rw<(rowStartNum + rows)){
+						if(getCellData("Test Data", cNum, rw).equals("")){
+						    sheet.autoSizeColumn(cNum); 
+							row = sheet.getRow(rw-1);
+							if (row == null)
+								row = sheet.createRow(rw-1);
+							cell = row.getCell(cNum);	
+							if (cell == null)
+						        cell = row.createCell(cNum);
+
+						    // cell style
+						    //CellStyle cs = workbook.createCellStyle();
+						    //cs.setWrapText(true);
+						    //cell.setCellStyle(cs);
+						    cell.setCellValue(data);
+
+						    fileOut = new FileOutputStream(path);
+
+							workbook.write(fileOut);
+
+						    fileOut.close();	
+						    workbook = new XSSFWorkbook(new FileInputStream(path));
+						    break;
+						}
+						rw++;
+					}
+						
+						 
+					}
+				}
+			break;
+			}
+					
+					
+		
+		
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean setCellData1(String sheetName,String findtestcases, String colName,int rowNum, String data){
+		try{
+		fis = new FileInputStream(path); 
+		//System.out.println(path);
+		workbook = new XSSFWorkbook(fis);
+
+		if(rowNum<=0)
+			return false;
+		
+		int index = workbook.getSheetIndex(sheetName);
+		int col_Num=-1;
+		if(index==-1)
+			return false;
+		
+		sheet = workbook.getSheetAt(index);
+
+		row=sheet.getRow(0);
+		
+		for(int j=0; j<=sheet.getLastRowNum();j++){
+			
+			if(sheet.getRow(j)!=null){
+			for(int i=0;i<=sheet.getRow(j).getLastCellNum();i++){
+			//System.out.println(sheet.getRow(j).getCell(i).getStringCellValue());
+			if(sheet.getRow(j).getCell(i)!=null)
+			{
+				
+			//System.out.println(sheet.getRow(j).getCell(i).getStringCellValue().trim());
+			if(sheet.getRow(j).getCell(i).getStringCellValue().trim().equalsIgnoreCase(findtestcases.trim()))
+			{
+				
+				//System.out.println(i);
+				col_Num=i-1;
+			    break;
+			}   
+			
+			else{
+				//System.out.println();
+			}
+			}
+			
+			}
+				
+			
+		}
+		}
+		if(col_Num==-1)
+			return false;
+
+		sheet.autoSizeColumn(col_Num); 
+		row = sheet.getRow(rowNum);
+		if (row == null)
+			row = sheet.createRow(rowNum);
+		
+		cell = row.getCell(col_Num);	
+		if (cell == null)
+	        cell = row.createCell(col_Num);
+
+	    // cell style
+	    //CellStyle cs = workbook.createCellStyle();
+	    //cs.setWrapText(true);
+	    //cell.setCellStyle(cs);
+	    cell.setCellValue(data);
+
+	    fileOut = new FileOutputStream(path);
+
+		workbook.write(fileOut);
+
+	    fileOut.close();	
+
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	
 	// to run this on stand alone
 	public static void main(String arg[]) throws IOException{
 		
@@ -544,10 +727,18 @@ public class Xls_Reader {
 		Xls_Reader datatable = null;
 		
 
-			 datatable = new Xls_Reader("H:\\Student_Selenium_Workspaces\\Framework_Weekend\\src\\Framework_XL_Files\\Controller.xlsx");
-				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
-					System.out.println(datatable.getCellData("TC5", col, 1));
-				}
+			 datatable = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
+				//datatable.setCellData("Test Data", "Status", 3, "Pass");
+			 datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Expected_Result", "Testing comments 1");
+			 datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Pass");
+			datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "testing comments");
+			datatable.setCellDataInparticularCell("FlightSearchlistTestCase", "Test Data", "Status", "Pass");
+			//datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "Pass");
+			 //datatable.setCellData1("signUpPageTestcases", "", colName, rowNum, data)
+			//datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Fail");
+			//datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", 4, "Fail");
+			//datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", 5, "Pass");
+			//datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", 6, "Skip");
 	}
 	
 	

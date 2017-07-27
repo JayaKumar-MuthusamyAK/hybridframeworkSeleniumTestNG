@@ -68,7 +68,7 @@ public class SearchingFlights {
 		int flightavailabletotal= Integer.parseInt(stotal);
 		Actions act = new Actions(driver);
 		//div[@class='listing_top clearfix']/div[3]/div[1]/span[1]/span[2]
-		List<WebElement> listofflightsnames= driver.findElements(By.xpath("//span[@class='pull-left airline_info_detls']"));
+		List<WebElement> listofflightsnames= driver.findElements(By.xpath("//span[@class='block logo_name hidden-xs visible-stb light_gray flt_number_less600 ng-binding ng-scope']"));
 		List<WebElement> listofflightsprice = driver.findElements(By.xpath("//span[@class='num ng-binding']"));
 		int flightnamelisttotal = listofflightsnames.size();
 		List<String>timings=new LinkedList<String>();
@@ -77,9 +77,10 @@ public class SearchingFlights {
 			newcount=flightnamelisttotal;
 			act.moveToElement(listofflightsnames.get(flightnamelisttotal-1)).build().perform();
 			Thread.sleep(2000);
-			listofflightsnames= driver.findElements(By.xpath("//span[@class='pull-left airline_info_detls']"));
+			listofflightsnames= driver.findElements(By.xpath("//span[@class='block logo_name hidden-xs visible-stb light_gray flt_number_less600 ng-binding ng-scope']"));
 			flightnamelisttotal = listofflightsnames.size();
 			System.out.println(flightnamelisttotal);
+			//span[@class='pull-left airline_info_detls']
 		}
 		Thread.sleep(3000);
 		int j=0;
@@ -137,9 +138,15 @@ public class SearchingFlights {
 			}
 			count++;
 		}
+		
+		verifyTimePrice(flightpricemap,timings);
+		
+	}
+	public void verifyTimePrice(HashMap<String, List<String>> flightpricemap, List<String> timings) throws InterruptedException {
+		Thread.sleep(3000);
 		String text1 = driver.findElement(By.xpath("(//span[@class='block review_time RobotoRegular ng-binding'])[1]")).getText();
 		System.out.println(text1);
-		System.out.println(flightpricemap.get("IndiGo 6E-167"));
+		System.out.println(flightpricemap.get("6E-167"));
 		System.out.println(timings.get(0));
 		System.out.println(timings.get(1));
 		if(timings.get(0).equals(text1)){
@@ -148,7 +155,12 @@ public class SearchingFlights {
 		else{
 			System.out.println("Fail");
 		}
-	
+		/*for(Entry<String, List<String>> entry:flightpricemap.entrySet()){
+			System.out.println("Mapping keys"+entry.getKey());
+			System.out.println("Map values"+entry.getValue());
+			
+		}*/
+		
 		
 	}
 	public void chooseClass(String classnameString) {

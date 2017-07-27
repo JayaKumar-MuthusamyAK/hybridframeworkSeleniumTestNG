@@ -20,28 +20,31 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import com.hybridframework_Selenium.constants.Constants;
 import com.hybridframework_Selenium.excelReader.Xls_Reader;
 import com.hybridframework_Selenium.testBase.TestBase;
+import com.hybridframework_Selenium.testUtils.TestUtils;
 
 public class Keywords extends TestBase{
 
+	
 	public static Xls_Reader xls = new Xls_Reader(
 			System.getProperty("user.dir") + "/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
-	public Logger log = Logger.getLogger(Keywords.class.getName());
+	public static final Logger log = Logger.getLogger(Keywords.class.getName());
 	
 	public static Keywords keywords = null;
-
+	public String testCasesName = "";
 
 	public void executeKeywords(String testcases, Hashtable<String, String> data) throws Exception {
-
 	
+		this.testCasesName=testcases;
 		loadproperties();
 		PropertyConfigurator.configure("log4j.properties");
 		//System.out.println("Executable test cases is :" + testcases);
-		log("Executable test cases is :" + testcases);
+		log("Executable test cases name is :" + testcases);
 		String keyword = null;
 		String objectkeys = null;
 		String datakeys = null;
@@ -63,7 +66,7 @@ public class Keywords extends TestBase{
 					result= navigateURL(objectkeys);
 					break;
 				case "verifyTitle":
-					result = verifyTitle(objectkeys);
+					result = verifyTitle(datakeys);
 					break;
 				case "verifyLink":
 					result = verifyLink(objectkeys);
@@ -73,6 +76,9 @@ public class Keywords extends TestBase{
 					break;
 				case "input":
 					result = input(objectkeys,data.get(datakeys));
+					break;
+				case "directInput":
+					result = directInput(objectkeys,datakeys);
 					break;
 				case "verifySuccessMsg":
 					result = verifySuccessMsg(objectkeys);
@@ -110,6 +116,15 @@ public class Keywords extends TestBase{
 				case "chooseOnBook":
 					result = chooseOnBook(objectkeys,datakeys);
 					break;
+				case "verifyReviewPageGrandTotal":
+					result = verifyReviewPageGrandTotal(objectkeys);
+					break;
+				case "close":
+					result = close();
+					break;
+				case "chooseChildAge":
+					result = chooseChildrenswiththeirAge(datakeys);
+					break;
 				default:
 					System.out.println("Not Matching Keyword :"+keyword);
 					break;
@@ -118,6 +133,9 @@ public class Keywords extends TestBase{
 
 		}
 	}
+
+
+	
 
 	public String openBrowser(String objectkeys) {
 		selectBrowser(prop.getProperty(objectkeys));
@@ -132,14 +150,11 @@ public class Keywords extends TestBase{
 
 	
 
-	public String verifyTitle(String objectkeys) throws Exception {
-		
-		log("Verifing the given domain Url title.And the Title is =>>"+driver.getTitle());
-		if(driver.getTitle().equalsIgnoreCase("MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday")){
-			return "Pass";
-		}
-		
-		return "Fail";
+	public String verifyTitle(String datakeys) throws Exception {
+	
+		log("Verifing the given domain Url title.And the Title is =>>"+driver.getTitle()+"Expected Title is: "+datakeys);
+		Assert.assertEquals(driver.getTitle(), datakeys);
+		return "Pass";
 	}
 	
 	public String verifyLink(String objectkeys) throws Exception {
@@ -164,8 +179,6 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-
 	public String verifySuccessMsg(String objectkeys) throws Exception {
 
 		String name =objectkeys;
@@ -173,64 +186,90 @@ public class Keywords extends TestBase{
 		if(name.contains("|")){
 			int countnum= StringUtils.countMatches(name, "|");
 			for(int i=0; i<=countnum;i++){
-				System.out.println(name.split("\\|")[i]);
-				//getWebElement(name.split("\\|")[i]);
-				Thread.sleep(3000);
-				System.out.println(getWebElement(name.split("\\|")[i]).getText());
-				if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
-					break;
+				if(getWebElements(name.split("\\|")[i]).size()!=0){
+					System.out.println(name.split("\\|")[i]);
+					//getWebElement(name.split("\\|")[i]);
+					Thread.sleep(3000);
+					System.out.println(getWebElement(name.split("\\|")[i]).getText());
+					if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter an Email Address")){
+						Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter an Email Address");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a password")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a password");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Username and password doesn't match")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Username and password doesn't match");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Hey ")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Hey ");
+						clickOnlogout(prop.getProperty("logoutOptionlink"));
+						break;
+					}
+					
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter an Email Address")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter an Email Address");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a valid Phone Number")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a valid Phone Number");
+						break;
+					}
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a password")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a password");
+						break;
+					}
+					
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a valid Email Address")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a valid Email Address");
+						break;
+					}
+					
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
+						break;
+					}
+					
+					else if(getWebElement(name.split("\\|")[i]).getText().equals("Email already registered !")){
+						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
+						Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
+						Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Email already registered !");
+						break;
+					}
 				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter an Email Address")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter an Email Address");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a password")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a password");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Username and password doesn't match")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Username and password doesn't match");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Hey ")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Hey ");
-					clickOnlogout(prop.getProperty("logoutOptionlink"));
-					break;
 				}
 				
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter an Email Address")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter an Email Address");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a valid Phone Number")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a valid Phone Number");
-					break;
-				}
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a password")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a password");
-					break;
-				}
-				
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Please enter a valid Email Address")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Please enter a valid Email Address");
-					break;
-				}
-				
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("The password should be minimum of 6 characters")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "The password should be minimum of 6 characters");
-					break;
-				}
-				
-				else if(getWebElement(name.split("\\|")[i]).getText().equals("Email already registered !")){
-					Assert.assertEquals(getWebElement(name.split("\\|")[i]).getText(), "Email already registered !");
-					break;
-				}
-			}
 		}
 		else{
 			getWebElement(objectkeys);
@@ -333,6 +372,37 @@ public class Keywords extends TestBase{
 		
 		return "Pass";
 	}
+	
+	public String verifyReviewPageGrandTotal(String objectkeys) throws Exception {
+		if(objectkeys.contains("|")){
+			String text1 = objectkeys.split("\\|")[0];
+			String text2 = objectkeys.split("\\|")[1];
+			String text3 = objectkeys.split("\\|")[2];
+			int val1= Integer.parseInt(getWebElement(text1).getText().replace("Rs.", "").replace(",", "").trim());
+			int val2=Integer.parseInt(getWebElement(text2).getText().replace("Rs.", "").replace(",", "").trim());
+			int val3 = Integer.parseInt(getWebElement(text3).getText().replace("Rs.", "").replace(",", "").trim());
+			
+			int tot = val1+val2;
+			Assert.assertTrue(val3==tot, "Total price calculation is Correct!!");
+			
+		}
+		return null;
+	}
+	
+	public String close() {
+		if(driver!=null){
+			driver.quit();
+		}
+		return "PASS";
+	}
+
+
+	public String directInput(String objectkeys, String datakeys) throws Exception {
+		log("Entering the values in given webelement. The element name is =>>"+getWebElement(objectkeys));
+		getWebElement(objectkeys).sendKeys(datakeys);
+		return "Pass";
+	}
+
 	public void log(String data){
 		log.info(data);
 		Reporter.log(data);
@@ -340,13 +410,17 @@ public class Keywords extends TestBase{
 	
 	public static Keywords getInstance(){
 	
-		if(keywords==null)
-			keywords = new Keywords();
-		return keywords;
+		if (keywords == null) {
+			try {
+				keywords = new Keywords();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		
 	}
+		return keywords;
 	
-	
+	}
 	//User Generic Methods//
 	
 	public void clickOnlogout(String property) throws Exception {
@@ -399,7 +473,6 @@ public class Keywords extends TestBase{
 			}
 		}
 		else if(getWebElements("homepage.datepicker.nexticon").size()!=0){
-			
 			getWebElement("homepage.datepicker.nexticon").click();
 			chooseDate(datakeys);
 		}
@@ -431,6 +504,18 @@ public class Keywords extends TestBase{
 	public String chooseClass(String classnameString) {
 		
 		driver.findElement(By.xpath("//*[@id='js-classFilters']/div/label[.//text()='"+classnameString+"']")).click();
+		return "Pass";
+		
+	}
+	
+	public String chooseChildrenswiththeirAge(String ageWithNoChild){
+		
+		int no_ofChild= Integer.parseInt(ageWithNoChild.split("\\|")[0]);
+		driver.findElement(By.xpath("//*[@id='js-child_counter']/li["+Integer.parseInt(ageWithNoChild.split("\\|")[0])+"]")).click();
+		for(int i=0; i<no_ofChild;i++){
+			driver.findElement(By.xpath("//*[@id='allPaxAge']/div[2]/ul/li['"+Integer.parseInt(ageWithNoChild.split("\\|")[i+1])+"']")).click();
+		}
+		
 		return "Pass";
 		
 	}

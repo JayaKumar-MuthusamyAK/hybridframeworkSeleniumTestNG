@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Make My trip Regression Test cases]">
+  <test name="Sign Up Regression Test(failed)">
+    <classes>
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="signUpPageTestcases" invocation-numbers="0"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
+    </classes>
+  </test> <!-- Sign Up Regression Test(failed) -->
+</suite> <!-- Failed suite [Make My trip Regression Test cases] -->

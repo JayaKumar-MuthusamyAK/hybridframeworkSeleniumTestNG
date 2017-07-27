@@ -1,8 +1,14 @@
 package com.hybridframework_Selenium.testUtils;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.Hashtable;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+
 import com.hybridframework_Selenium.excelReader.Xls_Reader;
+import com.hybridframework_Selenium.testScripts.Keywords;
+
 
 public class TestUtils {
 	
@@ -75,7 +81,7 @@ public class TestUtils {
 
 		}
 
-		public static int getNum(String testcases, Xls_Reader xls) {
+		public static int getNum(String testcases, Xls_Reader xls,String columnName) {
 			int testStartsRowNum = 0;
 
 			for (int rNum = 1; rNum <= xls.getRowCount("Test Data"); rNum++) {
@@ -84,7 +90,7 @@ public class TestUtils {
 					break;
 				}
 			}
-			System.out.println("Test cases started row number :" + testStartsRowNum);
+			//System.out.println("Test cases started row number :" + testStartsRowNum);
 
 			int columnStartNum = testStartsRowNum + 1;
 			int cols = 0;
@@ -93,7 +99,7 @@ public class TestUtils {
 				cols++;
 			}
 
-			System.out.println("Test cases total column count are :" + cols);
+			//System.out.println("Test cases total column count are :" + cols);
 
 			int rowStartNum = testStartsRowNum + 2;
 			int rows = 0;
@@ -102,32 +108,38 @@ public class TestUtils {
 				rows++;
 			}
 
-			System.out.println("Test cases total rows count are :" + rows);
+			//System.out.println("Test cases total rows count are :" + rows);
 
 			Object[][] data = new Object[rows][1];
-			System.out.println(data.length);
+			//System.out.println(data.length);
 			Hashtable<String, String> table = new Hashtable<String, String>();
-
 			for (int rNum = rowStartNum; rNum < (rowStartNum + rows); rNum++) {
 				for (int cNum = 0; cNum < cols; cNum++) {
 					table.put(xls.getCellData("Test Data", cNum, columnStartNum), xls.getCellData("Test Data", cNum, rNum));
-
-					System.out.print(xls.getCellData("Test Data", cNum, columnStartNum) + "--"
-							+ xls.getCellData("Test Data", cNum, rNum) + " --");
+					//System.out.print(xls.getCellData("Test Data", cNum, columnStartNum) + "--"+ xls.getCellData("Test Data", cNum, rNum) + " --");
+					//System.out.println(xls.getCellData("Test Data", cNum, columnStartNum));
+					//System.out.println(xls.getCellData("Test Data", cNum, rNum) + " --");
+					if(xls.getCellData("Test Data", cNum, columnStartNum).equalsIgnoreCase(columnName)){
+						if(xls.getCellData("Test Data", cNum, rNum).equals("")){
+							return rNum-1;
+							
+						}
+					}
 				}
-				System.out.println();
+				//System.out.println();
 				data[rNum - rowStartNum][0] = table;
-
 			}
 
-			return rows;
+			return 0;
 		}
-
+		
 	public static void main(String[] args) {
 		
-		Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
+		//Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
 		TestUtils obj = new TestUtils();
-		obj.isTestcasesExecutable("LoginTest", xls);
+		//obj.isTestcasesExecutable("LoginTest", Keywords.xls);
+		System.out.println(obj.getNum("signUpPageTestcases", Keywords.xls, "Status"));
+	
 	}
 
 }

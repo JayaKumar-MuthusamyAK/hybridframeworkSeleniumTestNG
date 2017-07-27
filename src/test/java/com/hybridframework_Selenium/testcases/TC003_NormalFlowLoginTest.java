@@ -15,24 +15,17 @@ public class TC003_NormalFlowLoginTest {
 	//NormalLoginTest
 	
 	WebDriver driver;
-	@Test(dataProvider="testDataProvider")
-	public void NormalFlowLoginTest(Hashtable<String, String> data) throws Exception{
+	@Test
+	public void normalFlowLoginTestcase() throws Exception{
 		
-		if(!TestUtils.isTestcasesExecutable("NormalLoginTest", Keywords.xls))
+		if(!TestUtils.isTestcasesExecutable("normalFlowLoginTestcase", Keywords.xls))
 			throw new SkipException("User is set this test cases runmode is No");
-		if(!data.get("Runmode").equals("Y")){
-			throw new SkipException("User is set this test case data runmode is No");
-		}
-		else{
+		
+		
 		Keywords keywords=Keywords.getInstance();
-		keywords.executeKeywords("NormalLoginTest", data);
-		}
+		keywords.executeKeywords("normalFlowLoginTestcase", null);
+		
 	}
 	
-	@DataProvider
-	public Object[][] testDataProvider(){
-		return TestUtils.getData("NormalLoginTest", Keywords.xls);
-		
-	}
 
 }

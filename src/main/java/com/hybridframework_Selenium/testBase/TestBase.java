@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
@@ -21,12 +23,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
+import com.hybridframework_Selenium.testScripts.Keywords;
+import com.hybridframework_Selenium.testUtils.TestUtils;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -43,9 +49,14 @@ public class TestBase {
 	
 	static{
 		Calendar cal= Calendar.getInstance();
-		SimpleDateFormat formater= new SimpleDateFormat("dd-mm-yyyy-hh-mm-ss");
+		SimpleDateFormat formater= new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss");
 		extentreport = new ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/extentReport/"+formater.format(cal.getTime())+".html");
-			
+		try {
+			extentreport.addSystemInfo("Host Name", InetAddress.getLocalHost().getHostName()).addSystemInfo("Environment", System.getenv("JAVA_HOME")).addSystemInfo("User Name", "Jakay M");
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 	}
 	
 	public void selectBrowser(String browserName) {
@@ -200,34 +211,43 @@ public class TestBase {
 	
 	@AfterMethod
 	public void afterExecution(ITestResult result){
-		
 		getStatus(result);
+		
 	}
-	
+
+
+
 	@AfterClass
 	public void endingTest(){
-		
 		closeBrowser();
 		
 	}
 
 	public void closeBrowser() {
-		driver.quit();
+		if(driver!=null){
+			//driver.quit();
+		}
 		extentreport.endTest(extenttest);
 		extentreport.flush();
 		
 	}
 
 	public void getStatus(ITestResult result) {
-	
+
 		if(result.getStatus()==ITestResult.SUCCESS){
+			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "PASS");
+			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "PASS");
 			extenttest.log(LogStatus.PASS, "test is pass"+result.getName());
 		}
 		else if(result.getStatus()==ITestResult.FAILURE){
+			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "FAIL");
+			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "FAIL");
 			extenttest.log(LogStatus.ERROR, result.getName()+"test is failed"+result.getThrowable());
 			extenttest.log(LogStatus.FAIL, result.getName()+"test is failed"+extenttest.addScreenCapture(catureScreen("")));
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
+			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "SKIP");
+			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "SKIP");
 			extenttest.log(LogStatus.SKIP, result.getName()+"test is skip"+result.getThrowable());
 		}
 		else if(result.getStatus()==ITestResult.STARTED){

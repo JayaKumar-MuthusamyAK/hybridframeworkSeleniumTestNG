@@ -518,3 +518,1232 @@
 2017-07-20 21:26:20 INFO  Keywords:330 - click--homepage.searchbtn--
 2017-07-20 21:26:20 INFO  Keywords:330 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (418b6a7b-ea3d-4dae-9a7f-68ffa15e1852)] -> id: searchBtn]
 2017-07-20 21:27:08 INFO  Keywords:330 - verifyTotalinSplit--listingpage.total--
+2017-07-21 22:46:36 INFO  Keywords:355 - Executable test cases is :NormalLoginTest
+2017-07-21 22:46:36 INFO  Keywords:355 - openBrowser--browserName--
+2017-07-21 22:46:43 INFO  Keywords:355 - Opening the firefoxBrowser in Windows 7System
+2017-07-21 22:46:43 INFO  Keywords:355 - navigateURL--URL--
+2017-07-21 22:46:43 INFO  Keywords:355 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-21 22:46:59 INFO  Keywords:355 - verifyTitle--homepageTitle--
+2017-07-21 22:46:59 INFO  Keywords:355 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-21 22:46:59 INFO  Keywords:355 - verifyLink--login_link--
+2017-07-21 22:46:59 INFO  Keywords:355 - click--login_link--
+2017-07-21 22:46:59 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (2f503ca1-c4ab-4236-9edb-9af79f5e813f)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-21 22:47:00 INFO  Keywords:355 - input--loginemailtxtbox--Email
+2017-07-21 22:47:03 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (2f503ca1-c4ab-4236-9edb-9af79f5e813f)] -> id: ch_login_email]
+2017-07-21 22:47:03 INFO  Keywords:355 - input--loginpasswdtxtbox--Password
+2017-07-21 22:47:03 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (2f503ca1-c4ab-4236-9edb-9af79f5e813f)] -> id: ch_login_password]
+2017-07-21 22:47:03 INFO  Keywords:355 - click--loginlinkbtn--
+2017-07-21 22:47:03 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (2f503ca1-c4ab-4236-9edb-9af79f5e813f)] -> id: ch_login_btn]
+2017-07-21 22:47:05 INFO  Keywords:355 - close----
+2017-07-21 22:47:07 INFO  TestBase:274 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-21 22:47:07 INFO  TestBase:274 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-21 22:47:07 INFO  TestBase:274 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-21 22:47:07 INFO  TestBase:274 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-21 22:52:12 INFO  Keywords:355 - Executable test cases is :NormalLoginTest
+2017-07-21 22:52:12 INFO  Keywords:355 - openBrowser--browserName--
+2017-07-21 22:52:19 INFO  Keywords:355 - Opening the firefoxBrowser in Windows 7System
+2017-07-21 22:52:19 INFO  Keywords:355 - navigateURL--URL--
+2017-07-21 22:52:19 INFO  Keywords:355 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-21 22:52:39 INFO  Keywords:355 - verifyTitle--homepageTitle--
+2017-07-21 22:52:39 INFO  Keywords:355 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-21 22:52:39 INFO  Keywords:355 - verifyLink--login_link--
+2017-07-21 22:52:39 INFO  Keywords:355 - click--login_link--
+2017-07-21 22:52:39 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (02e74a31-2b04-4a32-bef7-86c24861a4a0)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-21 22:52:41 INFO  Keywords:355 - input--loginemailtxtbox--Email
+2017-07-21 22:52:42 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (02e74a31-2b04-4a32-bef7-86c24861a4a0)] -> id: ch_login_email]
+2017-07-21 22:52:42 INFO  Keywords:355 - input--loginpasswdtxtbox--Password
+2017-07-21 22:52:43 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (02e74a31-2b04-4a32-bef7-86c24861a4a0)] -> id: ch_login_password]
+2017-07-21 22:52:43 INFO  Keywords:355 - click--loginlinkbtn--
+2017-07-21 22:52:43 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (02e74a31-2b04-4a32-bef7-86c24861a4a0)] -> id: ch_login_btn]
+2017-07-21 22:52:45 INFO  Keywords:355 - close----
+2017-07-21 22:52:47 INFO  TestBase:275 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-21 22:52:47 INFO  TestBase:275 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-21 22:52:47 INFO  TestBase:275 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-21 22:52:47 INFO  TestBase:275 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-21 22:54:51 INFO  Keywords:355 - Executable test cases is :NormalLoginTest
+2017-07-21 22:54:51 INFO  Keywords:355 - openBrowser--browserName--
+2017-07-21 22:54:59 INFO  Keywords:355 - Opening the firefoxBrowser in Windows 7System
+2017-07-21 22:54:59 INFO  Keywords:355 - navigateURL--URL--
+2017-07-21 22:54:59 INFO  Keywords:355 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-21 22:55:20 INFO  Keywords:355 - verifyTitle--homepageTitle--
+2017-07-21 22:55:20 INFO  Keywords:355 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-21 22:55:20 INFO  Keywords:355 - verifyLink--login_link--
+2017-07-21 22:55:20 INFO  Keywords:355 - click--login_link--
+2017-07-21 22:55:20 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b6f85b87-25e1-4c55-9e04-71ecc710685b)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-21 22:55:22 INFO  Keywords:355 - input--loginemailtxtbox--Email
+2017-07-21 22:55:29 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b6f85b87-25e1-4c55-9e04-71ecc710685b)] -> id: ch_login_email]
+2017-07-21 22:55:29 INFO  Keywords:355 - input--loginpasswdtxtbox--Password
+2017-07-21 22:55:29 INFO  Keywords:355 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b6f85b87-25e1-4c55-9e04-71ecc710685b)] -> id: ch_login_password]
+2017-07-21 22:55:30 INFO  Keywords:355 - click--loginlinkbtn--
+2017-07-21 22:55:30 INFO  Keywords:355 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b6f85b87-25e1-4c55-9e04-71ecc710685b)] -> id: ch_login_btn]
+2017-07-21 22:55:32 INFO  Keywords:355 - close----
+2017-07-21 22:55:34 INFO  TestBase:275 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-21 22:55:34 INFO  TestBase:275 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-21 22:55:34 INFO  TestBase:275 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-21 22:55:34 INFO  TestBase:275 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:12:28 INFO  Keywords:367 - Executable test cases is :NormalFlowLoginTestcase
+2017-07-22 10:12:28 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-22 10:12:36 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:12:36 INFO  Keywords:367 - navigateURL--URL--
+2017-07-22 10:12:36 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:13:09 INFO  Keywords:367 - verifyTitle--homepageTitle--
+2017-07-22 10:13:09 INFO  Keywords:367 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-22 10:13:10 INFO  Keywords:367 - verifyLink--login_link--
+2017-07-22 10:13:10 INFO  Keywords:367 - click--login_link--
+2017-07-22 10:13:10 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (776169e2-fdfd-4603-b838-c9b4f35b1a7c)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-22 10:13:12 INFO  Keywords:367 - directInput--loginemailtxtbox--jakay507@gmail.com
+2017-07-22 10:13:12 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (776169e2-fdfd-4603-b838-c9b4f35b1a7c)] -> id: ch_login_email]
+2017-07-22 10:13:12 INFO  Keywords:367 - directInput--loginpasswdtxtbox--jakay07@
+2017-07-22 10:13:14 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (776169e2-fdfd-4603-b838-c9b4f35b1a7c)] -> id: ch_login_password]
+2017-07-22 10:13:14 INFO  Keywords:367 - click--loginlinkbtn--
+2017-07-22 10:13:14 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (776169e2-fdfd-4603-b838-c9b4f35b1a7c)] -> id: ch_login_btn]
+2017-07-22 10:13:16 INFO  Keywords:367 - close----
+2017-07-22 10:13:17 INFO  TestBase:276 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-22 10:13:17 INFO  TestBase:276 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-22 10:13:17 INFO  TestBase:276 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:13:17 INFO  TestBase:276 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:14:30 INFO  Keywords:367 - Executable test cases is :NormalFlowLoginTestcase
+2017-07-22 10:14:31 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-22 10:14:37 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:14:37 INFO  Keywords:367 - navigateURL--URL--
+2017-07-22 10:14:37 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:14:45 INFO  Keywords:367 - verifyTitle--homepageTitle--
+2017-07-22 10:14:45 INFO  Keywords:367 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-22 10:14:45 INFO  Keywords:367 - verifyLink--login_link--
+2017-07-22 10:14:45 INFO  Keywords:367 - click--login_link--
+2017-07-22 10:14:45 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (9cb4c5bb-78d0-4d1b-8d89-3be11bb3c73e)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-22 10:14:47 INFO  Keywords:367 - directInput--loginemailtxtbox--jakay507@gmail.com
+2017-07-22 10:14:47 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (9cb4c5bb-78d0-4d1b-8d89-3be11bb3c73e)] -> id: ch_login_email]
+2017-07-22 10:14:48 INFO  Keywords:367 - directInput--loginpasswdtxtbox--jakay07@
+2017-07-22 10:14:48 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (9cb4c5bb-78d0-4d1b-8d89-3be11bb3c73e)] -> id: ch_login_password]
+2017-07-22 10:14:49 INFO  Keywords:367 - click--loginlinkbtn--
+2017-07-22 10:14:49 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (9cb4c5bb-78d0-4d1b-8d89-3be11bb3c73e)] -> id: ch_login_btn]
+2017-07-22 10:14:50 INFO  Keywords:367 - close----
+2017-07-22 10:14:52 INFO  TestBase:276 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-22 10:14:52 INFO  TestBase:276 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-22 10:14:52 INFO  TestBase:276 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:14:52 INFO  TestBase:276 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:23:27 INFO  Keywords:367 - Executable test cases is :NormalFlowLoginTestcase
+2017-07-22 10:23:27 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-22 10:23:34 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:23:34 INFO  Keywords:367 - navigateURL--URL--
+2017-07-22 10:23:34 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:23:52 INFO  Keywords:367 - verifyTitle--homepageTitle--
+2017-07-22 10:23:52 INFO  Keywords:367 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-22 10:23:52 INFO  Keywords:367 - verifyLink--login_link--
+2017-07-22 10:23:52 INFO  Keywords:367 - click--login_link--
+2017-07-22 10:23:53 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (e5227c64-1efb-4e1e-862b-6d2b53b2536f)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-22 10:23:54 INFO  Keywords:367 - directInput--loginemailtxtbox--jakay507@gmail.com
+2017-07-22 10:23:54 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (e5227c64-1efb-4e1e-862b-6d2b53b2536f)] -> id: ch_login_email]
+2017-07-22 10:23:55 INFO  Keywords:367 - directInput--loginpasswdtxtbox--jakay07@
+2017-07-22 10:23:55 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (e5227c64-1efb-4e1e-862b-6d2b53b2536f)] -> id: ch_login_password]
+2017-07-22 10:23:56 INFO  Keywords:367 - click--loginlinkbtn--
+2017-07-22 10:23:56 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (e5227c64-1efb-4e1e-862b-6d2b53b2536f)] -> id: ch_login_btn]
+2017-07-22 10:23:57 INFO  Keywords:367 - close----
+2017-07-22 10:23:59 INFO  TestBase:283 - Automation test is Start, Test name is: SignUpPageTestcases
+2017-07-22 10:23:59 INFO  TestBase:283 - Automation test is skipped. This Test Name is SignUpPageTestcases
+2017-07-22 10:23:59 INFO  TestBase:283 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:23:59 INFO  TestBase:283 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:32:17 INFO  Keywords:367 - Executable test cases is :SignupTest
+2017-07-22 10:32:17 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-22 10:32:22 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:32:22 INFO  Keywords:367 - navigateURL--URL--
+2017-07-22 10:32:22 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:32:33 INFO  Keywords:367 - verifyLink--signuplink--
+2017-07-22 10:32:33 INFO  Keywords:367 - click--signuplink--
+2017-07-22 10:32:33 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (71be83fa-aea4-45fa-a836-e4da5273f52d)] -> id: ch_signup_icon]
+2017-07-22 10:32:35 INFO  Keywords:367 - input--signupemailtxtbox--Email
+2017-07-22 10:32:35 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (71be83fa-aea4-45fa-a836-e4da5273f52d)] -> id: ch_signup_email]
+2017-07-22 10:32:36 INFO  Keywords:367 - input--signupmobiletxtbox--Mobile
+2017-07-22 10:32:36 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (71be83fa-aea4-45fa-a836-e4da5273f52d)] -> id: ch_signup_phone]
+2017-07-22 10:32:36 INFO  Keywords:367 - input--signuppasswdtxtbox--Password
+2017-07-22 10:32:36 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (71be83fa-aea4-45fa-a836-e4da5273f52d)] -> id: ch_signup_password]
+2017-07-22 10:32:37 INFO  Keywords:367 - click--signupbtn--
+2017-07-22 10:32:37 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (71be83fa-aea4-45fa-a836-e4da5273f52d)] -> id: ch_signup_btn]
+2017-07-22 10:32:38 INFO  Keywords:367 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 10:32:43 INFO  Keywords:367 - close----
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:32:45 INFO  TestBase:283 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:35:11 INFO  Keywords:367 - Executable test cases is :signUpPageTestcases
+2017-07-22 10:35:11 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-22 10:35:16 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:35:16 INFO  Keywords:367 - navigateURL--URL--
+2017-07-22 10:35:16 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:35:28 INFO  Keywords:367 - verifyLink--signuplink--
+2017-07-22 10:35:28 INFO  Keywords:367 - click--signuplink--
+2017-07-22 10:35:28 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (675e64a2-aa0e-4a96-913a-0b4659dd38e5)] -> id: ch_signup_icon]
+2017-07-22 10:35:30 INFO  Keywords:367 - input--signupemailtxtbox--Email
+2017-07-22 10:35:30 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (675e64a2-aa0e-4a96-913a-0b4659dd38e5)] -> id: ch_signup_email]
+2017-07-22 10:35:30 INFO  Keywords:367 - input--signupmobiletxtbox--Mobile
+2017-07-22 10:35:31 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (675e64a2-aa0e-4a96-913a-0b4659dd38e5)] -> id: ch_signup_phone]
+2017-07-22 10:35:31 INFO  Keywords:367 - input--signuppasswdtxtbox--Password
+2017-07-22 10:35:31 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (675e64a2-aa0e-4a96-913a-0b4659dd38e5)] -> id: ch_signup_password]
+2017-07-22 10:35:31 INFO  Keywords:367 - click--signupbtn--
+2017-07-22 10:35:31 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (675e64a2-aa0e-4a96-913a-0b4659dd38e5)] -> id: ch_signup_btn]
+2017-07-22 10:35:33 INFO  Keywords:367 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 10:35:37 INFO  Keywords:367 - close----
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:35:39 INFO  TestBase:283 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:43:40 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 10:43:40 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 10:43:46 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:43:46 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 10:43:46 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:44:05 INFO  Keywords:366 - verifyLink--signuplink--
+2017-07-22 10:44:05 INFO  Keywords:366 - click--signuplink--
+2017-07-22 10:44:05 INFO  Keywords:366 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (6c931bf7-3e16-4b0e-806e-8a593ed557e9)] -> id: ch_signup_icon]
+2017-07-22 10:44:07 INFO  Keywords:366 - input--signupemailtxtbox--Email
+2017-07-22 10:44:11 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (6c931bf7-3e16-4b0e-806e-8a593ed557e9)] -> id: ch_signup_email]
+2017-07-22 10:45:04 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 10:45:04 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 10:45:10 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 10:45:10 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 10:45:10 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 10:45:19 INFO  Keywords:366 - verifyLink--signuplink--
+2017-07-22 10:45:20 INFO  Keywords:366 - click--signuplink--
+2017-07-22 10:45:20 INFO  Keywords:366 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f95c9774-854b-4e04-8a16-e3b6d94b9732)] -> id: ch_signup_icon]
+2017-07-22 10:45:21 INFO  Keywords:366 - input--signupemailtxtbox--Email
+2017-07-22 10:45:22 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (f95c9774-854b-4e04-8a16-e3b6d94b9732)] -> id: ch_signup_email]
+2017-07-22 10:45:22 INFO  Keywords:366 - input--signupmobiletxtbox--Mobile
+2017-07-22 10:45:22 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (f95c9774-854b-4e04-8a16-e3b6d94b9732)] -> id: ch_signup_phone]
+2017-07-22 10:45:22 INFO  Keywords:366 - input--signuppasswdtxtbox--Password
+2017-07-22 10:45:22 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (f95c9774-854b-4e04-8a16-e3b6d94b9732)] -> id: ch_signup_password]
+2017-07-22 10:45:22 INFO  Keywords:366 - click--signupbtn--
+2017-07-22 10:45:23 INFO  Keywords:366 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f95c9774-854b-4e04-8a16-e3b6d94b9732)] -> id: ch_signup_btn]
+2017-07-22 10:45:24 INFO  Keywords:366 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 10:45:29 INFO  Keywords:366 - close----
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 10:45:30 INFO  TestBase:285 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 10:59:14 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 10:59:14 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 11:00:15 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 11:00:15 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 11:00:21 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 11:00:21 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 11:00:21 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 11:00:38 INFO  Keywords:366 - verifyLink--signuplink--
+2017-07-22 11:00:38 INFO  Keywords:366 - click--signuplink--
+2017-07-22 11:00:39 INFO  Keywords:366 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5344bc77-b4c1-4b34-84f5-96688bf99796)] -> id: ch_signup_icon]
+2017-07-22 11:00:40 INFO  Keywords:366 - input--signupemailtxtbox--Email
+2017-07-22 11:00:41 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (5344bc77-b4c1-4b34-84f5-96688bf99796)] -> id: ch_signup_email]
+2017-07-22 11:00:42 INFO  Keywords:366 - input--signupmobiletxtbox--Mobile
+2017-07-22 11:00:42 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (5344bc77-b4c1-4b34-84f5-96688bf99796)] -> id: ch_signup_phone]
+2017-07-22 11:00:43 INFO  Keywords:366 - input--signuppasswdtxtbox--Password
+2017-07-22 11:00:43 INFO  Keywords:366 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (5344bc77-b4c1-4b34-84f5-96688bf99796)] -> id: ch_signup_password]
+2017-07-22 11:00:43 INFO  Keywords:366 - click--signupbtn--
+2017-07-22 11:00:43 INFO  Keywords:366 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5344bc77-b4c1-4b34-84f5-96688bf99796)] -> id: ch_signup_btn]
+2017-07-22 11:00:44 INFO  Keywords:366 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 11:00:49 INFO  Keywords:366 - close----
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 11:00:51 INFO  TestBase:285 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 11:18:02 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 11:18:02 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 11:18:08 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 11:18:08 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 11:18:08 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 11:18:18 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 11:18:18 INFO  Keywords:365 - click--signuplink--
+2017-07-22 11:18:18 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (7eef0884-2705-43f4-b868-280ac6469e3d)] -> id: ch_signup_icon]
+2017-07-22 11:18:20 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 11:18:20 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7eef0884-2705-43f4-b868-280ac6469e3d)] -> id: ch_signup_email]
+2017-07-22 11:18:20 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 11:18:21 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7eef0884-2705-43f4-b868-280ac6469e3d)] -> id: ch_signup_phone]
+2017-07-22 11:18:21 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 11:18:21 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7eef0884-2705-43f4-b868-280ac6469e3d)] -> id: ch_signup_password]
+2017-07-22 11:18:21 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 11:18:21 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (7eef0884-2705-43f4-b868-280ac6469e3d)] -> id: ch_signup_btn]
+2017-07-22 11:18:23 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 11:18:27 INFO  Keywords:365 - close----
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 11:18:30 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 13:11:09 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 13:11:09 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 13:11:16 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 13:11:16 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 13:11:16 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 13:11:43 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 13:11:43 INFO  Keywords:365 - click--signuplink--
+2017-07-22 13:11:43 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d69b0a5c-f2e9-4248-94fc-d7fcaa5353fd)] -> id: ch_signup_icon]
+2017-07-22 13:11:45 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 13:11:46 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d69b0a5c-f2e9-4248-94fc-d7fcaa5353fd)] -> id: ch_signup_email]
+2017-07-22 13:11:46 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 13:11:46 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d69b0a5c-f2e9-4248-94fc-d7fcaa5353fd)] -> id: ch_signup_phone]
+2017-07-22 13:11:47 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 13:11:47 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d69b0a5c-f2e9-4248-94fc-d7fcaa5353fd)] -> id: ch_signup_password]
+2017-07-22 13:11:47 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 13:11:47 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d69b0a5c-f2e9-4248-94fc-d7fcaa5353fd)] -> id: ch_signup_btn]
+2017-07-22 13:11:48 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 13:11:52 INFO  Keywords:365 - close----
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 13:11:54 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 17:31:53 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 17:31:53 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 17:32:00 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 17:32:00 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 17:32:00 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 17:32:11 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 17:32:11 INFO  Keywords:365 - click--signuplink--
+2017-07-22 17:32:11 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (db861cf9-6714-40ef-9f40-94f6d3100469)] -> id: ch_signup_icon]
+2017-07-22 17:32:13 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 17:32:13 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (db861cf9-6714-40ef-9f40-94f6d3100469)] -> id: ch_signup_email]
+2017-07-22 17:32:13 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 17:32:14 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (db861cf9-6714-40ef-9f40-94f6d3100469)] -> id: ch_signup_phone]
+2017-07-22 17:32:14 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 17:32:14 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (db861cf9-6714-40ef-9f40-94f6d3100469)] -> id: ch_signup_password]
+2017-07-22 17:32:14 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 17:32:14 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (db861cf9-6714-40ef-9f40-94f6d3100469)] -> id: ch_signup_btn]
+2017-07-22 17:32:16 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 17:32:20 INFO  Keywords:365 - close----
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 17:32:22 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 17:34:36 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 17:34:36 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 17:34:42 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 17:34:42 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 17:34:42 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 17:34:52 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 17:34:52 INFO  Keywords:365 - click--signuplink--
+2017-07-22 17:34:52 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (8134daf7-7db2-43db-92e2-e2541564efad)] -> id: ch_signup_icon]
+2017-07-22 17:34:54 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 17:34:54 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (8134daf7-7db2-43db-92e2-e2541564efad)] -> id: ch_signup_email]
+2017-07-22 17:34:54 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 17:34:55 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (8134daf7-7db2-43db-92e2-e2541564efad)] -> id: ch_signup_phone]
+2017-07-22 17:34:55 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 17:34:55 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (8134daf7-7db2-43db-92e2-e2541564efad)] -> id: ch_signup_password]
+2017-07-22 17:34:55 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 17:34:55 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (8134daf7-7db2-43db-92e2-e2541564efad)] -> id: ch_signup_btn]
+2017-07-22 17:34:56 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 17:35:01 INFO  Keywords:365 - close----
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 17:35:03 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 18:12:52 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 18:12:52 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 18:12:58 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 18:12:58 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 18:12:58 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 18:13:12 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 18:13:12 INFO  Keywords:365 - click--signuplink--
+2017-07-22 18:13:12 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (eed58e1b-ef01-4f24-a841-30b3db72ff9c)] -> id: ch_signup_icon]
+2017-07-22 18:13:14 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 18:13:14 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (eed58e1b-ef01-4f24-a841-30b3db72ff9c)] -> id: ch_signup_email]
+2017-07-22 18:13:15 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 18:13:15 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (eed58e1b-ef01-4f24-a841-30b3db72ff9c)] -> id: ch_signup_phone]
+2017-07-22 18:13:15 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 18:13:15 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (eed58e1b-ef01-4f24-a841-30b3db72ff9c)] -> id: ch_signup_password]
+2017-07-22 18:13:15 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 18:13:15 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (eed58e1b-ef01-4f24-a841-30b3db72ff9c)] -> id: ch_signup_btn]
+2017-07-22 18:13:17 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 18:13:21 INFO  Keywords:365 - close----
+2017-07-22 18:36:15 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 18:36:15 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 18:36:22 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 18:36:22 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 18:36:22 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 18:36:34 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 18:36:34 INFO  Keywords:365 - click--signuplink--
+2017-07-22 18:36:34 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (7fb99f27-25d6-40c0-92c0-6632d09285d5)] -> id: ch_signup_icon]
+2017-07-22 18:36:36 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 18:36:36 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7fb99f27-25d6-40c0-92c0-6632d09285d5)] -> id: ch_signup_email]
+2017-07-22 18:36:36 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 18:36:37 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7fb99f27-25d6-40c0-92c0-6632d09285d5)] -> id: ch_signup_phone]
+2017-07-22 18:36:37 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 18:36:37 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (7fb99f27-25d6-40c0-92c0-6632d09285d5)] -> id: ch_signup_password]
+2017-07-22 18:36:37 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 18:36:37 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (7fb99f27-25d6-40c0-92c0-6632d09285d5)] -> id: ch_signup_btn]
+2017-07-22 18:36:39 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 18:36:43 INFO  Keywords:365 - close----
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 18:36:45 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 18:42:40 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond
+2017-07-22 18:42:40 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 18:42:42 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 21:46:28 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 21:46:28 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 21:46:38 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 21:46:38 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 21:46:38 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 21:46:59 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 21:46:59 INFO  Keywords:365 - click--signuplink--
+2017-07-22 21:46:59 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (fac2425a-ccfe-4dc8-bfc1-472e0dac1e2f)] -> id: ch_signup_icon]
+2017-07-22 21:47:01 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 21:47:02 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (fac2425a-ccfe-4dc8-bfc1-472e0dac1e2f)] -> id: ch_signup_email]
+2017-07-22 21:47:02 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 21:47:03 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (fac2425a-ccfe-4dc8-bfc1-472e0dac1e2f)] -> id: ch_signup_phone]
+2017-07-22 21:47:03 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 21:47:03 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (fac2425a-ccfe-4dc8-bfc1-472e0dac1e2f)] -> id: ch_signup_password]
+2017-07-22 21:47:03 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 21:47:04 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (fac2425a-ccfe-4dc8-bfc1-472e0dac1e2f)] -> id: ch_signup_btn]
+2017-07-22 21:47:05 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 21:47:09 INFO  Keywords:365 - close----
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 21:47:11 INFO  TestBase:285 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 21:52:05 INFO  Keywords:365 - Executable test cases is :signUpPageTestcases
+2017-07-22 21:52:05 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 21:52:11 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 21:52:11 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 21:52:11 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 21:52:34 INFO  Keywords:365 - verifyLink--signuplink--
+2017-07-22 21:52:34 INFO  Keywords:365 - click--signuplink--
+2017-07-22 21:52:34 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (0e7806d5-6791-4bcd-8be4-2c0da1a6db7b)] -> id: ch_signup_icon]
+2017-07-22 21:52:36 INFO  Keywords:365 - input--signupemailtxtbox--Email
+2017-07-22 21:52:44 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (0e7806d5-6791-4bcd-8be4-2c0da1a6db7b)] -> id: ch_signup_email]
+2017-07-22 21:52:44 INFO  Keywords:365 - input--signupmobiletxtbox--Mobile
+2017-07-22 21:52:44 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (0e7806d5-6791-4bcd-8be4-2c0da1a6db7b)] -> id: ch_signup_phone]
+2017-07-22 21:52:45 INFO  Keywords:365 - input--signuppasswdtxtbox--Password
+2017-07-22 21:52:45 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (0e7806d5-6791-4bcd-8be4-2c0da1a6db7b)] -> id: ch_signup_password]
+2017-07-22 21:52:45 INFO  Keywords:365 - click--signupbtn--
+2017-07-22 21:52:45 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (0e7806d5-6791-4bcd-8be4-2c0da1a6db7b)] -> id: ch_signup_btn]
+2017-07-22 21:52:46 INFO  Keywords:365 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-22 21:52:51 INFO  Keywords:365 - close----
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is Start, Test name is: NormalFlowLoginTestcase
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalFlowLoginTestcase
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is Start, Test name is: NormalSignUpTestcase
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is skipped. This Test Name is NormalSignUpTestcase
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is Start, Test name is: Flight_SearchListingTestCase
+2017-07-22 21:52:53 INFO  TestBase:284 - Automation test is skipped. This Test Name is Flight_SearchListingTestCase
+2017-07-22 21:54:19 INFO  Keywords:365 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 21:54:19 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 21:54:25 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 21:54:25 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 21:54:25 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 21:54:41 INFO  Keywords:365 - verifyTitle--homepageTitle--
+2017-07-22 21:54:41 INFO  Keywords:365 - Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2017-07-22 21:54:41 INFO  Keywords:365 - verifyLink--login_link--
+2017-07-22 21:54:41 INFO  Keywords:365 - click--login_link--
+2017-07-22 21:54:41 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c1909292-5e1a-42a9-97e9-e6664cd8e2ef)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-22 21:54:43 INFO  Keywords:365 - input--loginemailtxtbox--Email
+2017-07-22 21:54:44 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c1909292-5e1a-42a9-97e9-e6664cd8e2ef)] -> id: ch_login_email]
+2017-07-22 21:54:45 INFO  Keywords:365 - input--loginpasswdtxtbox--Password
+2017-07-22 21:54:45 INFO  Keywords:365 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c1909292-5e1a-42a9-97e9-e6664cd8e2ef)] -> id: ch_login_password]
+2017-07-22 21:54:45 INFO  Keywords:365 - click--loginlinkbtn--
+2017-07-22 21:54:45 INFO  Keywords:365 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c1909292-5e1a-42a9-97e9-e6664cd8e2ef)] -> id: ch_login_btn]
+2017-07-22 21:54:46 INFO  Keywords:365 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-22 21:54:50 INFO  Keywords:365 - close----
+2017-07-22 21:54:52 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 21:54:52 INFO  Keywords:365 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 21:54:52 INFO  Keywords:365 - openBrowser--browserName--
+2017-07-22 21:54:57 INFO  Keywords:365 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 21:54:57 INFO  Keywords:365 - navigateURL--URL--
+2017-07-22 21:54:57 INFO  Keywords:365 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:11:09 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:11:09 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:11:14 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:11:14 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:11:14 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:11:39 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:11:39 INFO  TestBase:284 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-22 22:12:40 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:12:40 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:12:40 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:12:44 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:12:44 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:12:44 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:13:09 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:13:09 INFO  TestBase:284 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-22 22:14:58 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:14:58 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:14:58 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:15:02 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:15:02 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:15:02 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:15:27 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:15:51 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:15:51 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:15:51 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:15:56 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:15:56 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:15:56 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:16:20 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:16:34 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:16:34 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:16:34 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:16:40 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:16:40 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:16:40 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:17:05 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:17:17 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:17:17 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:17:17 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:17:22 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:17:22 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:17:22 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:17:46 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:18:00 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:18:00 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:18:00 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:18:05 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:18:05 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:18:05 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:18:30 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:18:42 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:18:42 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:18:42 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:18:47 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:18:47 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:18:47 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:19:11 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:19:32 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:19:32 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:19:32 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:19:38 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:19:38 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:19:38 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:20:03 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-22 22:20:18 INFO  TestBase:284 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-22 22:20:18 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-22 22:20:18 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:20:23 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:20:23 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:20:23 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:35:37 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 22:35:37 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:35:42 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:35:42 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:35:42 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:35:43 INFO  Keywords:366 - verifyLink--signuplink--
+2017-07-22 22:36:13 INFO  Keywords:366 - click--signuplink--
+2017-07-22 22:36:44 INFO  TestBase:295 - Automation test is skipped. This Test Name is signUpPageTestcases
+2017-07-22 22:36:44 INFO  TestBase:295 - Automation test is Start, Test name is: signUpPageTestcases
+2017-07-22 22:36:44 INFO  Keywords:366 - Executable test cases is :signUpPageTestcases
+2017-07-22 22:36:44 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-22 22:36:48 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-22 22:36:48 INFO  Keywords:366 - navigateURL--URL--
+2017-07-22 22:36:48 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-22 22:36:49 INFO  Keywords:366 - verifyLink--signuplink--
+2017-07-24 09:39:51 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:39:51 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:40:00 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:40:00 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:40:00 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:40:15 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:40:15 INFO  TestBase:295 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:40:15 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:40:15 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:40:15 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:40:20 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:40:20 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:40:20 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:40:44 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:40:44 INFO  TestBase:295 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:40:44 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:40:44 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:40:44 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:40:50 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:40:50 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:40:50 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:41:01 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:41:04 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  TestBase:295 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  TestBase:295 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:41:04 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:41:09 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:41:09 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:41:09 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:41:20 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:41:24 INFO  TestBase:295 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:41:24 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:41:24 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:41:30 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:41:30 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:41:30 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:56:38 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:56:38 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:56:44 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:56:44 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:56:44 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:56:54 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:56:54 INFO  TestBase:292 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:56:54 INFO  TestBase:292 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:56:54 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:56:54 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:56:58 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:56:58 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:56:58 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:57:34 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:57:34 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:57:40 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:57:40 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:57:40 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 09:57:51 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 09:57:51 INFO  TestBase:292 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 09:57:51 INFO  TestBase:292 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 09:57:51 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 09:57:51 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 09:57:55 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 09:57:55 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 09:57:55 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:01:43 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:01:43 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:01:49 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:01:49 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:01:49 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:02:14 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 10:02:14 INFO  TestBase:292 - Automation test is skipped. This Test Name is loginTestwithDifferentscenarios
+2017-07-24 10:02:14 INFO  TestBase:292 - Automation test is Start, Test name is: loginTestwithDifferentscenarios
+2017-07-24 10:02:14 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:02:14 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:02:19 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:02:19 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:02:19 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:08:02 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:08:02 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:08:08 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:08:08 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:08:08 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:08:34 INFO  Keywords:366 - verifyTitle--homepageTitle--
+2017-07-24 10:08:35 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:08:35 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:08:41 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:08:41 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:08:41 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:12:10 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:12:10 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:12:16 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:12:16 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:12:16 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:12:30 INFO  Keywords:366 - verifyTitle----
+2017-07-24 10:12:31 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:12:31 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:19:12 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:19:12 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:19:17 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:19:17 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:19:17 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:19:29 INFO  Keywords:366 - verifyTitle----
+2017-07-24 10:19:30 INFO  Keywords:366 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:19:30 INFO  Keywords:366 - openBrowser--browserName--
+2017-07-24 10:19:34 INFO  Keywords:366 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:19:34 INFO  Keywords:366 - navigateURL--URL--
+2017-07-24 10:19:34 INFO  Keywords:366 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:21:38 INFO  Keywords:367 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:21:38 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-24 10:21:43 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:21:43 INFO  Keywords:367 - navigateURL--URL--
+2017-07-24 10:21:43 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:21:55 INFO  Keywords:367 - verifyTitle----
+2017-07-24 10:21:56 INFO  Keywords:367 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:21:56 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-24 10:22:01 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:22:01 INFO  Keywords:367 - navigateURL--URL--
+2017-07-24 10:22:01 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:22:56 INFO  Keywords:367 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:22:56 INFO  Keywords:367 - openBrowser--browserName--
+2017-07-24 10:23:02 INFO  Keywords:367 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:23:02 INFO  Keywords:367 - navigateURL--URL--
+2017-07-24 10:23:02 INFO  Keywords:367 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:23:12 INFO  Keywords:367 - verifyLink--login_link--
+2017-07-24 10:23:13 INFO  Keywords:367 - click--login_link--
+2017-07-24 10:23:13 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (57033507-76c6-46b8-8f7d-8f1078915e94)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:23:14 INFO  Keywords:367 - input--loginemailtxtbox--Email
+2017-07-24 10:23:18 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (57033507-76c6-46b8-8f7d-8f1078915e94)] -> id: ch_login_email]
+2017-07-24 10:23:18 INFO  Keywords:367 - input--loginpasswdtxtbox--Password
+2017-07-24 10:23:19 INFO  Keywords:367 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (57033507-76c6-46b8-8f7d-8f1078915e94)] -> id: ch_login_password]
+2017-07-24 10:23:19 INFO  Keywords:367 - click--loginlinkbtn--
+2017-07-24 10:23:19 INFO  Keywords:367 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (57033507-76c6-46b8-8f7d-8f1078915e94)] -> id: ch_login_btn]
+2017-07-24 10:23:21 INFO  Keywords:367 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:30:15 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:30:15 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 10:30:21 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:30:21 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 10:30:21 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:30:35 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 10:30:35 INFO  Keywords:370 - click--login_link--
+2017-07-24 10:30:35 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (972e8c55-a211-462e-87fd-43c75fc9e4e5)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:30:37 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 10:30:38 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (972e8c55-a211-462e-87fd-43c75fc9e4e5)] -> id: ch_login_email]
+2017-07-24 10:30:38 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 10:30:39 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (972e8c55-a211-462e-87fd-43c75fc9e4e5)] -> id: ch_login_password]
+2017-07-24 10:30:39 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 10:30:39 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (972e8c55-a211-462e-87fd-43c75fc9e4e5)] -> id: ch_login_btn]
+2017-07-24 10:30:41 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:30:58 INFO  Keywords:370 - close----
+2017-07-24 10:30:58 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:30:58 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 10:31:02 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:31:02 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 10:31:02 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:31:15 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 10:31:15 INFO  Keywords:370 - click--login_link--
+2017-07-24 10:31:15 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (38026ced-69ea-4e00-b03f-4868741cdddd)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:31:17 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 10:31:17 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (38026ced-69ea-4e00-b03f-4868741cdddd)] -> id: ch_login_email]
+2017-07-24 10:31:17 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 10:31:17 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (38026ced-69ea-4e00-b03f-4868741cdddd)] -> id: ch_login_password]
+2017-07-24 10:31:18 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 10:31:18 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (38026ced-69ea-4e00-b03f-4868741cdddd)] -> id: ch_login_btn]
+2017-07-24 10:31:19 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:31:23 INFO  Keywords:370 - close----
+2017-07-24 10:37:17 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:37:17 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 10:37:24 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:37:24 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 10:37:24 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:37:45 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 10:37:45 INFO  Keywords:370 - click--login_link--
+2017-07-24 10:37:45 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ca72f2ce-f30a-405f-a587-60f47d3c9a81)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:37:46 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 10:37:47 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (ca72f2ce-f30a-405f-a587-60f47d3c9a81)] -> id: ch_login_email]
+2017-07-24 10:37:47 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 10:37:47 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (ca72f2ce-f30a-405f-a587-60f47d3c9a81)] -> id: ch_login_password]
+2017-07-24 10:37:48 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 10:37:48 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ca72f2ce-f30a-405f-a587-60f47d3c9a81)] -> id: ch_login_btn]
+2017-07-24 10:37:49 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:40:09 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:40:09 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 10:40:15 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:40:15 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 10:40:15 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:41:01 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 10:41:01 INFO  Keywords:370 - click--login_link--
+2017-07-24 10:41:01 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b890789f-eda9-4004-9982-7ca745f031f2)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:41:03 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 10:41:04 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b890789f-eda9-4004-9982-7ca745f031f2)] -> id: ch_login_email]
+2017-07-24 10:41:04 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 10:41:05 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b890789f-eda9-4004-9982-7ca745f031f2)] -> id: ch_login_password]
+2017-07-24 10:41:05 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 10:41:05 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b890789f-eda9-4004-9982-7ca745f031f2)] -> id: ch_login_btn]
+2017-07-24 10:41:07 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:41:25 INFO  Keywords:370 - close----
+2017-07-24 10:41:26 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 10:41:26 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 10:41:30 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 10:41:30 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 10:41:30 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 10:42:30 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 10:42:30 INFO  Keywords:370 - click--login_link--
+2017-07-24 10:42:30 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9981573-9cde-4613-bf25-2fa7fbc626fa)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 10:42:32 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 10:42:33 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9981573-9cde-4613-bf25-2fa7fbc626fa)] -> id: ch_login_email]
+2017-07-24 10:42:33 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 10:42:33 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9981573-9cde-4613-bf25-2fa7fbc626fa)] -> id: ch_login_password]
+2017-07-24 10:42:34 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 10:42:34 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9981573-9cde-4613-bf25-2fa7fbc626fa)] -> id: ch_login_btn]
+2017-07-24 10:42:35 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 10:42:39 INFO  Keywords:370 - close----
+2017-07-24 12:06:35 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 12:06:35 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 12:06:41 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 12:06:41 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 12:06:41 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 12:06:52 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 12:06:52 INFO  Keywords:370 - click--login_link--
+2017-07-24 12:06:52 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (34a3bc37-c36f-4b61-b636-9604aa2ed9a1)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 12:06:54 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 12:06:56 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (34a3bc37-c36f-4b61-b636-9604aa2ed9a1)] -> id: ch_login_email]
+2017-07-24 12:06:56 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 12:06:57 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (34a3bc37-c36f-4b61-b636-9604aa2ed9a1)] -> id: ch_login_password]
+2017-07-24 12:06:57 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 12:06:57 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (34a3bc37-c36f-4b61-b636-9604aa2ed9a1)] -> id: ch_login_btn]
+2017-07-24 12:06:58 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 12:15:28 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 12:15:29 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 12:15:34 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 12:15:34 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 12:15:34 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 12:15:50 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 12:15:50 INFO  Keywords:370 - click--login_link--
+2017-07-24 12:15:50 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (29cbafcd-6a36-4ce8-b54d-2b412202c6e8)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 12:15:51 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 12:15:51 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (29cbafcd-6a36-4ce8-b54d-2b412202c6e8)] -> id: ch_login_email]
+2017-07-24 12:15:52 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 12:15:53 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (29cbafcd-6a36-4ce8-b54d-2b412202c6e8)] -> id: ch_login_password]
+2017-07-24 12:15:53 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 12:15:53 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (29cbafcd-6a36-4ce8-b54d-2b412202c6e8)] -> id: ch_login_btn]
+2017-07-24 12:15:54 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 12:16:11 INFO  Keywords:370 - close----
+2017-07-24 12:16:11 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 12:16:11 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 12:16:16 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 12:16:16 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 12:16:16 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 12:16:33 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 12:16:33 INFO  Keywords:370 - click--login_link--
+2017-07-24 12:16:33 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (cca1a334-761d-49c6-99bd-df052ceed709)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 12:16:35 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 12:16:35 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (cca1a334-761d-49c6-99bd-df052ceed709)] -> id: ch_login_email]
+2017-07-24 12:16:35 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 12:16:35 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (cca1a334-761d-49c6-99bd-df052ceed709)] -> id: ch_login_password]
+2017-07-24 12:16:35 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 12:16:35 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (cca1a334-761d-49c6-99bd-df052ceed709)] -> id: ch_login_btn]
+2017-07-24 12:16:36 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 12:16:40 INFO  Keywords:370 - close----
+2017-07-24 12:53:16 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 12:53:16 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 12:53:23 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 12:53:23 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 12:53:23 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 12:53:41 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 12:53:41 INFO  Keywords:370 - click--login_link--
+2017-07-24 12:53:41 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (88ce6f42-2f41-4d5f-985e-6779cae8c677)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 12:53:43 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 12:53:43 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (88ce6f42-2f41-4d5f-985e-6779cae8c677)] -> id: ch_login_email]
+2017-07-24 13:00:36 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 13:00:36 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 13:00:42 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 13:00:42 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 13:00:42 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 13:01:03 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 13:01:03 INFO  Keywords:370 - click--login_link--
+2017-07-24 13:01:03 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f7512ff2-cd81-4454-b9b7-223cd89431f5)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 13:01:05 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 13:01:05 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (f7512ff2-cd81-4454-b9b7-223cd89431f5)] -> id: ch_login_email]
+2017-07-24 13:01:05 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-24 13:01:06 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (f7512ff2-cd81-4454-b9b7-223cd89431f5)] -> id: ch_login_password]
+2017-07-24 13:01:06 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-24 13:01:06 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f7512ff2-cd81-4454-b9b7-223cd89431f5)] -> id: ch_login_btn]
+2017-07-24 13:01:07 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-24 13:01:24 INFO  Keywords:370 - close----
+2017-07-24 13:01:24 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-24 13:01:24 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-24 13:01:29 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-24 13:01:29 INFO  Keywords:370 - navigateURL--URL--
+2017-07-24 13:01:29 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-24 13:01:53 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-24 13:01:53 INFO  Keywords:370 - click--login_link--
+2017-07-24 13:01:53 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (83b420fa-f893-4b4a-92dc-a3bc68d3c00f)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-24 13:01:55 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-24 13:01:55 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (83b420fa-f893-4b4a-92dc-a3bc68d3c00f)] -> id: ch_login_email]
+2017-07-25 10:18:01 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 10:18:02 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-25 10:18:12 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 10:18:12 INFO  Keywords:370 - navigateURL--URL--
+2017-07-25 10:18:12 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 10:18:26 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-25 10:18:26 INFO  Keywords:370 - click--login_link--
+2017-07-25 10:18:26 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d67f8428-38df-48bc-9d90-fcbc85ea0fd1)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 10:18:28 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-25 10:18:28 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d67f8428-38df-48bc-9d90-fcbc85ea0fd1)] -> id: ch_login_email]
+2017-07-25 10:18:28 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-25 10:18:29 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d67f8428-38df-48bc-9d90-fcbc85ea0fd1)] -> id: ch_login_password]
+2017-07-25 10:18:29 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-25 10:18:29 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d67f8428-38df-48bc-9d90-fcbc85ea0fd1)] -> id: ch_login_btn]
+2017-07-25 10:18:31 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 10:18:48 INFO  Keywords:370 - close----
+2017-07-25 10:18:49 INFO  Keywords:370 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 10:18:49 INFO  Keywords:370 - openBrowser--browserName--
+2017-07-25 10:18:53 INFO  Keywords:370 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 10:18:53 INFO  Keywords:370 - navigateURL--URL--
+2017-07-25 10:18:53 INFO  Keywords:370 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 10:19:06 INFO  Keywords:370 - verifyLink--login_link--
+2017-07-25 10:19:06 INFO  Keywords:370 - click--login_link--
+2017-07-25 10:19:07 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (856b6f02-32ce-403d-abd4-ad7200fd6fc6)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 10:19:08 INFO  Keywords:370 - input--loginemailtxtbox--Email
+2017-07-25 10:19:08 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (856b6f02-32ce-403d-abd4-ad7200fd6fc6)] -> id: ch_login_email]
+2017-07-25 10:19:08 INFO  Keywords:370 - input--loginpasswdtxtbox--Password
+2017-07-25 10:19:08 INFO  Keywords:370 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (856b6f02-32ce-403d-abd4-ad7200fd6fc6)] -> id: ch_login_password]
+2017-07-25 10:19:08 INFO  Keywords:370 - click--loginlinkbtn--
+2017-07-25 10:19:08 INFO  Keywords:370 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (856b6f02-32ce-403d-abd4-ad7200fd6fc6)] -> id: ch_login_btn]
+2017-07-25 10:19:10 INFO  Keywords:370 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 10:19:13 INFO  Keywords:370 - close----
+2017-07-25 13:23:19 INFO  Keywords:374 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 13:23:19 INFO  Keywords:374 - openBrowser--browserName--
+2017-07-25 13:23:27 INFO  Keywords:374 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 13:23:27 INFO  Keywords:374 - navigateURL--URL--
+2017-07-25 13:23:27 INFO  Keywords:374 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 13:23:40 INFO  Keywords:374 - verifyLink--login_link--
+2017-07-25 13:23:40 INFO  Keywords:374 - click--login_link--
+2017-07-25 13:23:40 INFO  Keywords:374 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b22ef46e-a861-4e0a-896c-c7293d55fdf0)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 13:23:41 INFO  Keywords:374 - input--loginemailtxtbox--Email
+2017-07-25 13:23:48 INFO  Keywords:374 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b22ef46e-a861-4e0a-896c-c7293d55fdf0)] -> id: ch_login_email]
+2017-07-25 13:23:48 INFO  Keywords:374 - input--loginpasswdtxtbox--Password
+2017-07-25 13:23:48 INFO  Keywords:374 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (b22ef46e-a861-4e0a-896c-c7293d55fdf0)] -> id: ch_login_password]
+2017-07-25 13:23:49 INFO  Keywords:374 - click--loginlinkbtn--
+2017-07-25 13:23:49 INFO  Keywords:374 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b22ef46e-a861-4e0a-896c-c7293d55fdf0)] -> id: ch_login_btn]
+2017-07-25 13:23:50 INFO  Keywords:374 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 13:24:07 INFO  Keywords:374 - close----
+2017-07-25 13:24:08 INFO  Keywords:374 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 13:24:08 INFO  Keywords:374 - openBrowser--browserName--
+2017-07-25 13:24:12 INFO  Keywords:374 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 13:24:12 INFO  Keywords:374 - navigateURL--URL--
+2017-07-25 13:24:12 INFO  Keywords:374 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 13:24:52 INFO  Keywords:374 - verifyLink--login_link--
+2017-07-25 13:24:52 INFO  Keywords:374 - click--login_link--
+2017-07-25 13:24:52 INFO  Keywords:374 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (9e55e688-f626-421b-92db-e16d21fe4caf)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 13:24:54 INFO  Keywords:374 - input--loginemailtxtbox--Email
+2017-07-25 13:24:54 INFO  Keywords:374 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (9e55e688-f626-421b-92db-e16d21fe4caf)] -> id: ch_login_email]
+2017-07-25 13:24:54 INFO  Keywords:374 - input--loginpasswdtxtbox--Password
+2017-07-25 13:24:55 INFO  Keywords:374 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (9e55e688-f626-421b-92db-e16d21fe4caf)] -> id: ch_login_password]
+2017-07-25 13:24:55 INFO  Keywords:374 - click--loginlinkbtn--
+2017-07-25 13:24:55 INFO  Keywords:374 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (9e55e688-f626-421b-92db-e16d21fe4caf)] -> id: ch_login_btn]
+2017-07-25 13:24:56 INFO  Keywords:374 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 13:25:00 INFO  Keywords:374 - close----
+2017-07-25 17:46:48 INFO  Keywords:383 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 17:46:48 INFO  Keywords:383 - openBrowser--browserName--
+2017-07-25 17:47:11 INFO  Keywords:383 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 17:47:11 INFO  Keywords:383 - navigateURL--URL--
+2017-07-25 17:47:11 INFO  Keywords:383 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 17:47:28 INFO  Keywords:383 - verifyLink--login_link--
+2017-07-25 17:47:28 INFO  Keywords:383 - click--login_link--
+2017-07-25 17:47:28 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (a52296b6-0d30-4a1c-b999-f639416b3e34)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 17:47:30 INFO  Keywords:383 - input--loginemailtxtbox--Email
+2017-07-25 17:47:30 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (a52296b6-0d30-4a1c-b999-f639416b3e34)] -> id: ch_login_email]
+2017-07-25 17:47:30 INFO  Keywords:383 - input--loginpasswdtxtbox--Password
+2017-07-25 17:47:31 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (a52296b6-0d30-4a1c-b999-f639416b3e34)] -> id: ch_login_password]
+2017-07-25 17:47:31 INFO  Keywords:383 - click--loginlinkbtn--
+2017-07-25 17:47:31 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (a52296b6-0d30-4a1c-b999-f639416b3e34)] -> id: ch_login_btn]
+2017-07-25 17:47:32 INFO  Keywords:383 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 17:47:50 INFO  Keywords:383 - close----
+2017-07-25 17:47:50 INFO  Keywords:383 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 17:47:50 INFO  Keywords:383 - openBrowser--browserName--
+2017-07-25 17:47:57 INFO  Keywords:383 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 17:47:57 INFO  Keywords:383 - navigateURL--URL--
+2017-07-25 17:47:57 INFO  Keywords:383 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 17:48:10 INFO  Keywords:383 - verifyLink--login_link--
+2017-07-25 17:48:10 INFO  Keywords:383 - click--login_link--
+2017-07-25 17:48:10 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (4d36e067-d017-4c57-a9a1-4d86ea67d78c)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 17:48:12 INFO  Keywords:383 - input--loginemailtxtbox--Email
+2017-07-25 17:48:12 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (4d36e067-d017-4c57-a9a1-4d86ea67d78c)] -> id: ch_login_email]
+2017-07-25 17:48:12 INFO  Keywords:383 - input--loginpasswdtxtbox--Password
+2017-07-25 17:48:12 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (4d36e067-d017-4c57-a9a1-4d86ea67d78c)] -> id: ch_login_password]
+2017-07-25 17:48:12 INFO  Keywords:383 - click--loginlinkbtn--
+2017-07-25 17:48:12 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (4d36e067-d017-4c57-a9a1-4d86ea67d78c)] -> id: ch_login_btn]
+2017-07-25 17:48:13 INFO  Keywords:383 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 17:48:17 INFO  Keywords:383 - close----
+2017-07-25 17:51:48 INFO  Keywords:383 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-25 17:51:48 INFO  Keywords:383 - openBrowser--browserName--
+2017-07-25 17:51:58 INFO  Keywords:383 - Opening the firefoxBrowser in Windows 7System
+2017-07-25 17:51:58 INFO  Keywords:383 - navigateURL--URL--
+2017-07-25 17:51:58 INFO  Keywords:383 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-25 17:52:13 INFO  Keywords:383 - verifyLink--login_link--
+2017-07-25 17:52:13 INFO  Keywords:383 - click--login_link--
+2017-07-25 17:52:13 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (55092218-cb92-4bf0-9b61-5c8f09777da4)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-25 17:52:14 INFO  Keywords:383 - input--loginemailtxtbox--Email
+2017-07-25 17:52:15 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (55092218-cb92-4bf0-9b61-5c8f09777da4)] -> id: ch_login_email]
+2017-07-25 17:52:16 INFO  Keywords:383 - input--loginpasswdtxtbox--Password
+2017-07-25 17:52:16 INFO  Keywords:383 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (55092218-cb92-4bf0-9b61-5c8f09777da4)] -> id: ch_login_password]
+2017-07-25 17:52:16 INFO  Keywords:383 - click--loginlinkbtn--
+2017-07-25 17:52:16 INFO  Keywords:383 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (55092218-cb92-4bf0-9b61-5c8f09777da4)] -> id: ch_login_btn]
+2017-07-25 17:52:18 INFO  Keywords:383 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-25 17:52:25 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:25 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-25 17:52:25 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:25 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-25 17:52:25 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:25 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-25 17:52:26 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:26 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-25 17:52:26 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:26 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-25 17:52:26 INFO  RetryExec:96 - I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:7055: Permission denied: connect
+2017-07-25 17:52:26 INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:7055
+2017-07-26 09:59:39 INFO  Keywords:397 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-26 09:59:39 INFO  Keywords:397 - openBrowser--browserName--
+2017-07-26 09:59:50 INFO  Keywords:397 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 09:59:50 INFO  Keywords:397 - navigateURL--URL--
+2017-07-26 09:59:50 INFO  Keywords:397 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:00:05 INFO  Keywords:397 - verifyLink--login_link--
+2017-07-26 10:00:05 INFO  Keywords:397 - click--login_link--
+2017-07-26 10:00:05 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b8fb639f-6195-4cf0-b22f-cd2239299d43)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-26 10:00:54 INFO  Keywords:397 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-26 10:00:54 INFO  Keywords:397 - openBrowser--browserName--
+2017-07-26 10:01:01 INFO  Keywords:397 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 10:01:01 INFO  Keywords:397 - navigateURL--URL--
+2017-07-26 10:01:01 INFO  Keywords:397 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:01:11 INFO  Keywords:397 - verifyLink--login_link--
+2017-07-26 10:01:11 INFO  Keywords:397 - click--login_link--
+2017-07-26 10:01:11 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (84c8fb26-441d-4770-99b4-3e40ee388d7c)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-26 10:01:12 INFO  Keywords:397 - input--loginemailtxtbox--Email
+2017-07-26 10:01:18 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (84c8fb26-441d-4770-99b4-3e40ee388d7c)] -> id: ch_login_email]
+2017-07-26 10:01:18 INFO  Keywords:397 - input--loginpasswdtxtbox--Password
+2017-07-26 10:01:18 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (84c8fb26-441d-4770-99b4-3e40ee388d7c)] -> id: ch_login_password]
+2017-07-26 10:01:19 INFO  Keywords:397 - click--loginlinkbtn--
+2017-07-26 10:01:19 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (84c8fb26-441d-4770-99b4-3e40ee388d7c)] -> id: ch_login_btn]
+2017-07-26 10:01:20 INFO  Keywords:397 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-26 10:01:37 INFO  Keywords:397 - close----
+2017-07-26 10:01:37 INFO  Keywords:397 - Executable test cases is :loginTestwithDifferentscenarios
+2017-07-26 10:01:37 INFO  Keywords:397 - openBrowser--browserName--
+2017-07-26 10:01:41 INFO  Keywords:397 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 10:01:41 INFO  Keywords:397 - navigateURL--URL--
+2017-07-26 10:01:41 INFO  Keywords:397 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:01:51 INFO  Keywords:397 - verifyLink--login_link--
+2017-07-26 10:01:51 INFO  Keywords:397 - click--login_link--
+2017-07-26 10:01:51 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (a86ae3de-1e62-4089-abef-5b6f4d7e67e9)] -> xpath: //*[@id='ch_login_icon']/span[2]]
+2017-07-26 10:01:53 INFO  Keywords:397 - input--loginemailtxtbox--Email
+2017-07-26 10:01:53 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (a86ae3de-1e62-4089-abef-5b6f4d7e67e9)] -> id: ch_login_email]
+2017-07-26 10:01:53 INFO  Keywords:397 - input--loginpasswdtxtbox--Password
+2017-07-26 10:01:53 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (a86ae3de-1e62-4089-abef-5b6f4d7e67e9)] -> id: ch_login_password]
+2017-07-26 10:01:53 INFO  Keywords:397 - click--loginlinkbtn--
+2017-07-26 10:01:53 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (a86ae3de-1e62-4089-abef-5b6f4d7e67e9)] -> id: ch_login_btn]
+2017-07-26 10:01:54 INFO  Keywords:397 - verifySuccessMsg--loginemailtxtboxerrmsg|loginpasswdtxtboxerrmsg|afterloginusername|loginerrmsg--
+2017-07-26 10:01:58 INFO  Keywords:397 - close----
+2017-07-26 10:18:48 INFO  Keywords:397 - Executable test cases is :signUpPageTestcases
+2017-07-26 10:18:48 INFO  Keywords:397 - openBrowser--browserName--
+2017-07-26 10:18:53 INFO  Keywords:397 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 10:18:53 INFO  Keywords:397 - navigateURL--URL--
+2017-07-26 10:18:53 INFO  Keywords:397 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:19:06 INFO  Keywords:397 - verifyLink--signuplink--
+2017-07-26 10:19:06 INFO  Keywords:397 - click--signuplink--
+2017-07-26 10:19:06 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (1dcccdea-b9b9-46b2-96c5-0bef572e47b4)] -> id: ch_signup_icon]
+2017-07-26 10:19:08 INFO  Keywords:397 - input--signupemailtxtbox--Email
+2017-07-26 10:19:52 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (1dcccdea-b9b9-46b2-96c5-0bef572e47b4)] -> id: ch_signup_email]
+2017-07-26 10:19:52 INFO  Keywords:397 - input--signupmobiletxtbox--Mobile
+2017-07-26 10:19:53 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (1dcccdea-b9b9-46b2-96c5-0bef572e47b4)] -> id: ch_signup_phone]
+2017-07-26 10:19:53 INFO  Keywords:397 - input--signuppasswdtxtbox--Password
+2017-07-26 10:19:53 INFO  Keywords:397 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (1dcccdea-b9b9-46b2-96c5-0bef572e47b4)] -> id: ch_signup_password]
+2017-07-26 10:19:53 INFO  Keywords:397 - click--signupbtn--
+2017-07-26 10:19:53 INFO  Keywords:397 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (1dcccdea-b9b9-46b2-96c5-0bef572e47b4)] -> id: ch_signup_btn]
+2017-07-26 10:19:54 INFO  Keywords:397 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-26 10:19:59 INFO  Keywords:397 - close----
+2017-07-26 10:31:32 INFO  Keywords:397 - Executable test cases is :signUpPageTestcases
+2017-07-26 10:31:32 INFO  Keywords:397 - openBrowser--browserName--
+2017-07-26 10:31:38 INFO  Keywords:397 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 10:31:38 INFO  Keywords:397 - navigateURL--URL--
+2017-07-26 10:31:38 INFO  Keywords:397 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:33:40 INFO  Keywords:398 - Executable test cases is :signUpPageTestcases
+2017-07-26 10:33:40 INFO  Keywords:398 - openBrowser--browserName--
+2017-07-26 10:33:46 INFO  Keywords:398 - Opening the firefoxBrowser in Windows 7System
+2017-07-26 10:33:46 INFO  Keywords:398 - navigateURL--URL--
+2017-07-26 10:33:46 INFO  Keywords:398 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-26 10:34:10 INFO  Keywords:398 - verifyLink--signuplink--
+2017-07-26 10:34:10 INFO  Keywords:398 - click--signuplink--
+2017-07-26 10:34:10 INFO  Keywords:398 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c954a849-00bf-447c-915c-3512cc98a172)] -> id: ch_signup_icon]
+2017-07-26 10:34:11 INFO  Keywords:398 - input--signupemailtxtbox--Email
+2017-07-26 10:34:15 INFO  Keywords:398 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c954a849-00bf-447c-915c-3512cc98a172)] -> id: ch_signup_email]
+2017-07-26 10:34:15 INFO  Keywords:398 - input--signupmobiletxtbox--Mobile
+2017-07-26 10:34:15 INFO  Keywords:398 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c954a849-00bf-447c-915c-3512cc98a172)] -> id: ch_signup_phone]
+2017-07-26 10:34:16 INFO  Keywords:398 - input--signuppasswdtxtbox--Password
+2017-07-26 10:34:16 INFO  Keywords:398 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c954a849-00bf-447c-915c-3512cc98a172)] -> id: ch_signup_password]
+2017-07-26 10:34:16 INFO  Keywords:398 - click--signupbtn--
+2017-07-26 10:34:16 INFO  Keywords:398 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c954a849-00bf-447c-915c-3512cc98a172)] -> id: ch_signup_btn]
+2017-07-26 10:34:17 INFO  Keywords:398 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-26 10:34:22 INFO  Keywords:398 - close----
+2017-07-27 09:32:34 INFO  Keywords:408 - Executable test cases name is :signUpPageTestcases
+2017-07-27 09:32:34 INFO  Keywords:408 - openBrowser--browserName--
+2017-07-27 09:32:59 INFO  Keywords:408 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:32:59 INFO  Keywords:408 - navigateURL--URL--
+2017-07-27 09:32:59 INFO  Keywords:408 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:33:15 INFO  Keywords:408 - verifyLink--signuplink--
+2017-07-27 09:33:15 INFO  Keywords:408 - click--signuplink--
+2017-07-27 09:33:15 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (817fbafd-6bba-4db7-b108-f7580075a356)] -> id: ch_signup_icon]
+2017-07-27 09:33:16 INFO  Keywords:408 - input--signupemailtxtbox--Email
+2017-07-27 09:33:17 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (817fbafd-6bba-4db7-b108-f7580075a356)] -> id: ch_signup_email]
+2017-07-27 09:33:17 INFO  Keywords:408 - input--signupmobiletxtbox--Mobile
+2017-07-27 09:33:18 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (817fbafd-6bba-4db7-b108-f7580075a356)] -> id: ch_signup_phone]
+2017-07-27 09:33:18 INFO  Keywords:408 - input--signuppasswdtxtbox--Password
+2017-07-27 09:33:18 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (817fbafd-6bba-4db7-b108-f7580075a356)] -> id: ch_signup_password]
+2017-07-27 09:33:18 INFO  Keywords:408 - click--signupbtn--
+2017-07-27 09:33:18 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (817fbafd-6bba-4db7-b108-f7580075a356)] -> id: ch_signup_btn]
+2017-07-27 09:33:20 INFO  Keywords:408 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-27 09:33:24 INFO  Keywords:408 - close----
+2017-07-27 09:40:47 INFO  Keywords:408 - Executable test cases name is :signUpPageTestcases
+2017-07-27 09:40:47 INFO  Keywords:408 - openBrowser--browserName--
+2017-07-27 09:40:53 INFO  Keywords:408 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:40:53 INFO  Keywords:408 - navigateURL--URL--
+2017-07-27 09:40:53 INFO  Keywords:408 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:41:05 INFO  Keywords:408 - verifyLink--signuplink--
+2017-07-27 09:41:05 INFO  Keywords:408 - click--signuplink--
+2017-07-27 09:41:05 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (35d0be43-7427-4fa4-a7f4-a1a2a06f1479)] -> id: ch_signup_icon]
+2017-07-27 09:41:07 INFO  Keywords:408 - input--signupemailtxtbox--Email
+2017-07-27 09:41:07 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (35d0be43-7427-4fa4-a7f4-a1a2a06f1479)] -> id: ch_signup_email]
+2017-07-27 09:41:07 INFO  Keywords:408 - input--signupmobiletxtbox--Mobile
+2017-07-27 09:41:07 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (35d0be43-7427-4fa4-a7f4-a1a2a06f1479)] -> id: ch_signup_phone]
+2017-07-27 09:41:08 INFO  Keywords:408 - input--signuppasswdtxtbox--Password
+2017-07-27 09:41:08 INFO  Keywords:408 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (35d0be43-7427-4fa4-a7f4-a1a2a06f1479)] -> id: ch_signup_password]
+2017-07-27 09:41:08 INFO  Keywords:408 - click--signupbtn--
+2017-07-27 09:41:08 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (35d0be43-7427-4fa4-a7f4-a1a2a06f1479)] -> id: ch_signup_btn]
+2017-07-27 09:41:09 INFO  Keywords:408 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-27 09:41:14 INFO  Keywords:408 - close----
+2017-07-27 09:44:23 INFO  Keywords:408 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 09:44:23 INFO  Keywords:408 - openBrowser--browserName--
+2017-07-27 09:44:30 INFO  Keywords:408 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:44:30 INFO  Keywords:408 - navigateURL--URL--
+2017-07-27 09:44:30 INFO  Keywords:408 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:44:42 INFO  Keywords:408 - click--homepage.header.hotellink--
+2017-07-27 09:44:42 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (2f195422-dac4-44c0-83e2-9ace8e02eb99)] -> id: header_tab_hotels]
+2017-07-27 09:44:43 INFO  Keywords:408 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:46:37 INFO  Keywords:409 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 09:46:37 INFO  Keywords:409 - openBrowser--browserName--
+2017-07-27 09:46:44 INFO  Keywords:409 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:46:44 INFO  Keywords:409 - navigateURL--URL--
+2017-07-27 09:46:44 INFO  Keywords:409 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:47:23 INFO  Keywords:409 - click--homepage.header.hotellink--
+2017-07-27 09:47:23 INFO  Keywords:409 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (282ddee7-061b-40fb-9a72-a17f37960eab)] -> id: header_tab_hotels]
+2017-07-27 09:47:24 INFO  Keywords:409 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:51:26 INFO  Keywords:408 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 09:51:26 INFO  Keywords:408 - openBrowser--browserName--
+2017-07-27 09:51:32 INFO  Keywords:408 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:51:32 INFO  Keywords:408 - navigateURL--URL--
+2017-07-27 09:51:32 INFO  Keywords:408 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:51:46 INFO  Keywords:408 - click--homepage.header.hotellink--
+2017-07-27 09:51:46 INFO  Keywords:408 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (3ec5dca1-4611-4494-9d3f-103d4627382d)] -> id: header_tab_hotels]
+2017-07-27 09:51:47 INFO  Keywords:408 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:53:26 INFO  Keywords:409 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 09:53:26 INFO  Keywords:409 - openBrowser--browserName--
+2017-07-27 09:53:32 INFO  Keywords:409 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:53:32 INFO  Keywords:409 - navigateURL--URL--
+2017-07-27 09:53:32 INFO  Keywords:409 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:53:45 INFO  Keywords:409 - click--homepage.header.hotellink--
+2017-07-27 09:53:45 INFO  Keywords:409 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (3b539169-cf64-4ed9-bf3e-0027e542184d)] -> id: header_tab_hotels]
+2017-07-27 09:53:46 INFO  Keywords:409 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:56:43 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 09:56:43 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 09:56:49 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 09:56:49 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 09:56:49 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 09:57:00 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 09:57:00 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d1774d6a-9cbb-4b02-9086-b98355e8e2dd)] -> id: header_tab_hotels]
+2017-07-27 09:57:01 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:57:06 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 09:57:06 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 09:57:06 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d1774d6a-9cbb-4b02-9086-b98355e8e2dd)] -> id: hp-widget__sDest]
+2017-07-27 09:57:07 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 09:57:08 INFO  Keywords:407 - chooseDate----25-September 2017
+2017-07-27 09:57:10 INFO  Keywords:407 - chooseDate----27-September 2017
+2017-07-27 10:20:32 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 10:20:32 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 10:20:38 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 10:20:38 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 10:20:38 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 10:20:39 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 10:20:41 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 10:20:41 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 10:20:41 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 10:20:46 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 10:20:46 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 10:20:46 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 10:22:16 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 10:22:16 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 10:22:21 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 10:22:21 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 10:22:21 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 10:22:49 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 10:22:49 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (3f8e56b9-3f78-4e24-a516-0f86bb3b5920)] -> id: header_tab_hotels]
+2017-07-27 10:22:50 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 10:22:54 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 10:22:54 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 10:22:54 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (3f8e56b9-3f78-4e24-a516-0f86bb3b5920)] -> id: hp-widget__sDest]
+2017-07-27 10:22:55 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 10:22:55 INFO  Keywords:407 - chooseDate----25-September 2017
+2017-07-27 10:46:53 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 10:46:53 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 10:46:59 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 10:46:59 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 10:46:59 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 10:48:31 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 10:48:31 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c226e967-8a28-49f9-8be3-c869446b9e49)] -> id: header_tab_hotels]
+2017-07-27 10:48:32 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 10:53:07 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 10:53:07 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 10:53:07 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c226e967-8a28-49f9-8be3-c869446b9e49)] -> id: hp-widget__sDest]
+2017-07-27 10:53:08 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 10:53:09 INFO  Keywords:407 - chooseDate----25-September 2017
+2017-07-27 11:49:38 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 11:49:38 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 11:49:44 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 11:49:44 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 11:49:44 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 11:49:59 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 11:49:59 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (018d83cf-65cf-4598-b8a6-46e9210bafd5)] -> id: header_tab_hotels]
+2017-07-27 11:50:00 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 11:50:08 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 11:50:08 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 11:50:08 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (018d83cf-65cf-4598-b8a6-46e9210bafd5)] -> id: hp-widget__sDest]
+2017-07-27 11:50:09 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 11:50:10 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 11:50:13 INFO  Keywords:407 - chooseDate----27-October 2017
+2017-07-27 16:15:25 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 16:15:25 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 16:15:36 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 16:15:36 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 16:15:36 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 16:16:18 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 16:16:18 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f9b7e91a-34b2-4751-967d-af5133455e64)] -> id: header_tab_hotels]
+2017-07-27 16:16:19 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 16:16:21 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 16:16:21 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 16:16:21 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (f9b7e91a-34b2-4751-967d-af5133455e64)] -> id: hp-widget__sDest]
+2017-07-27 16:16:22 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 16:16:23 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 22:39:44 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 22:39:45 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 22:39:53 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 22:39:53 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 22:39:53 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 22:40:08 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 22:40:09 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b52c4eff-0748-4704-a2c3-eaa2b32d9c04)] -> id: header_tab_hotels]
+2017-07-27 22:40:10 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 22:40:13 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 22:40:13 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 22:40:13 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b52c4eff-0748-4704-a2c3-eaa2b32d9c04)] -> id: hp-widget__sDest]
+2017-07-27 22:40:15 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 22:40:16 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 22:40:19 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-27 22:40:19 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (b52c4eff-0748-4704-a2c3-eaa2b32d9c04)] -> id: hp-widget__chkOut]
+2017-07-27 22:40:21 INFO  Keywords:407 - chooseDate----27-October 2017
+2017-07-27 22:46:34 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 22:46:35 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 22:46:41 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 22:46:41 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 22:46:41 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 22:47:00 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 22:47:01 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d69575e0-16ed-4d7f-a2f0-9ac505e4132a)] -> id: header_tab_hotels]
+2017-07-27 22:47:02 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 22:47:07 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 22:47:07 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 22:47:07 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d69575e0-16ed-4d7f-a2f0-9ac505e4132a)] -> id: hp-widget__sDest]
+2017-07-27 22:47:09 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 22:47:10 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 22:59:55 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 22:59:56 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 23:00:02 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 23:00:02 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 23:00:02 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 23:00:17 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 23:00:18 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5fa098d8-8de1-4432-b9b8-4e9c7a27cb8b)] -> id: header_tab_hotels]
+2017-07-27 23:00:19 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 23:00:28 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 23:00:28 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 23:00:28 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5fa098d8-8de1-4432-b9b8-4e9c7a27cb8b)] -> id: hp-widget__sDest]
+2017-07-27 23:00:29 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 23:00:30 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 23:00:33 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-27 23:00:33 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5fa098d8-8de1-4432-b9b8-4e9c7a27cb8b)] -> id: hp-widget__chkOut]
+2017-07-27 23:00:34 INFO  Keywords:407 - chooseDate----27-November 2017

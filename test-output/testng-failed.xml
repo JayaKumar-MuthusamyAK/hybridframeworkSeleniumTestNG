@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hybridframework_Selenium.practice.SearchingFlights">
+      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
         <methods>
-          <include name="chooseFlights"/>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="hotelSearchlistTestCase"/>
+          <include name="endingTest"/>
         </methods>
-      </class> <!-- com.hybridframework_Selenium.practice.SearchingFlights -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

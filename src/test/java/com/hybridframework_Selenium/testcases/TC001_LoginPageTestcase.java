@@ -21,22 +21,24 @@ public class TC001_LoginPageTestcase extends TestBase{
 	
 	WebDriver driver;
 	@Test(dataProvider="testDataProvider")
-	public void LoginPagetestCase(Hashtable<String, String> data) throws Exception{
+	public void loginTestwithDifferentscenarios(Hashtable<String, String> data) throws Exception{
 		
-		if(!TestUtils.isTestcasesExecutable("LoginTest", Keywords.xls))
+		if(!TestUtils.isTestcasesExecutable("loginTestwithDifferentscenarios", Keywords.xls))
 			throw new SkipException("User is set this test cases runmode is No");
+		
 		if(!data.get("Runmode").equals("Y")){
+			Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum("loginTestwithDifferentscenarios", Keywords.xls,"Expected_Result"), "-");
 			throw new SkipException("User is set this test case data runmode is No");
 		}
-		else{
+			
+	
 		Keywords keywords=Keywords.getInstance();
-		keywords.executeKeywords("LoginTest", data);
-		}
+		keywords.executeKeywords("loginTestwithDifferentscenarios", data);
 	}
 	
 	@DataProvider
 	public Object[][] testDataProvider(){
-		return TestUtils.getData("LoginTest", Keywords.xls);
+		return TestUtils.getData("loginTestwithDifferentscenarios", Keywords.xls);
 		
 	}
 	
