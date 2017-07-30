@@ -1747,3 +1747,141 @@
 2017-07-27 23:00:33 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
 2017-07-27 23:00:33 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (5fa098d8-8de1-4432-b9b8-4e9c7a27cb8b)] -> id: hp-widget__chkOut]
 2017-07-27 23:00:34 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-27 23:11:13 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-27 23:11:13 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-27 23:11:19 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-27 23:11:19 INFO  Keywords:407 - navigateURL--URL--
+2017-07-27 23:11:19 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-27 23:11:33 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-27 23:11:33 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (fd78a78f-675a-4e2c-84cd-1315e421a27a)] -> id: header_tab_hotels]
+2017-07-27 23:11:34 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 23:11:37 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-27 23:11:37 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-27 23:11:37 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (fd78a78f-675a-4e2c-84cd-1315e421a27a)] -> id: hp-widget__sDest]
+2017-07-27 23:11:39 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-27 23:11:40 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-27 23:11:52 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-27 23:11:52 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (fd78a78f-675a-4e2c-84cd-1315e421a27a)] -> id: hp-widget__chkOut]
+2017-07-27 23:11:53 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-28 10:01:56 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-28 10:01:56 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-28 10:02:05 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-28 10:02:05 INFO  Keywords:407 - navigateURL--URL--
+2017-07-28 10:02:05 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-28 10:02:17 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-28 10:02:18 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d0240381-8a21-4d2a-8af6-1eb82a280e0f)] -> id: header_tab_hotels]
+2017-07-28 10:02:19 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:02:24 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:02:24 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-28 10:02:24 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d0240381-8a21-4d2a-8af6-1eb82a280e0f)] -> id: hp-widget__sDest]
+2017-07-28 10:02:26 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-28 10:02:26 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-28 10:02:38 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-28 10:02:38 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d0240381-8a21-4d2a-8af6-1eb82a280e0f)] -> id: hp-widget__chkOut]
+2017-07-28 10:02:40 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-28 10:06:13 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-28 10:06:14 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-28 10:06:19 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-28 10:06:19 INFO  Keywords:407 - navigateURL--URL--
+2017-07-28 10:06:19 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-28 10:06:33 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-28 10:06:33 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (60fbe55d-042e-4376-8265-d71e4f339105)] -> id: header_tab_hotels]
+2017-07-28 10:06:38 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:06:38 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:06:38 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-28 10:06:38 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (60fbe55d-042e-4376-8265-d71e4f339105)] -> id: hp-widget__sDest]
+2017-07-28 10:06:40 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-28 10:06:40 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-28 10:06:52 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-28 10:06:52 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (60fbe55d-042e-4376-8265-d71e4f339105)] -> id: hp-widget__chkOut]
+2017-07-28 10:06:53 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-28 10:12:10 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-28 10:12:11 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-28 10:12:18 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-28 10:12:18 INFO  Keywords:407 - navigateURL--URL--
+2017-07-28 10:12:18 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-28 10:12:32 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-28 10:12:32 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: header_tab_hotels]
+2017-07-28 10:12:33 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:12:38 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:12:38 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-28 10:12:38 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__sDest]
+2017-07-28 10:12:40 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-28 10:12:40 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-28 10:12:52 INFO  Keywords:407 - click--homepage.hotel.outsidefield--
+2017-07-28 10:12:52 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> xpath: //div[@class='hp-widget']]
+2017-07-28 10:12:53 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-28 10:12:53 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__chkOut]
+2017-07-28 10:12:55 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-28 10:18:44 INFO  Keywords:407 - Executable test cases name is :hotelSearchlistTestCase
+2017-07-28 10:18:44 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-28 10:18:50 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-28 10:18:50 INFO  Keywords:407 - navigateURL--URL--
+2017-07-28 10:18:50 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-28 10:19:03 INFO  Keywords:407 - click--homepage.header.hotellink--
+2017-07-28 10:19:03 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (24fe09fe-9c73-4756-955b-38d1ae5dc527)] -> id: header_tab_hotels]
+2017-07-28 10:19:04 INFO  Keywords:407 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:19:08 INFO  Keywords:407 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-07-28 10:19:08 INFO  Keywords:407 - click--homepage.hotel.city.hoteltxt--
+2017-07-28 10:19:08 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (24fe09fe-9c73-4756-955b-38d1ae5dc527)] -> id: hp-widget__sDest]
+2017-07-28 10:19:10 INFO  Keywords:407 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
+2017-07-28 10:19:10 INFO  Keywords:407 - chooseDate----25-October 2017
+2017-07-28 10:22:32 INFO  Keywords:407 - click--homepage.hotel.outsidefield--
+2017-07-28 10:22:33 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (24fe09fe-9c73-4756-955b-38d1ae5dc527)] -> xpath: //div[@class='hp-widget']]
+2017-07-28 10:22:40 INFO  Keywords:407 - click--homepage.hotel.getchlOutselecteddate--
+2017-07-28 10:22:41 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (24fe09fe-9c73-4756-955b-38d1ae5dc527)] -> id: hp-widget__chkOut]
+2017-07-28 10:22:48 INFO  Keywords:407 - chooseDate----27-November 2017
+2017-07-30 11:56:05 INFO  Keywords:407 - Executable test cases name is :signUpPageTestcases
+2017-07-30 11:56:05 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-30 11:56:13 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-30 11:56:13 INFO  Keywords:407 - navigateURL--URL--
+2017-07-30 11:56:13 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-30 11:56:23 INFO  Keywords:407 - verifyLink--signuplink--
+2017-07-30 11:56:24 INFO  Keywords:407 - click--signuplink--
+2017-07-30 11:56:24 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c5a0ec02-e60b-4aa1-9c0b-8d7029328d32)] -> id: ch_signup_icon]
+2017-07-30 11:56:25 INFO  Keywords:407 - input--signupemailtxtbox--Email
+2017-07-30 11:56:25 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c5a0ec02-e60b-4aa1-9c0b-8d7029328d32)] -> id: ch_signup_email]
+2017-07-30 11:56:25 INFO  Keywords:407 - input--signupmobiletxtbox--Mobile
+2017-07-30 11:56:27 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c5a0ec02-e60b-4aa1-9c0b-8d7029328d32)] -> id: ch_signup_phone]
+2017-07-30 11:56:27 INFO  Keywords:407 - input--signuppasswdtxtbox--Password
+2017-07-30 11:56:27 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (c5a0ec02-e60b-4aa1-9c0b-8d7029328d32)] -> id: ch_signup_password]
+2017-07-30 11:56:27 INFO  Keywords:407 - click--signupbtn--
+2017-07-30 11:56:27 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (c5a0ec02-e60b-4aa1-9c0b-8d7029328d32)] -> id: ch_signup_btn]
+2017-07-30 11:56:28 INFO  Keywords:407 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-30 11:56:34 INFO  Keywords:407 - close----
+2017-07-30 12:38:05 INFO  Keywords:407 - Executable test cases name is :signUpPageTestcases
+2017-07-30 12:38:05 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-30 12:38:11 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-30 12:38:11 INFO  Keywords:407 - navigateURL--URL--
+2017-07-30 12:38:11 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-30 12:38:22 INFO  Keywords:407 - verifyLink--signuplink--
+2017-07-30 12:38:22 INFO  Keywords:407 - click--signuplink--
+2017-07-30 12:38:22 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (2c0ee99e-aa06-47c0-a87f-964b9cd72f46)] -> id: ch_signup_icon]
+2017-07-30 12:38:23 INFO  Keywords:407 - input--signupemailtxtbox--Email
+2017-07-30 12:38:24 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (2c0ee99e-aa06-47c0-a87f-964b9cd72f46)] -> id: ch_signup_email]
+2017-07-30 12:38:24 INFO  Keywords:407 - input--signupmobiletxtbox--Mobile
+2017-07-30 12:38:25 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (2c0ee99e-aa06-47c0-a87f-964b9cd72f46)] -> id: ch_signup_phone]
+2017-07-30 12:38:25 INFO  Keywords:407 - input--signuppasswdtxtbox--Password
+2017-07-30 12:38:25 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (2c0ee99e-aa06-47c0-a87f-964b9cd72f46)] -> id: ch_signup_password]
+2017-07-30 12:38:25 INFO  Keywords:407 - click--signupbtn--
+2017-07-30 12:38:25 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (2c0ee99e-aa06-47c0-a87f-964b9cd72f46)] -> id: ch_signup_btn]
+2017-07-30 12:38:26 INFO  Keywords:407 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-30 12:38:30 INFO  Keywords:407 - close----
+2017-07-30 12:42:32 INFO  Keywords:407 - Executable test cases name is :signUpPageTestcases
+2017-07-30 12:42:32 INFO  Keywords:407 - openBrowser--browserName--
+2017-07-30 12:42:39 INFO  Keywords:407 - Opening the firefoxBrowser in Windows 7System
+2017-07-30 12:42:39 INFO  Keywords:407 - navigateURL--URL--
+2017-07-30 12:42:39 INFO  Keywords:407 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-07-30 12:42:52 INFO  Keywords:407 - verifyLink--signuplink--
+2017-07-30 12:42:52 INFO  Keywords:407 - click--signuplink--
+2017-07-30 12:42:52 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (afe36569-dd60-40e0-8817-0a039c5938e9)] -> id: ch_signup_icon]
+2017-07-30 12:42:54 INFO  Keywords:407 - input--signupemailtxtbox--Email
+2017-07-30 12:42:54 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (afe36569-dd60-40e0-8817-0a039c5938e9)] -> id: ch_signup_email]
+2017-07-30 12:42:54 INFO  Keywords:407 - input--signupmobiletxtbox--Mobile
+2017-07-30 12:42:55 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (afe36569-dd60-40e0-8817-0a039c5938e9)] -> id: ch_signup_phone]
+2017-07-30 12:42:55 INFO  Keywords:407 - input--signuppasswdtxtbox--Password
+2017-07-30 12:42:55 INFO  Keywords:407 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (afe36569-dd60-40e0-8817-0a039c5938e9)] -> id: ch_signup_password]
+2017-07-30 12:42:55 INFO  Keywords:407 - click--signupbtn--
+2017-07-30 12:42:55 INFO  Keywords:407 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (afe36569-dd60-40e0-8817-0a039c5938e9)] -> id: ch_signup_btn]
+2017-07-30 12:42:57 INFO  Keywords:407 - verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--
+2017-07-30 12:43:01 INFO  Keywords:407 - close----

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Make My trip Regression Test cases]" parallel="classes">
+  <listeners>
+    <listener class-name="com.hybridframework_Selenium.customListner.Listners"/>
+    <listener class-name="com.hybridframework_Selenium.customListner.RetryListners"/>
+  </listeners>
+  <test name="Login Regression Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="loginTestwithDifferentscenarios" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
+    </classes>
+  </test> <!-- Login Regression Test(failed) -->
+</suite> <!-- Failed suite [Make My trip Regression Test cases] -->

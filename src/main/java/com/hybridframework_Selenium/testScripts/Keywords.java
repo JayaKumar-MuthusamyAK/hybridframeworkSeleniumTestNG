@@ -445,7 +445,7 @@ public class Keywords extends TestBase{
 		String month_year = datakeys.split("-")[1];
 		System.out.println(day);
 		System.out.println(month_year);
-		
+		Thread.sleep(3000);
 		String websiteLeftsiteMonthYear= getWebElement("homepage.datepicker.leftside.monthyear").getText();
 		String websiteRightsiteMonthYear= getWebElement("homepage.datepicker.rightside.monthyear").getText();
 		if(month_year.toLowerCase().equals(websiteLeftsiteMonthYear.toLowerCase())){
@@ -473,6 +473,7 @@ public class Keywords extends TestBase{
 			}
 		}
 		else if(getWebElements("homepage.datepicker.nexticon").size()!=0){
+			//System.out.println(getWebElement("homepage.datepicker.nexticon"));
 			getWebElement("homepage.datepicker.nexticon").click();
 			chooseDate(datakeys);
 		}

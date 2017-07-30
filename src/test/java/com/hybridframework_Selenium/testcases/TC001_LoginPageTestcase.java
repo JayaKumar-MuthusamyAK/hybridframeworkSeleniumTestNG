@@ -27,7 +27,8 @@ public class TC001_LoginPageTestcase extends TestBase{
 			throw new SkipException("User is set this test cases runmode is No");
 		
 		if(!data.get("Runmode").equals("Y")){
-			Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum("loginTestwithDifferentscenarios", Keywords.xls,"Expected_Result"), "-");
+			//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum("loginTestwithDifferentscenarios", Keywords.xls,"Expected_Result"), "-");
+			Keywords.xls.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Expected_Result", "-");
 			throw new SkipException("User is set this test case data runmode is No");
 		}
 			
