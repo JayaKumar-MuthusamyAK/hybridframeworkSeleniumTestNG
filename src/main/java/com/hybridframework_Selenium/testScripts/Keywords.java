@@ -54,7 +54,7 @@ public class Keywords extends TestBase{
 				keyword = xls.getCellData("Test Steps", "Keyword", rNum);
 				objectkeys = xls.getCellData("Test Steps", "Object", rNum);
 				datakeys = xls.getCellData("Test Steps", "Data", rNum);
-
+				
 				//System.out.println(keyword + "--" + objectkeys + "--" + datakeys);
 				log(keyword + "--" + objectkeys + "--" + datakeys);
 				String result = null;
@@ -89,6 +89,9 @@ public class Keywords extends TestBase{
 				case "chooseDate":
 					result = chooseDate(datakeys);
 					break;
+				case "chooseDateReturn":
+					result =chooseDateReturn(datakeys);
+					break;
 				case "chooseAdults":
 					result = chooseAdults(Integer.parseInt(datakeys));
 					break;
@@ -116,6 +119,9 @@ public class Keywords extends TestBase{
 				case "chooseOnBook":
 					result = chooseOnBook(objectkeys,datakeys);
 					break;
+				case "chooseChildrenswiththeirAge":
+					result =chooseChildrenswiththeirAge(datakeys);
+					break;
 				case "verifyReviewPageGrandTotal":
 					result = verifyReviewPageGrandTotal(objectkeys);
 					break;
@@ -125,13 +131,36 @@ public class Keywords extends TestBase{
 				case "chooseChildAge":
 					result = chooseChildrenswiththeirAge(datakeys);
 					break;
+				case "waitForTextPresent":
+					result = waitForTextPresent(objectkeys,datakeys);
+					break;
+				case "scrollDownUntilCountMatch":
+					result = scrollDownUntilCountMatch(objectkeys);
+					break;
+				case "waitForVisibilityOfElement":
+					result = waitForVisibilityOfElement(objectkeys,Integer.parseInt(datakeys));
+					break;
+				case "selectHotelInlist":
+					result = selectGivenHotelInalist(objectkeys,datakeys);
+					break;
+				case "verifyTextPresent":
+					result = verifyTextPresent(objectkeys,datakeys);
+					break;
 				default:
 					System.out.println("Not Matching Keyword :"+keyword);
 					break;
 				}
+				
+				if(result!=null){
+					if(result.equals("Pass"))Keywords.xls.setCellData1("Test Steps", "Status", (rNum-1), "Executed");
+					else Keywords.xls.setCellData1("Test Steps", "Status", (rNum-1), "Not Executed");
+				}
+				
 			}
 
 		}
+		
+		
 	}
 
 
@@ -445,7 +474,7 @@ public class Keywords extends TestBase{
 		String month_year = datakeys.split("-")[1];
 		System.out.println(day);
 		System.out.println(month_year);
-		Thread.sleep(3000);
+		waitForElementVisible(getWebElement("homepage.datepicker.leftside.monthyear"));
 		String websiteLeftsiteMonthYear= getWebElement("homepage.datepicker.leftside.monthyear").getText();
 		String websiteRightsiteMonthYear= getWebElement("homepage.datepicker.rightside.monthyear").getText();
 		if(month_year.toLowerCase().equals(websiteLeftsiteMonthYear.toLowerCase())){
@@ -480,7 +509,45 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 	
-	
+	public String chooseDateReturn(String datakeys) throws Exception {
+		String day = datakeys.split("-")[0];
+		String month_year = datakeys.split("-")[1];
+		System.out.println(day);
+		System.out.println(month_year);
+		Thread.sleep(3000);
+		String websiteLeftsiteMonthYear= getWebElement("homepage.datepicker.leftside.monthyear.return").getText();
+		String websiteRightsiteMonthYear= getWebElement("homepage.datepicker.rightside.monthyear.return").getText();
+		if(month_year.toLowerCase().equals(websiteLeftsiteMonthYear.toLowerCase())){
+			List<WebElement> websiteDatelist = getWebElements("homepage.datepicker.daylist.first.return");
+		
+			for(int i=0; i<websiteDatelist.size();i++){
+				if(websiteDatelist.get(i).getText().equals(day)){
+					System.out.println("Selected Date:"+websiteDatelist.get(i).getText());
+					
+					websiteDatelist.get(i).click();
+					break;
+				}
+			}
+		}
+		else if(month_year.toLowerCase().equals(websiteRightsiteMonthYear.toLowerCase())){
+			List<WebElement> websiteDatelist = getWebElements("homepage.datepicker.daylist.second.return");
+			
+			for(int i=0; i<websiteDatelist.size();i++){
+				if(websiteDatelist.get(i).getText().equals(day)){
+					System.out.println("Selected Date:"+websiteDatelist.get(i).getText());
+					
+					websiteDatelist.get(i).click();
+					break;
+				}
+			}
+		}
+		else if(getWebElements("homepage.datepicker.nexticon.return").size()!=0){
+			//System.out.println(getWebElement("homepage.datepicker.nexticon"));
+			getWebElement("homepage.datepicker.nexticon.return").click();
+			chooseDate(datakeys);
+		}
+		return "Pass";
+	}
 	// Specific Application dependend keywords and objects;
 	
 	public String chooseInfants(int infantsCount) {
@@ -517,6 +584,74 @@ public class Keywords extends TestBase{
 			driver.findElement(By.xpath("//*[@id='allPaxAge']/div[2]/ul/li['"+Integer.parseInt(ageWithNoChild.split("\\|")[i+1])+"']")).click();
 		}
 		
+		return "Pass";
+		
+	}
+	public String waitForTextPresent(String objectkeys, String datakeys) throws Exception{
+		
+		WebElement element = getWebElement(objectkeys);
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.textToBePresentInElement(element, datakeys));
+		
+		return "Pass";
+	}
+	
+	public String scrollDownUntilCountMatch(String objectkeys) throws Exception{
+		
+		List<WebElement> hotelNameslist=getWebElements(objectkeys);
+		
+		int total = hotelNameslist.size();
+		Actions act = new Actions(driver);
+		int newCount=0;
+		while(newCount!=total){
+			
+			act.moveToElement(hotelNameslist.get(total-1)).build().perform();
+			act.moveToElement(hotelNameslist.get(newCount+1)).build().perform();
+			newCount=total;
+			hotelNameslist=getWebElements(objectkeys);
+			act.moveToElement(hotelNameslist.get(total-1)).build().perform();
+			
+			//waitForElementVisible(hotelNameslist.get(total));
+			Thread.sleep(4000);
+			hotelNameslist=getWebElements(objectkeys);
+			total = hotelNameslist.size();
+			System.out.println("Scrolling Down. Now the Count is :"+total);
+		}
+		System.out.println("Final COunt is :"+total);
+		return "Pass";
+	}
+	
+	public String waitForVisibilityOfElement(String objectkeys,int seconds) throws Exception{
+		WebElement element = getWebElement(objectkeys);
+		WebDriverWait wait = new WebDriverWait(driver,seconds);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		return "Pass";
+	}
+	
+	public String selectGivenHotelInalist(String objectkeys, String datakeys) throws Exception{
+		System.out.println(objectkeys.split("\\|")[0]);
+		List<WebElement> hotelNamelist = getWebElements(objectkeys.split("\\|")[0]);
+		List<WebElement> hotelPricelist=getWebElements(objectkeys.split("\\|")[1]);
+		List<WebElement> hotelSearchImg= getWebElements(objectkeys.split("\\|")[2]);
+		Actions act = new Actions(driver);
+		for(int i=0; i<hotelNamelist.size();i++){
+			System.out.println(hotelNamelist.get(i).getText());
+			if(hotelNamelist.get(i).getText().equals(datakeys)){
+				act.moveToElement(hotelSearchImg.get(i)).build().perform();
+				System.out.println("Selected Hotel name is :"+hotelNamelist.get(i).getText());
+				System.out.println("Selected Hotel min Price :"+hotelPricelist.get(i).getText());
+				//hotelNamelist.get(i).click();
+				hotelSearchImg.get(i).click();
+			}
+		}
+		return "Pass";
+		
+	}
+	
+	public String verifyTextPresent(String objectkeys, String datakeys) throws Exception{
+		
+		//getWebElement(objectkeys).getText();
+		Assert.assertTrue(getWebElement(objectkeys).getText().equals(datakeys), "Given Hotel only is Opened");
 		return "Pass";
 		
 	}

@@ -642,7 +642,7 @@ public class Xls_Reader {
 		return true;
 	}
 	
-	public boolean setCellData1(String sheetName,String findtestcases, String colName,int rowNum, String data){
+	public boolean setCellData1(String sheetName, String colName,int rowNum, String data){
 		try{
 		fis = new FileInputStream(path); 
 		//System.out.println(path);
@@ -669,11 +669,11 @@ public class Xls_Reader {
 			{
 				
 			//System.out.println(sheet.getRow(j).getCell(i).getStringCellValue().trim());
-			if(sheet.getRow(j).getCell(i).getStringCellValue().trim().equalsIgnoreCase(findtestcases.trim()))
+			if(sheet.getRow(j).getCell(i).getStringCellValue().trim().equalsIgnoreCase(colName.trim()))
 			{
 				
 				//System.out.println(i);
-				col_Num=i-1;
+				col_Num=i;
 			    break;
 			}   
 			
@@ -729,10 +729,12 @@ public class Xls_Reader {
 
 			 datatable = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
 				//datatable.setCellData("Test Data", "Status", 3, "Pass");
-			 datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Expected_Result", "Testing comments 1");
-			 datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Pass");
-			datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "testing comments");
-			datatable.setCellDataInparticularCell("FlightSearchlistTestCase", "Test Data", "Status", "Pass");
+			// datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Expected_Result", "Testing comments 1");
+			// datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Pass");
+			//datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Steps", "Status", "testing comments");
+			datatable.setCellData1("Test Steps", "Status", 3, "testing comments");
+			
+			//datatable.setCellDataInparticularCell("FlightSearchlistTestCase", "Test Data", "Status", "Pass");
 			//datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "Pass");
 			 //datatable.setCellData1("signUpPageTestcases", "", colName, rowNum, data)
 			//datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Fail");

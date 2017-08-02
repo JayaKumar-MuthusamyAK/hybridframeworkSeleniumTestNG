@@ -20,7 +20,7 @@
       <![CDATA[click--homepage.header.hotellink--]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: header_tab_hotels]]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: header_tab_hotels]]]>
     </line>
     <line>
       <![CDATA[verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com]]>
@@ -32,7 +32,7 @@
       <![CDATA[click--homepage.hotel.city.hoteltxt--]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__sDest]]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: hp-widget__sDest]]]>
     </line>
     <line>
       <![CDATA[selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore]]>
@@ -41,30 +41,15 @@
       <![CDATA[chooseDate----25-October 2017]]>
     </line>
     <line>
-      <![CDATA[click--homepage.hotel.outsidefield--]]>
-    </line>
-    <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> xpath: //div[@class='hp-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[click--homepage.hotel.getchlOutselecteddate--]]>
-    </line>
-    <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__chkOut]]]>
-    </line>
-    <line>
-      <![CDATA[chooseDate----27-November 2017]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\28_07_2017_10_13_28.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\28_07_2017_10_13_28.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80060" started-at="2017-07-28T04:42:10Z" finished-at="2017-07-28T04:43:30Z">
+  <suite name="Default suite" duration-ms="62957" started-at="2017-08-02T04:38:42Z" finished-at="2017-08-02T04:39:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80060" started-at="2017-07-28T04:42:10Z" finished-at="2017-07-28T04:43:30Z">
+    <test name="Default test" duration-ms="62957" started-at="2017-08-02T04:38:42Z" finished-at="2017-08-02T04:39:45Z">
       <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
-        <test-method status="PASS" signature="beforeExecution(java.lang.reflect.Method)[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="beforeExecution" is-config="true" duration-ms="11" started-at="2017-07-28T10:12:10Z" finished-at="2017-07-28T10:12:10Z">
+        <test-method status="PASS" signature="beforeExecution(java.lang.reflect.Method)[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="beforeExecution" is-config="true" duration-ms="11" started-at="2017-08-02T10:08:42Z" finished-at="2017-08-02T10:08:42Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeExecution -->
-        <test-method status="FAIL" signature="hotelSearchlistTestCase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="hotelSearchlistTestCase" duration-ms="78448" started-at="2017-07-28T10:12:10Z" finished-at="2017-07-28T10:13:28Z">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+        <test-method status="FAIL" signature="hotelSearchlistTestCase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="hotelSearchlistTestCase" duration-ms="60286" started-at="2017-08-02T10:08:42Z" finished-at="2017-08-02T10:09:42Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.15 seconds]]>
+              <![CDATA[Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.20 seconds]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.15 seconds
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.20 seconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -92,8 +77,9 @@ Command duration or timeout: 30.15 seconds
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:477)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:478)
+	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:507)
 	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:90)
 	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -121,17 +107,19 @@ Command duration or timeout: 30.15 seconds
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
 System info: host: 'ADMIN-PC', ip: '169.254.230.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
 Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10752)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12727)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9525)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10238)
+	at <anonymous class>.WebElement.getElementText(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12511)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
             <line>
               <![CDATA[Executable test cases name is :hotelSearchlistTestCase]]>
@@ -152,7 +140,7 @@ Driver info: driver.version: unknown
               <![CDATA[click--homepage.header.hotellink--]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: header_tab_hotels]]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: header_tab_hotels]]]>
             </line>
             <line>
               <![CDATA[verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com]]>
@@ -164,7 +152,7 @@ Driver info: driver.version: unknown
               <![CDATA[click--homepage.hotel.city.hoteltxt--]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__sDest]]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: hp-widget__sDest]]]>
             </line>
             <line>
               <![CDATA[selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore]]>
@@ -172,24 +160,9 @@ Driver info: driver.version: unknown
             <line>
               <![CDATA[chooseDate----25-October 2017]]>
             </line>
-            <line>
-              <![CDATA[click--homepage.hotel.outsidefield--]]>
-            </line>
-            <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> xpath: //div[@class='hp-widget']]]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.hotel.getchlOutselecteddate--]]>
-            </line>
-            <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__chkOut]]]>
-            </line>
-            <line>
-              <![CDATA[chooseDate----27-November 2017]]>
-            </line>
           </reporter-output>
         </test-method> <!-- hotelSearchlistTestCase -->
-        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="afterExecution" is-config="true" duration-ms="1147" started-at="2017-07-28T10:13:28Z" finished-at="2017-07-28T10:13:29Z">
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="afterExecution" is-config="true" duration-ms="1712" started-at="2017-08-02T10:09:42Z" finished-at="2017-08-02T10:09:44Z">
           <params>
             <param index="0">
               <value>
@@ -199,11 +172,11 @@ Driver info: driver.version: unknown
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\28_07_2017_10_13_28.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\28_07_2017_10_13_28.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterExecution -->
-        <test-method status="PASS" signature="endingTest()[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="endingTest" is-config="true" duration-ms="427" started-at="2017-07-28T10:13:29Z" finished-at="2017-07-28T10:13:30Z">
+        <test-method status="PASS" signature="endingTest()[pri:0, instance:com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47]" name="endingTest" is-config="true" duration-ms="896" started-at="2017-08-02T10:09:44Z" finished-at="2017-08-02T10:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endingTest -->

@@ -121,6 +121,11 @@ public class TestBase {
 					+ "\\src\\main\\java\\com\\hybridframework_Selenium\\pageLocator\\flightreviewpage.properties");
 			prop.load(fileinputstream);
 			
+			fileinputstream = new FileInputStream(System.getProperty("user.dir")
+					+ "\\src\\main\\java\\com\\hybridframework_Selenium\\pageLocator\\hotelviewpage.properties");
+			prop.load(fileinputstream);
+			
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

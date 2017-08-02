@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse-1732373935\testng-customsuite.xml</span>
+                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse-1351328608\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -128,8 +128,8 @@
                   <a name="hotelSearchlistTestCase">
                   </a> <!-- hotelSearchlistTestCase -->
                   <span class="method-name">hotelSearchlistTestCase</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.15 seconds
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.20 seconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -138,8 +138,9 @@ Command duration or timeout: 30.15 seconds
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:477)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:478)
+	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:507)
 	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:90)
 	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -167,14 +168,16 @@ Command duration or timeout: 30.15 seconds
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
 System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10752)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12727)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous6490171274584494974webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9525)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10238)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12511)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -184,7 +187,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse-1732373935\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse-1351328608\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -237,7 +240,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'hotelSearchlistTestCase')
 data.setCell(0, 2, 'com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase')
-data.setCell(0, 3, 78448);
+data.setCell(0, 3, 60286);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -262,18 +265,13 @@ return data;
                 <span class="reporter-method-output">navigateURL--URL--</span>
                 <span class="reporter-method-output">Navigating the URL. The Domain Name is https://www.makemytrip.com/</span>
                 <span class="reporter-method-output">click--homepage.header.hotellink--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: header_tab_hotels]</span>
+                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: header_tab_hotels]</span>
                 <span class="reporter-method-output">verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com</span>
                 <span class="reporter-method-output">Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com</span>
                 <span class="reporter-method-output">click--homepage.hotel.city.hoteltxt--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__sDest]</span>
+                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: hp-widget__sDest]</span>
                 <span class="reporter-method-output">selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore</span>
                 <span class="reporter-method-output">chooseDate----25-October 2017</span>
-                <span class="reporter-method-output">click--homepage.hotel.outsidefield--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> xpath: //div[@class='hp-widget']]</span>
-                <span class="reporter-method-output">click--homepage.hotel.getchlOutselecteddate--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (ce1f6184-47f7-4711-9573-4e50bba4e888)] -> id: hp-widget__chkOut]</span>
-                <span class="reporter-method-output">chooseDate----27-November 2017</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -304,11 +302,11 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterExecution([TestResult name=hotelSearchlistTestCase status=FAILURE method=TC006_HotelSearchlistTestCase.hotelSe...)</span>
-                <span class="method-start">78464 ms</span>
+                <span class="method-start">60326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endingTest</span>
-                <span class="method-start">79611 ms</span>
+                <span class="method-start">62038 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
