@@ -125,6 +125,10 @@ public class TestBase {
 					+ "\\src\\main\\java\\com\\hybridframework_Selenium\\pageLocator\\hotelviewpage.properties");
 			prop.load(fileinputstream);
 			
+			fileinputstream = new FileInputStream(System.getProperty("user.dir")
+					+ "\\src\\main\\java\\com\\hybridframework_Selenium\\pageLocator\\bookingconfirmdetailspage.properties");
+			prop.load(fileinputstream);
+			
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -140,6 +144,41 @@ public class TestBase {
 		
 	}
 	
+	public  By getBylocator(String locator) throws Exception{
+		
+		return Bylocator(prop.getProperty(locator));
+	}
+
+	public static By Bylocator(String locator) throws Exception{
+		
+		 	String[] split = locator.split(":");
+		 	
+			String locatorType = split[0];
+			String locatorValue = split[1];
+			if (locatorType.toLowerCase().equals("id"))
+				return By.id(locatorValue);
+			else if (locatorType.toLowerCase().equals("name"))
+				return By.name(locatorValue);
+			else if ((locatorType.toLowerCase().equals("classname"))
+					|| (locatorType.toLowerCase().equals("class")))
+				return By.className(locatorValue);
+			else if ((locatorType.toLowerCase().equals("tagname"))
+					|| (locatorType.toLowerCase().equals("tag")))
+				return By.className(locatorValue);
+			else if ((locatorType.toLowerCase().equals("linktext"))
+					|| (locatorType.toLowerCase().equals("link")))
+				return By.linkText(locatorValue);
+			else if (locatorType.toLowerCase().equals("partiallinktext"))
+				return By.partialLinkText(locatorValue);
+			else if ((locatorType.toLowerCase().equals("cssselector"))
+					|| (locatorType.toLowerCase().equals("css")))
+				return By.cssSelector(locatorValue);
+			else if (locatorType.toLowerCase().equals("xpath"))
+				return By.xpath(locatorValue);
+			else
+				throw new Exception("Unknown locator type '" + locatorType + "'");
+		
+	}
 	public static WebElement getLocator(String locator) throws Exception {
         String[] split = locator.split(":");
 		String locatorType = split[0];

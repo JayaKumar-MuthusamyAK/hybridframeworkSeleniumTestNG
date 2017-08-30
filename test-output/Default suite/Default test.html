@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 02 10:08:42 IST 2017</td>
+<td>Started on:</td><td>Wed Aug 30 17:11:15 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62957 ms)</td>
+<tr><td>Total time:</td><td>133 seconds (133628 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,129 +76,67 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase()'><b>hotelSearchlistTestCase</b><br>Test class: com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase<br/>
-<a href="#Output-1754444726" onClick='toggleBox("Output-1754444726", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1990519794" onClick='toggleBox("Output-1990519794", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1754444726" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1754444726">
+<a href="#Output-1990519794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1990519794">
 Executable test cases name is :hotelSearchlistTestCase<br/>
 openBrowser--browserName--<br/>
-Opening the firefoxBrowser in Windows 7System<br/>
+Opening the chromeBrowser in Windows 7System<br/>
 navigateURL--URL--<br/>
 Navigating the URL. The Domain Name is https://www.makemytrip.com/<br/>
 click--homepage.header.hotellink--<br/>
-Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: header_tab_hotels]<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: header_tab_hotels]<br/>
 verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
 Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
 click--homepage.hotel.city.hoteltxt--<br/>
-Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: hp-widget__sDest]<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__sDest]<br/>
+waitForElementPresent--homepage.citylist.optionheader--<br/>
 selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore<br/>
-chooseDate----25-October 2017<br/>
+waitForElementPresent--homepage.datepicker.leftside.monthyear--<br/>
+chooseDate----22-November 2017<br/>
+chooseDateReturn----26-November 2017<br/>
+waitForInvisibility--homepage.datepicker.leftside.monthyear--<br/>
+click--homepage.hotel.roomguests--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__paxCounter]<br/>
+waitForElementPresent--homepage.passenger.room--<br/>
+chooseAdults----2<br/>
+chooseChildrenswiththeirAge----2|4|2<br/>
+waitForInvisibility--homepage.hotel.roomguests.done--<br/>
+verifyHiddenValue--homepage.passenger--<br/>
+click--homepage.searchbtn--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: searchBtn]<br/>
+waitForTextPresent--listingpage.hotelpageheading--Hotels in Bangalore<br/>
+clickOngivenName----Royal Orchid Central<br/>
+switchtoWindow----<br/>
+waitForTextPresent--hotel.viewpage.hotelname--Royal Orchid Central<br/>
+verifyTextPresent--hotel.viewpage.hotelname--Royal Orchid Central<br/>
+click--hotel.viewpage.roomtype.header.taboption--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='details-nav-roomtype']]<br/>
+waitForTextPresent--hotel.viewpage.roomonly.bookbtn--Book Now<br/>
+moveCusoronElement--hotel.viewpage.roomonly.bookbtn--<br/>
+click--hotel.viewpage.roomonly.bookbtn--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: (//div[@class='room-info clearfix'])[1]/div/div[2]/a]<br/>
+waitForTextPresent--booking.confimationpage.headingname--Booking Confirmation Details<br/>
+click--booking.confirmationpage.breakingup.arrow--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]<br/>
+verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--<br/>
+selectDropdown--booking.confirmationpage.titledropdown--Ms.<br/>
+directInput--booking.confirmationpage.firstnametxtbox--test<br/>
+Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestName']]<br/>
+directInput--booking.confirmationpage.lastnametxtbox--test<br/>
+Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestLastName']]<br/>
+directInput--booking.confirmationpage.emailtxtbox--text<br/>
+Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestEmail']]<br/>
+directInput--booking.confirmationpage.contactnotxtbox--text<br/>
+Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestNum']]<br/>
+click--booking.confirmationpage.paynowbtn--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //a[@id='makePaymentId']]<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 30.20 seconds
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:478)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:507)
-	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:90)
-	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
-System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9525)
-	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10238)
-	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12511)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1754444726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1754444726'><pre>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 30.20 seconds
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:478)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseDate(Keywords.java:507)
-	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:90)
-	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
-System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9525)
-	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10238)
-	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12511)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12744)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin/AppData/Local/Temp/anonymous851265853947085284webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:720)
-</pre></div></td>
-<td>60</td>
-<td>com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@7fe8ea47</td></tr>
+<td></td>
+<td>133</td>
+<td>com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@731f8236</td></tr>
 </table><p>
 </body>
 </html>

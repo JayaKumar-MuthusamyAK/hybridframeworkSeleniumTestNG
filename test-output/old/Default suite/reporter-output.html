@@ -1,15 +1,53 @@
 <h2>Reporter output</h2><table><tr><td>Executable test cases name is :hotelSearchlistTestCase</td></tr>
 <tr><td>openBrowser--browserName--</td></tr>
-<tr><td>Opening the firefoxBrowser in Windows 7System</td></tr>
+<tr><td>Opening the chromeBrowser in Windows 7System</td></tr>
 <tr><td>navigateURL--URL--</td></tr>
 <tr><td>Navigating the URL. The Domain Name is https://www.makemytrip.com/</td></tr>
 <tr><td>click--homepage.header.hotellink--</td></tr>
-<tr><td>Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: header_tab_hotels]</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: header_tab_hotels]</td></tr>
 <tr><td>verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com</td></tr>
 <tr><td>Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com</td></tr>
 <tr><td>click--homepage.hotel.city.hoteltxt--</td></tr>
-<tr><td>Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (53d755b8-5d36-440f-bd2f-9acb8b22ea5b)] -> id: hp-widget__sDest]</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__sDest]</td></tr>
+<tr><td>waitForElementPresent--homepage.citylist.optionheader--</td></tr>
 <tr><td>selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore</td></tr>
-<tr><td>chooseDate----25-October 2017</td></tr>
-<tr><td><a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\02_08_2017_10_09_42.png' height='100' width='100'/> </a></td></tr>
+<tr><td>waitForElementPresent--homepage.datepicker.leftside.monthyear--</td></tr>
+<tr><td>chooseDate----22-November 2017</td></tr>
+<tr><td>chooseDateReturn----26-November 2017</td></tr>
+<tr><td>waitForInvisibility--homepage.datepicker.leftside.monthyear--</td></tr>
+<tr><td>click--homepage.hotel.roomguests--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__paxCounter]</td></tr>
+<tr><td>waitForElementPresent--homepage.passenger.room--</td></tr>
+<tr><td>chooseAdults----2</td></tr>
+<tr><td>chooseChildrenswiththeirAge----2|4|2</td></tr>
+<tr><td>waitForInvisibility--homepage.hotel.roomguests.done--</td></tr>
+<tr><td>verifyHiddenValue--homepage.passenger--</td></tr>
+<tr><td>click--homepage.searchbtn--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: searchBtn]</td></tr>
+<tr><td>waitForTextPresent--listingpage.hotelpageheading--Hotels in Bangalore</td></tr>
+<tr><td>clickOngivenName----Royal Orchid Central</td></tr>
+<tr><td>switchtoWindow----</td></tr>
+<tr><td>waitForTextPresent--hotel.viewpage.hotelname--Royal Orchid Central</td></tr>
+<tr><td>verifyTextPresent--hotel.viewpage.hotelname--Royal Orchid Central</td></tr>
+<tr><td>click--hotel.viewpage.roomtype.header.taboption--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='details-nav-roomtype']]</td></tr>
+<tr><td>waitForTextPresent--hotel.viewpage.roomonly.bookbtn--Book Now</td></tr>
+<tr><td>moveCusoronElement--hotel.viewpage.roomonly.bookbtn--</td></tr>
+<tr><td>click--hotel.viewpage.roomonly.bookbtn--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: (//div[@class='room-info clearfix'])[1]/div/div[2]/a]</td></tr>
+<tr><td>waitForTextPresent--booking.confimationpage.headingname--Booking Confirmation Details</td></tr>
+<tr><td>click--booking.confirmationpage.breakingup.arrow--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]</td></tr>
+<tr><td>verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--</td></tr>
+<tr><td>selectDropdown--booking.confirmationpage.titledropdown--Ms.</td></tr>
+<tr><td>directInput--booking.confirmationpage.firstnametxtbox--test</td></tr>
+<tr><td>Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestName']]</td></tr>
+<tr><td>directInput--booking.confirmationpage.lastnametxtbox--test</td></tr>
+<tr><td>Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestLastName']]</td></tr>
+<tr><td>directInput--booking.confirmationpage.emailtxtbox--text</td></tr>
+<tr><td>Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestEmail']]</td></tr>
+<tr><td>directInput--booking.confirmationpage.contactnotxtbox--text</td></tr>
+<tr><td>Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestNum']]</td></tr>
+<tr><td>click--booking.confirmationpage.paynowbtn--</td></tr>
+<tr><td>Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //a[@id='makePaymentId']]</td></tr>
 </table>

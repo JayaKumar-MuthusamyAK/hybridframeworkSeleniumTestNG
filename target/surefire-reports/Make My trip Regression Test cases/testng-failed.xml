@@ -7,6 +7,13 @@
   </listeners>
   <test name="Login Regression Test(failed)" parallel="classes">
     <classes>
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
       <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
         <methods>
           <include name="afterExecution"/>
@@ -15,30 +22,6 @@
           <include name="endingTest"/>
         </methods>
       </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
     </classes>
   </test> <!-- Login Regression Test(failed) -->
-  <test name="Sign Up Regression Test(failed)" parallel="classes">
-    <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="signUpPageTestcases" invocation-numbers="0 0"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-    </classes>
-  </test> <!-- Sign Up Regression Test(failed) -->
 </suite> <!-- Failed suite [Make My trip Regression Test cases] -->

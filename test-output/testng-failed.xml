@@ -8,7 +8,6 @@
           <include name="afterExecution"/>
           <include name="beforeExecution"/>
           <include name="hotelSearchlistTestCase"/>
-          <include name="endingTest"/>
         </methods>
       </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
     </classes>

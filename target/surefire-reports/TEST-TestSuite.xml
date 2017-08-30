@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0" tests="8" errors="0" skipped="7" failures="0">
+<testsuite name="TestSuite" time="48.012" tests="7" errors="0" skipped="6" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\admin\housingman\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1275720588560031679.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\platform-tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\admin\Documents\source\gradle-2.10\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\nodejs;C:\Program Files\TortoiseSVN\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Java\jre1.8.0_71\bin;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\platform-tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\admin\Documents\source\gradle-2.10\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\nodejs;C:\Program Files\TortoiseSVN\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Java\jre1.8.0_71\bin;C:\Users\admin\AppData\Roaming\npm;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -37,13 +37,13 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="admin"/>
-    <property name="java.class.path" value="D:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/D:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_71\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,32 +51,30 @@
     <property name="java.version" value="1.8.0_71"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\apache-maven-3.3.9"/>
+    <property name="maven.home" value="C:\Users\admin\housingman\workspace\hybridframework_Selenium\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
     <skipped/>
     <system-out><![CDATA[...
-... TestNG 6.10 by CÃ©dric Beust (cedric@beust.com)
+... TestNG 6.10 by Cédric Beust (cedric@beust.com)
 ...
 
 Test cases started row number :1
 Test cases total column count are :5
 Test cases total rows count are :6
-Runmode--N --Email-- --Password-- --Expected_Result-- --Status-- --
-Runmode--Y --Email--test@yopmail.com --Password--hjkhjhdjd^7 --Expected_Result-- --Status-- --
-Runmode--N --Email--jakay507@gmail.com --Password--jakay07@ --Expected_Result-- --Status-- --
-Runmode--Y --Email-- --Password--545 --Expected_Result-- --Status-- --
-Runmode--N --Email-- --Password--545 --Expected_Result-- --Status-- --
-Runmode--N --Email--jakay34@gmail.com --Password--12345678 --Expected_Result-- --Status-- --
+Runmode--N --Email-- --Password-- --Expected_Result-- --Status--SKIP --
+Runmode--Y --Email--test@yopmail.com --Password--hjkhjhdjd^7 --Expected_Result-- --Status--SKIP --
+Runmode--N --Email--jakay507@gmail.com --Password--jakay07@ --Expected_Result-- --Status--SKIP --
+Runmode--Y --Email-- --Password--545 --Expected_Result-- --Status--SKIP --
+Runmode--N --Email-- --Password--545 --Expected_Result-- --Status--SKIP --
+Runmode--N --Email--jakay34@gmail.com --Password--12345678 --Expected_Result-- --Status--SKIP --
 ]]></system-out>
     <system-err><![CDATA[log4j:WARN No appenders could be found for logger (com.hybridframework_Selenium.testBase.TestBase).
 log4j:WARN Please initialize the log4j system properly.
@@ -99,25 +97,6 @@ Password
 Expected_Result
  --
 Status
- --
-]]></system-out>
-  </testcase>
-  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
-    <skipped/>
-    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
-1
-6
-2
-3
-Runmode
-N --
-Email
- --
-Password
- --
-Expected_Result
- --
-Status
 SKIP --
 ]]></system-out>
   </testcase>
@@ -178,7 +157,7 @@ Status
 SKIP --
 ]]></system-out>
   </testcase>
-  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="0">
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
     <skipped/>
     <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
 1
@@ -195,25 +174,7 @@ Expected_Result
  --
 Status
 SKIP --
-Test cases started row number :10
-Test cases total column count are :6
-Test cases total rows count are :1
-Runmode--Y --Email--jakay --Mobile--9985652 --Password-- --Expected_Result-- --Status-- --
-2017-07-31 11:07:39 INFO  Keywords:422 - Executable test cases name is :signUpPageTestcases
-2017-07-31 11:07:39 INFO  Keywords:422 - openBrowser--browserName--
-2017-07-31 11:07:45 INFO  Keywords:422 - Opening the firefoxBrowser in Windows 7System
-2017-07-31 11:07:45 INFO  Keywords:422 - navigateURL--URL--
-2017-07-31 11:07:45 INFO  Keywords:422 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
-2017-07-31 11:08:34 INFO  Keywords:422 - verifyLink--signuplink--
-2017-07-31 11:08:36 INFO  Keywords:422 - click--signuplink--
-2017-07-31 11:08:36 INFO  Keywords:422 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (95e3c636-170f-41e3-9e7f-29c3feaaf893)] -> id: ch_signup_icon]
-2017-07-31 11:08:37 INFO  Keywords:422 - input--signupemailtxtbox--Email
-2017-07-31 11:08:37 INFO  Keywords:422 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (95e3c636-170f-41e3-9e7f-29c3feaaf893)] -> id: ch_signup_email]
-======RETRYING TESTCASES  signUpPageTestcases AND THE STATUS IS : Fail FOR THE RETRY COUNT IS 1 times====
 ]]></system-out>
-    <system-err><![CDATA[Jul 31, 2017 11:07:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
   </testcase>
-  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="59.515"/>
+  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="48.012"/>
 </testsuite>

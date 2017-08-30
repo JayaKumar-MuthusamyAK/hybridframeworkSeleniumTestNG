@@ -20,8 +20,7 @@ public class TC002_SignUpPageTestcases extends TestBase{
 			throw new SkipException("user set this test cases runmode is no");
 		if(!data.get("Runmode").equals("Y")){
 			//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum("signUpPageTestcases", Keywords.xls,"Expected_Result"), "-");
-			
-			Keywords.xls.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "-");
+			//Keywords.xls.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "-");
 			throw new SkipException("user set this test case data runmode is no");	
 		}
 		else{

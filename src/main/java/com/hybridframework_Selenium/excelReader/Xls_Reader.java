@@ -732,8 +732,9 @@ public class Xls_Reader {
 			// datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Expected_Result", "Testing comments 1");
 			// datatable.setCellDataInparticularCell("loginTestwithDifferentscenarios", "Test Data", "Status", "Pass");
 			//datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Steps", "Status", "testing comments");
-			datatable.setCellData1("Test Steps", "Status", 3, "testing comments");
-			
+			//datatable.setCellData1("Test Steps", "Status", 3, "testing comments");
+			System.out.println(datatable.getCellData("Test Data", "Expected_Result", 3));
+		    
 			//datatable.setCellDataInparticularCell("FlightSearchlistTestCase", "Test Data", "Status", "Pass");
 			//datatable.setCellDataInparticularCell("signUpPageTestcases", "Test Data", "Expected_Result", "Pass");
 			 //datatable.setCellData1("signUpPageTestcases", "", colName, rowNum, data)

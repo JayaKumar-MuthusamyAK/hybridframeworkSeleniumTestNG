@@ -14,10 +14,10 @@ public class TC006_HotelSearchlistTestCase extends TestBase {
 	@Test
 	public void hotelSearchlistTestCase() throws Exception{
 		
-		if(TestUtils.isTestcasesExecutable("hotelSearchlistTestCase", Keywords.xls))
+		if(!TestUtils.isTestcasesExecutable("hotelSearchlistTestCase", Keywords.xls))
 			throw new SkipException("User Set the test case Run mode is NO");
 		Keywords k = Keywords.getInstance();
 		k.executeKeywords("hotelSearchlistTestCase", null);
-	}
+	} 
 
 }

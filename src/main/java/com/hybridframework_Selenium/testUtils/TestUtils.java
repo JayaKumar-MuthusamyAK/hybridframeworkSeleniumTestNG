@@ -133,13 +133,14 @@ public class TestUtils {
 			return 0;
 		}
 		
+		
 	public static void main(String[] args) {
 		
 		//Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx");
 		TestUtils obj = new TestUtils();
 		//obj.isTestcasesExecutable("LoginTest", Keywords.xls);
 		System.out.println(obj.getNum("signUpPageTestcases", Keywords.xls, "Status"));
-	
+		obj.getData("loginTestwithDifferentscenarios", Keywords.xls);
 	}
 
 }
