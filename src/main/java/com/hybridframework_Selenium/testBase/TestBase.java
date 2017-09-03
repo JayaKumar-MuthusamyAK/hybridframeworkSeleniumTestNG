@@ -288,6 +288,7 @@ public class TestBase {
 			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "FAIL");
 			extenttest.log(LogStatus.ERROR, result.getName()+"test is failed"+result.getThrowable());
 			extenttest.log(LogStatus.FAIL, result.getName()+"test is failed"+extenttest.addScreenCapture(catureScreen("")));
+			closeBrowser();
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
 			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "SKIP");

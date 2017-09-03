@@ -10,6 +10,7 @@ import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
+import java.util.Random;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -83,13 +84,16 @@ public class Keywords extends TestBase{
 					result =clickOngivenName(datakeys);
 					break;
 				case "input":
-					result = input(objectkeys,data.get(datakeys));
-					break;
-				case "directInput":
-					result = directInput(objectkeys,datakeys);
+					if(data!=null)result = input(objectkeys,data.get(datakeys));else result = input(objectkeys,datakeys);
 					break;
 				case "verifySuccessMsg":
-					result = verifySuccessMsg(objectkeys,data.get(datakeys));
+					if(data!=null)result = verifySuccessMsg(objectkeys, data.get(datakeys));else result = verifySuccessMsg(objectkeys, datakeys);
+					break;
+				case "randomMailgenerator":
+					result = randomMailgenerator(objectkeys,datakeys);
+					break;
+				case "randomPhonenoGenerator":
+					result = randomPhonenoGenerator(objectkeys);
 					break;
 				case "selectdivOptions":
 					result = selectdivOptions(objectkeys,datakeys);
@@ -189,6 +193,35 @@ public class Keywords extends TestBase{
 		
 	}
 
+	public String randomPhonenoGenerator(String objectkeys) throws Exception {
+		
+		Random random = new Random();
+		StringBuilder stringbuilder = new StringBuilder();
+		
+		for(int i=0;i<10;i++){
+			//System.out.println(stringbuilder.append(random.nextInt(10)));
+			stringbuilder.append(random.nextInt(10));
+		}
+		System.out.println(stringbuilder.toString());
+		getWebElement(objectkeys).sendKeys(stringbuilder.toString());
+		return "Pass";
+	}
+
+	public String randomMailgenerator(String objectkeys, String datakeys) throws Exception {
+		Random random = new Random();
+		if (datakeys.contains("@")) {
+			int r = random.nextInt(10000);
+			String var1 = datakeys.split("@")[0];
+			String var2 = datakeys.split("@")[1];
+			String var3 = var1 + r + "@" + var2;
+			log("Generated Email Address is :" + var3);
+
+			getWebElement(objectkeys).sendKeys(var3);
+		} else {
+			getWebElement(objectkeys).sendKeys(datakeys);
+		}
+		return null;
+	}
 
 	public String waitForElementPresent(String objectkeys) throws Exception {
 		
@@ -375,7 +408,7 @@ public class Keywords extends TestBase{
 		}
 		String text = objectkeys.split("\\|")[2];
 		System.out.println(flightpricemap.get(listofflightsnames.get(0)));
-		Assert.assertTrue(calculatetot==Integer.parseInt(getWebElement(text).getText()), "Total price is matching with Expected Result");
+		Assert.assertTrue(calculatetot==Integer.parseInt(getWebElement(text).getText().replace(",", "").split("Rs ")[1]), "Total price is matching with Expected Result");
 		
 		return "Pass";
 	}
@@ -402,14 +435,6 @@ public class Keywords extends TestBase{
 		}
 		return "PASS";
 	}
-
-
-	public String directInput(String objectkeys, String datakeys) throws Exception {
-		log("Entering the values in given webelement. The element name is =>>"+getWebElement(objectkeys));
-		getWebElement(objectkeys).sendKeys(datakeys);
-		return "Pass";
-	}
-
 	public void log(String data){
 		log.info(data);
 		Reporter.log(data);

@@ -114,7 +114,7 @@
 
 						<configuration>
 							<!-- From Email address -->
-							<from>jayakumar@housingman.com</from>
+							<from>pep.testing7@gmail.com</from>
 
 							<!-- Email subject -->
 							<subject>makemytrip.com test Automation Report</subject>
@@ -130,8 +130,8 @@
 							<mailAltConfig>true</mailAltConfig>
 
 							<!-- Email Authentication(USername and Password) -->
-							<mailuser>jayakumar@housingman.com</mailuser>
-							<mailpassword>jakay07@</mailpassword>
+							<mailuser>pep.testing7@gmail.com</mailuser>
+							<mailpassword>pep.testing123</mailpassword>
 
 							<receivers>
 								<!-- To Email address -->

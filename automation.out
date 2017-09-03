@@ -1,52 +1,31 @@
-2017-08-30 17:11:16 INFO  Keywords:414 - Executable test cases name is :hotelSearchlistTestCase
-2017-08-30 17:11:16 INFO  Keywords:414 - openBrowser--browserName--
-2017-08-30 17:11:26 INFO  Keywords:414 - Opening the chromeBrowser in Windows 7System
-2017-08-30 17:11:27 INFO  Keywords:414 - navigateURL--URL--
-2017-08-30 17:11:27 INFO  Keywords:414 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
-2017-08-30 17:11:40 INFO  Keywords:414 - click--homepage.header.hotellink--
-2017-08-30 17:11:40 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: header_tab_hotels]
-2017-08-30 17:11:46 INFO  Keywords:414 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
-2017-08-30 17:11:46 INFO  Keywords:414 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
-2017-08-30 17:11:46 INFO  Keywords:414 - click--homepage.hotel.city.hoteltxt--
-2017-08-30 17:11:46 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__sDest]
-2017-08-30 17:11:47 INFO  Keywords:414 - waitForElementPresent--homepage.citylist.optionheader--
-2017-08-30 17:11:48 INFO  Keywords:414 - selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore
-2017-08-30 17:11:48 INFO  Keywords:414 - waitForElementPresent--homepage.datepicker.leftside.monthyear--
-2017-08-30 17:11:48 INFO  Keywords:414 - chooseDate----22-November 2017
-2017-08-30 17:11:54 INFO  Keywords:414 - chooseDateReturn----26-November 2017
-2017-08-30 17:11:57 INFO  Keywords:414 - waitForInvisibility--homepage.datepicker.leftside.monthyear--
-2017-08-30 17:11:57 INFO  Keywords:414 - click--homepage.hotel.roomguests--
-2017-08-30 17:11:57 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: hp-widget__paxCounter]
-2017-08-30 17:11:59 INFO  Keywords:414 - waitForElementPresent--homepage.passenger.room--
-2017-08-30 17:11:59 INFO  Keywords:414 - chooseAdults----2
-2017-08-30 17:11:59 INFO  Keywords:414 - chooseChildrenswiththeirAge----2|4|2
-2017-08-30 17:12:00 INFO  Keywords:414 - waitForInvisibility--homepage.hotel.roomguests.done--
-2017-08-30 17:12:00 INFO  Keywords:414 - verifyHiddenValue--homepage.passenger--
-2017-08-30 17:12:00 INFO  Keywords:414 - click--homepage.searchbtn--
-2017-08-30 17:12:00 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> id: searchBtn]
-2017-08-30 17:12:05 INFO  Keywords:414 - waitForTextPresent--listingpage.hotelpageheading--Hotels in Bangalore
-2017-08-30 17:12:06 INFO  Keywords:414 - clickOngivenName----Royal Orchid Central
-2017-08-30 17:12:07 INFO  Keywords:414 - switchtoWindow----
-2017-08-30 17:12:10 INFO  Keywords:414 - waitForTextPresent--hotel.viewpage.hotelname--Royal Orchid Central
-2017-08-30 17:12:12 INFO  Keywords:414 - verifyTextPresent--hotel.viewpage.hotelname--Royal Orchid Central
-2017-08-30 17:12:12 INFO  Keywords:414 - click--hotel.viewpage.roomtype.header.taboption--
-2017-08-30 17:12:13 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='details-nav-roomtype']]
-2017-08-30 17:12:17 INFO  Keywords:414 - waitForTextPresent--hotel.viewpage.roomonly.bookbtn--Book Now
-2017-08-30 17:12:17 INFO  Keywords:414 - moveCusoronElement--hotel.viewpage.roomonly.bookbtn--
-2017-08-30 17:12:17 INFO  Keywords:414 - click--hotel.viewpage.roomonly.bookbtn--
-2017-08-30 17:12:17 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: (//div[@class='room-info clearfix'])[1]/div/div[2]/a]
-2017-08-30 17:12:19 INFO  Keywords:414 - waitForTextPresent--booking.confimationpage.headingname--Booking Confirmation Details
-2017-08-30 17:12:24 INFO  Keywords:414 - click--booking.confirmationpage.breakingup.arrow--
-2017-08-30 17:12:24 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]
-2017-08-30 17:12:25 INFO  Keywords:414 - verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--
-2017-08-30 17:13:26 INFO  Keywords:414 - selectDropdown--booking.confirmationpage.titledropdown--Ms.
-2017-08-30 17:13:26 INFO  Keywords:414 - directInput--booking.confirmationpage.firstnametxtbox--test
-2017-08-30 17:13:26 INFO  Keywords:414 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestName']]
-2017-08-30 17:13:26 INFO  Keywords:414 - directInput--booking.confirmationpage.lastnametxtbox--test
-2017-08-30 17:13:26 INFO  Keywords:414 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestLastName']]
-2017-08-30 17:13:27 INFO  Keywords:414 - directInput--booking.confirmationpage.emailtxtbox--text
-2017-08-30 17:13:27 INFO  Keywords:414 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestEmail']]
-2017-08-30 17:13:27 INFO  Keywords:414 - directInput--booking.confirmationpage.contactnotxtbox--text
-2017-08-30 17:13:27 INFO  Keywords:414 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //*[@id='htR-trvlr-guestNum']]
-2017-08-30 17:13:27 INFO  Keywords:414 - click--booking.confirmationpage.paynowbtn--
-2017-08-30 17:13:27 INFO  Keywords:414 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (c538c686f1fbdfe8e9983fcb918dbec7)] -> xpath: //a[@id='makePaymentId']]
+2017-09-03 14:52:41 INFO  Keywords:439 - Executable test cases name is :flightSearchlistTestCase
+2017-09-03 14:52:41 INFO  Keywords:439 - openBrowser--browserName--
+2017-09-03 14:52:43 INFO  Keywords:439 - Opening the chromeBrowser in Windows 7System
+2017-09-03 14:52:43 INFO  Keywords:439 - navigateURL--URL--
+2017-09-03 14:52:43 INFO  Keywords:439 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-09-03 14:53:04 INFO  Keywords:439 - click--homepage.from.box--
+2017-09-03 14:53:04 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__sfrom]
+2017-09-03 14:53:05 INFO  Keywords:439 - selectdivOptions--homepage.from.options--Delhi
+2017-09-03 14:53:05 INFO  Keywords:439 - click--homepage.to.box--
+2017-09-03 14:53:06 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__sTo]
+2017-09-03 14:53:07 INFO  Keywords:439 - selectdivOptions--homepage.to.options--Mumbai
+2017-09-03 14:53:08 INFO  Keywords:439 - click--homepage.go.date--
+2017-09-03 14:53:08 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__depart]
+2017-09-03 14:53:09 INFO  Keywords:439 - chooseDate----12-October 2017
+2017-09-03 14:53:10 INFO  Keywords:439 - click--homepage.passenger--
+2017-09-03 14:53:10 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__paxCounter]
+2017-09-03 14:53:11 INFO  Keywords:439 - chooseAdults----2
+2017-09-03 14:53:12 INFO  Keywords:439 - chooseChildrans----0
+2017-09-03 14:53:12 INFO  Keywords:439 - chooseInfants----0
+2017-09-03 14:53:12 INFO  Keywords:439 - click--homepage.passenger.done--
+2017-09-03 14:53:12 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]
+2017-09-03 14:53:13 INFO  Keywords:439 - verifyHiddenValue--homepage.passenger--
+2017-09-03 14:53:13 INFO  Keywords:439 - click--homepage.class--
+2017-09-03 14:53:13 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__class]
+2017-09-03 14:53:14 INFO  Keywords:439 - chooseClass----Economy
+2017-09-03 14:53:14 INFO  Keywords:439 - click--homepage.searchbtn--
+2017-09-03 14:53:14 INFO  Keywords:439 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: searchBtn]
+2017-09-03 14:53:45 INFO  Keywords:439 - verifyTotalinSplit--listingpage.total--
+2017-09-03 14:53:54 INFO  Keywords:439 - scrollDownVerifyCount--listingpage.nameslist|listingpage.total--
+2017-09-03 14:53:55 INFO  Keywords:439 - printAllprojectnames--listingpage.nameslist--
+2017-09-03 14:53:58 INFO  Keywords:439 - chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957

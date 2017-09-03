@@ -5,23 +5,13 @@
     <listener class-name="com.hybridframework_Selenium.customListner.Listners"/>
     <listener class-name="com.hybridframework_Selenium.customListner.RetryListners"/>
   </listeners>
-  <test name="Login Regression Test(failed)" parallel="classes">
+  <test name="Flight Search Listing page Regression Test(failed)" parallel="classes">
     <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+      <class name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase">
         <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
+          <include name="flight_SearchListingTestCase"/>
         </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="loginTestwithDifferentscenarios" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase -->
     </classes>
-  </test> <!-- Login Regression Test(failed) -->
+  </test> <!-- Flight Search Listing page Regression Test(failed) -->
 </suite> <!-- Failed suite [Make My trip Regression Test cases] -->
