@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Make_My_trip_Regression_Test_cases">
-              <span class="suite-name border-failed">Make My trip Regression Test cases</span>
+              <span class="suite-name border-passed">Make My trip Regression Test cases</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,35 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="hide-methods failed suite-Make_My_trip_Regression_Test_cases"> (hide)</a> <!-- hide-methods failed suite-Make_My_trip_Regression_Test_cases -->
-                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="show-methods failed suite-Make_My_trip_Regression_Test_cases"> (show)</a> <!-- show-methods failed suite-Make_My_trip_Regression_Test_cases -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="hide-methods passed suite-Make_My_trip_Regression_Test_cases"> (hide)</a> <!-- hide-methods passed suite-Make_My_trip_Regression_Test_cases -->
+                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="show-methods passed suite-Make_My_trip_Regression_Test_cases"> (show)</a> <!-- show-methods passed suite-Make_My_trip_Regression_Test_cases -->
                     </span>
-                    <div class="method-list-content failed suite-Make_My_trip_Regression_Test_cases">
+                    <div class="method-list-content passed suite-Make_My_trip_Regression_Test_cases">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Make_My_trip_Regression_Test_cases" title="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase" hash-for-method="flight_SearchListingTestCase">flight_SearchListingTestCase</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Make_My_trip_Regression_Test_cases" title="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest" hash-for-method="normalFlowLoginTestcase">normalFlowLoginTestcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Make_My_trip_Regression_Test_cases -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="hide-methods skipped suite-Make_My_trip_Regression_Test_cases"> (hide)</a> <!-- hide-methods skipped suite-Make_My_trip_Regression_Test_cases -->
-                      <a href="#" panel-name="suite-Make_My_trip_Regression_Test_cases" class="show-methods skipped suite-Make_My_trip_Regression_Test_cases"> (show)</a> <!-- show-methods skipped suite-Make_My_trip_Regression_Test_cases -->
-                    </span>
-                    <div class="method-list-content skipped suite-Make_My_trip_Regression_Test_cases">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Make_My_trip_Regression_Test_cases" title="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase" hash-for-method="flight_SearchListingTestCase">flight_SearchListingTestCase</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Make_My_trip_Regression_Test_cases -->
+                    </div> <!-- method-list-content passed suite-Make_My_trip_Regression_Test_cases -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,60 +117,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Make_My_trip_Regression_Test_cases" class="panel Make_My_trip_Regression_Test_cases">
-          <div class="suite-Make_My_trip_Regression_Test_cases-class-failed">
+          <div class="suite-Make_My_trip_Regression_Test_cases-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="flight_SearchListingTestCase">
-                  </a> <!-- flight_SearchListingTestCase -->
-                  <span class="method-name">flight_SearchListingTestCase</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;Rs. 5,606&quot;
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseOnBook(Keywords.java:411)
-	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:132)
-	at com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase.flight_SearchListingTestCase(TC005_Flight_SearchListingTestCase.java:18)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 10 stack frames
-</div> <!-- stack-trace -->
+                  <a name="normalFlowLoginTestcase">
+                  </a> <!-- normalFlowLoginTestcase -->
+                  <span class="method-name">normalFlowLoginTestcase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Make_My_trip_Regression_Test_cases-class-failed -->
-          <div class="suite-Make_My_trip_Regression_Test_cases-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="flight_SearchListingTestCase">
-                  </a> <!-- flight_SearchListingTestCase -->
-                  <span class="method-name">flight_SearchListingTestCase</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;Rs. 5,606&quot;
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.hybridframework_Selenium.testScripts.Keywords.chooseOnBook(Keywords.java:411)
-	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:132)
-	at com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase.flight_SearchListingTestCase(TC005_Flight_SearchListingTestCase.java:18)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 10 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Make_My_trip_Regression_Test_cases-class-skipped -->
+          </div> <!-- suite-Make_My_trip_Regression_Test_cases-class-passed -->
         </div> <!-- panel Make_My_trip_Regression_Test_cases -->
         <div panel-name="test-xml-Make_My_trip_Regression_Test_cases" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -199,11 +146,11 @@
     &lt;listener class-name=&quot;com.hybridframework_Selenium.customListner.Listners&quot;/&gt;
     &lt;listener class-name=&quot;com.hybridframework_Selenium.customListner.RetryListners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Flight Search Listing page Regression Test&quot;&gt;
+  &lt;test name=&quot;Normal Login Flow Regression Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase&quot;/&gt;
+      &lt;class name=&quot;com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Flight Search Listing page Regression Test --&gt;
+  &lt;/test&gt; &lt;!-- Normal Login Flow Regression Test --&gt;
 &lt;/suite&gt; &lt;!-- Make My trip Regression Test cases --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Flight Search Listing page Regression Test (1 class)</span>
+                <span class="test-name">Normal Login Flow Regression Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -241,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'flight_SearchListingTestCase')
-data.setCell(0, 2, 'com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase')
-data.setCell(0, 3, 107816);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'flight_SearchListingTestCase')
-data.setCell(1, 2, 'com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase')
-data.setCell(1, 3, 99093);
+data.setCell(0, 1, 'normalFlowLoginTestcase')
+data.setCell(0, 2, 'com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest')
+data.setCell(0, 3, 85628);
 window.suiteTableData['Make_My_trip_Regression_Test_cases']= { tableData: data, tableDiv: 'times-div-Make_My_trip_Regression_Test_cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Make_My_trip_Regression_Test_cases">
               </div> <!-- times-div-Make_My_trip_Regression_Test_cases -->
             </div> <!-- times-div -->
@@ -266,78 +209,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">flight_SearchListingTestCase</span>
+              <span class="reporter-method-name">normalFlowLoginTestcase</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Automation test is Start, Test name is: flight_SearchListingTestCase</span>
-                <span class="reporter-method-output">Executable test cases name is :flightSearchlistTestCase</span>
+                <span class="reporter-method-output">Automation test is Start, Test name is: normalFlowLoginTestcase</span>
+                <span class="reporter-method-output">Executable test cases name is :normalFlowLoginTestcase</span>
                 <span class="reporter-method-output">openBrowser--browserName--</span>
                 <span class="reporter-method-output">Opening the chromeBrowser in Windows 7System</span>
                 <span class="reporter-method-output">navigateURL--URL--</span>
                 <span class="reporter-method-output">Navigating the URL. The Domain Name is https://www.makemytrip.com/</span>
-                <span class="reporter-method-output">click--homepage.from.box--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__sfrom]</span>
-                <span class="reporter-method-output">selectdivOptions--homepage.from.options--Delhi</span>
-                <span class="reporter-method-output">click--homepage.to.box--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__sTo]</span>
-                <span class="reporter-method-output">selectdivOptions--homepage.to.options--Mumbai</span>
-                <span class="reporter-method-output">click--homepage.go.date--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__depart]</span>
-                <span class="reporter-method-output">chooseDate----12-October 2017</span>
-                <span class="reporter-method-output">click--homepage.passenger--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__paxCounter]</span>
-                <span class="reporter-method-output">chooseAdults----2</span>
-                <span class="reporter-method-output">chooseChildrans----0</span>
-                <span class="reporter-method-output">chooseInfants----0</span>
-                <span class="reporter-method-output">click--homepage.passenger.done--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]</span>
-                <span class="reporter-method-output">verifyHiddenValue--homepage.passenger--</span>
-                <span class="reporter-method-output">click--homepage.class--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: hp-widget__class]</span>
-                <span class="reporter-method-output">chooseClass----Economy</span>
-                <span class="reporter-method-output">click--homepage.searchbtn--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (8c0f409c55407f6c3c1c12c7c0c42d79)] -> id: searchBtn]</span>
-                <span class="reporter-method-output">verifyTotalinSplit--listingpage.total--</span>
-                <span class="reporter-method-output">scrollDownVerifyCount--listingpage.nameslist|listingpage.total--</span>
-                <span class="reporter-method-output">printAllprojectnames--listingpage.nameslist--</span>
-                <span class="reporter-method-output">chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">flight_SearchListingTestCase</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Automation test is Start, Test name is: flight_SearchListingTestCase</span>
-                <span class="reporter-method-output">Executable test cases name is :flightSearchlistTestCase</span>
-                <span class="reporter-method-output">openBrowser--browserName--</span>
-                <span class="reporter-method-output">Opening the chromeBrowser in Windows 7System</span>
-                <span class="reporter-method-output">navigateURL--URL--</span>
-                <span class="reporter-method-output">Navigating the URL. The Domain Name is https://www.makemytrip.com/</span>
-                <span class="reporter-method-output">click--homepage.from.box--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: hp-widget__sfrom]</span>
-                <span class="reporter-method-output">selectdivOptions--homepage.from.options--Delhi</span>
-                <span class="reporter-method-output">click--homepage.to.box--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: hp-widget__sTo]</span>
-                <span class="reporter-method-output">selectdivOptions--homepage.to.options--Mumbai</span>
-                <span class="reporter-method-output">click--homepage.go.date--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: hp-widget__depart]</span>
-                <span class="reporter-method-output">chooseDate----12-October 2017</span>
-                <span class="reporter-method-output">click--homepage.passenger--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: hp-widget__paxCounter]</span>
-                <span class="reporter-method-output">chooseAdults----2</span>
-                <span class="reporter-method-output">chooseChildrans----0</span>
-                <span class="reporter-method-output">chooseInfants----0</span>
-                <span class="reporter-method-output">click--homepage.passenger.done--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]</span>
-                <span class="reporter-method-output">verifyHiddenValue--homepage.passenger--</span>
-                <span class="reporter-method-output">click--homepage.class--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: hp-widget__class]</span>
-                <span class="reporter-method-output">chooseClass----Economy</span>
-                <span class="reporter-method-output">click--homepage.searchbtn--</span>
-                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (3f59e91e3da574382961d9baf30e04d4)] -> id: searchBtn]</span>
-                <span class="reporter-method-output">verifyTotalinSplit--listingpage.total--</span>
-                <span class="reporter-method-output">scrollDownVerifyCount--listingpage.nameslist|listingpage.total--</span>
-                <span class="reporter-method-output">printAllprojectnames--listingpage.nameslist--</span>
-                <span class="reporter-method-output">chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957</span>
-                <span class="reporter-method-output">Automation test is skipped. This Test Name is flight_SearchListingTestCase</span>
+                <span class="reporter-method-output">verifyLink--login_link--</span>
+                <span class="reporter-method-output">click--login_link--</span>
+                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> xpath: //*[@id='ch_login_icon']/span[2]]</span>
+                <span class="reporter-method-output">input--loginemailtxtbox--jakay507@gmail.com</span>
+                <span class="reporter-method-output">Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_email]</span>
+                <span class="reporter-method-output">input--loginpasswdtxtbox--jakay07@</span>
+                <span class="reporter-method-output">Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_password]</span>
+                <span class="reporter-method-output">click--loginlinkbtn--</span>
+                <span class="reporter-method-output">Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_btn]</span>
+                <span class="reporter-method-output">close----</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -355,16 +244,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">flight_SearchListingTestCase</span>
+                <span class="method-name">normalFlowLoginTestcase</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">flight_SearchListingTestCase</span>
-                <span class="method-start">99094 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

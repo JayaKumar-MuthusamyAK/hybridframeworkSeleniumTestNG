@@ -14,13 +14,11 @@ public class TC003_NormalFlowLoginTest {
 	
 	//NormalLoginTest
 	
-	WebDriver driver;
 	@Test
 	public void normalFlowLoginTestcase() throws Exception{
 		
 		if(!TestUtils.isTestcasesExecutable("normalFlowLoginTestcase", Keywords.xls))
 			throw new SkipException("User is set this test cases runmode is No");
-		
 		
 		Keywords keywords=Keywords.getInstance();
 		keywords.executeKeywords("normalFlowLoginTestcase", null);

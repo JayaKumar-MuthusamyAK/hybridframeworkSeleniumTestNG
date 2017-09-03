@@ -4,7 +4,7 @@
 	 <listeners> <listener class-name="com.hybridframework_Selenium.customListner.Listners"></listener> 
 		<listener class-name="com.hybridframework_Selenium.customListner.RetryListners"></listener> 
 		</listeners>
-	<!-- <test name="Login Regression Test">
+	<!--  <test name="Login Regression Test">
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase"></class>
@@ -15,30 +15,30 @@
 			<class
 				name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases"></class>
 		</classes>
-	</test>
+	</test> -->
 	<test name="Normal Login Flow Regression Test">
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest"></class>
 		</classes>
 	</test>
-	<test name="Normal Sign up flow Regression Test">
+	<!-- <test name="Normal Sign up flow Regression Test">
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest"></class>
 		</classes>
-	</test> -->
+	</test> 
 	<test name="Flight Search Listing page Regression Test">
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase"></class>
 		</classes>
 	</test> 
-	<!-- <test name="Hotel Search listing page Regression Test">
+	 <test name="Hotel Search listing page Regression Test">
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase"></class>
 		</classes>
-	</test>  -->
+	</test>   -->
 	
 </suite>

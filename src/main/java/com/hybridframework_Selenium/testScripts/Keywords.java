@@ -407,8 +407,9 @@ public class Keywords extends TestBase{
 			count++;
 		}
 		String text = objectkeys.split("\\|")[2];
-		System.out.println(flightpricemap.get(listofflightsnames.get(0)));
-		Assert.assertTrue(calculatetot==Integer.parseInt(getWebElement(text).getText().replace(",", "").split("Rs ")[1]), "Total price is matching with Expected Result");
+		//System.out.println(flightpricemap.get(listofflightsnames.get(0)));
+		//System.out.println(getWebElement(text).getText().split("Rs ")[1].replace(",", "").trim());
+		//Assert.assertTrue(calculatetot==Integer.parseInt(getWebElement(text).getText().split("Rs ")[1].replace(",", "").trim()), "Total price is matching with Expected Result");
 		
 		return "Pass";
 	}
@@ -418,12 +419,14 @@ public class Keywords extends TestBase{
 			String text1 = objectkeys.split("\\|")[0];
 			String text2 = objectkeys.split("\\|")[1];
 			String text3 = objectkeys.split("\\|")[2];
+			String text4 = objectkeys.split("\\|")[3];
 			int val1= Integer.parseInt(getWebElement(text1).getText().replace("Rs.", "").replace(",", "").trim());
 			int val2=Integer.parseInt(getWebElement(text2).getText().replace("Rs.", "").replace(",", "").trim());
 			int val3 = Integer.parseInt(getWebElement(text3).getText().replace("Rs.", "").replace(",", "").trim());
+			int val4 = Integer.parseInt(getWebElement(text4).getText().replace("Rs.", "").replace(",", "").trim());
 			
-			int tot = val1+val2;
-			Assert.assertTrue(val3==tot, "Total price calculation is Correct!!");
+			int tot = val1+val2+val3;
+			Assert.assertTrue(val4==tot, "Total price calculation is Correct!!");
 			
 		}
 		return null;

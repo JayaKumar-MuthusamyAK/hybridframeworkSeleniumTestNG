@@ -9,8 +9,7 @@ import com.hybridframework_Selenium.testScripts.Keywords;
 import com.hybridframework_Selenium.testUtils.TestUtils;
 
 public class TC006_HotelSearchlistTestCase extends TestBase {
-	
-	WebDriver driver;
+
 	@Test
 	public void hotelSearchlistTestCase() throws Exception{
 		

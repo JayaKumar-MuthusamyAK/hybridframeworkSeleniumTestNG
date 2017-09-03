@@ -19,7 +19,6 @@ import com.hybridframework_Selenium.testUtils.TestUtils;
 
 public class TC001_LoginPageTestcase extends TestBase{
 	
-	WebDriver driver;
 	@Test(dataProvider="testDataProvider")
 	public void loginTestwithDifferentscenarios(Hashtable<String, String> data) throws Exception{
 		

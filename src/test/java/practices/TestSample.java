@@ -14,6 +14,9 @@ public class TestSample {
 		String text = tot.split("\\|")[0];
 		System.out.println(text);
 		
+		String string1 = "Rs 5,677";
+		System.out.println(string1.split("Rs ")[1].replace(",", "").trim());
+		
 		
 	}
 	/*public String verifySuccessMsg(String objectkeys) throws Exception {

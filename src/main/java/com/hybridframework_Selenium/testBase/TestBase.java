@@ -259,17 +259,14 @@ public class TestBase {
 		
 	}
 
-
-
 	@AfterClass
 	public void endingTest(){
 		closeBrowser();
 		
 	}
-
 	public void closeBrowser() {
 		if(driver!=null){
-			//driver.quit();
+			driver.quit();
 		}
 		extentreport.endTest(extenttest);
 		extentreport.flush();

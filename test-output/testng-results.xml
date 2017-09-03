@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Executable test cases name is :normalSignUpTestcase]]>
+      <![CDATA[Executable test cases name is :normalFlowLoginTestcase]]>
     </line>
     <line>
       <![CDATA[openBrowser--browserName--]]>
@@ -17,51 +17,51 @@
       <![CDATA[Navigating the URL. The Domain Name is https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[verifyLink--signuplink--]]>
+      <![CDATA[verifyTitle--homepageTitle--MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
     </line>
     <line>
-      <![CDATA[click--signuplink--]]>
+      <![CDATA[Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & HolidayExpected Title is: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_icon]]]>
+      <![CDATA[verifyLink--login_link--]]>
     </line>
     <line>
-      <![CDATA[randomMailgenerator--signupemailtxtbox--vijay@gmail.com]]>
+      <![CDATA[click--login_link--]]>
     </line>
     <line>
-      <![CDATA[Generated Email Address is :vijay3022@gmail.com]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> xpath: //*[@id='ch_login_icon']/span[2]]]]>
     </line>
     <line>
-      <![CDATA[randomPhonenoGenerator--signupmobiletxtbox--]]>
+      <![CDATA[input--loginemailtxtbox--jakay507@gmail.com]]>
     </line>
     <line>
-      <![CDATA[input--signuppasswdtxtbox--vijay8790]]>
+      <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_email]]]>
     </line>
     <line>
-      <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_password]]]>
+      <![CDATA[input--loginpasswdtxtbox--jakay07@]]>
     </line>
     <line>
-      <![CDATA[click--signupbtn--]]>
+      <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_password]]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_btn]]]>
+      <![CDATA[click--loginlinkbtn--]]>
     </line>
     <line>
-      <![CDATA[verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--Please enter an Email Address]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_btn]]]>
     </line>
     <line>
       <![CDATA[close----]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48511" started-at="2017-09-03T08:16:44Z" finished-at="2017-09-03T08:17:33Z">
+  <suite name="Default suite" duration-ms="36705" started-at="2017-09-03T16:17:36Z" finished-at="2017-09-03T16:18:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48511" started-at="2017-09-03T08:16:44Z" finished-at="2017-09-03T08:17:33Z">
-      <class name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest">
-        <test-method status="PASS" signature="normalSignUpTestcase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest@523884b2]" name="normalSignUpTestcase" duration-ms="48483" started-at="2017-09-03T13:46:44Z" finished-at="2017-09-03T13:47:33Z">
+    <test name="Default test" duration-ms="36705" started-at="2017-09-03T16:17:36Z" finished-at="2017-09-03T16:18:13Z">
+      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+        <test-method status="PASS" signature="normalFlowLoginTestcase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest@523884b2]" name="normalFlowLoginTestcase" duration-ms="36673" started-at="2017-09-03T21:47:36Z" finished-at="2017-09-03T21:48:13Z">
           <reporter-output>
             <line>
-              <![CDATA[Executable test cases name is :normalSignUpTestcase]]>
+              <![CDATA[Executable test cases name is :normalFlowLoginTestcase]]>
             </line>
             <line>
               <![CDATA[openBrowser--browserName--]]>
@@ -76,44 +76,44 @@
               <![CDATA[Navigating the URL. The Domain Name is https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[verifyLink--signuplink--]]>
+              <![CDATA[verifyTitle--homepageTitle--MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
             </line>
             <line>
-              <![CDATA[click--signuplink--]]>
+              <![CDATA[Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & HolidayExpected Title is: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_icon]]]>
+              <![CDATA[verifyLink--login_link--]]>
             </line>
             <line>
-              <![CDATA[randomMailgenerator--signupemailtxtbox--vijay@gmail.com]]>
+              <![CDATA[click--login_link--]]>
             </line>
             <line>
-              <![CDATA[Generated Email Address is :vijay3022@gmail.com]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> xpath: //*[@id='ch_login_icon']/span[2]]]]>
             </line>
             <line>
-              <![CDATA[randomPhonenoGenerator--signupmobiletxtbox--]]>
+              <![CDATA[input--loginemailtxtbox--jakay507@gmail.com]]>
             </line>
             <line>
-              <![CDATA[input--signuppasswdtxtbox--vijay8790]]>
+              <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_email]]]>
             </line>
             <line>
-              <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_password]]]>
+              <![CDATA[input--loginpasswdtxtbox--jakay07@]]>
             </line>
             <line>
-              <![CDATA[click--signupbtn--]]>
+              <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_password]]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (b3cb634c7edc870e1e98273ac5de0d23)] -> id: ch_signup_btn]]]>
+              <![CDATA[click--loginlinkbtn--]]>
             </line>
             <line>
-              <![CDATA[verifySuccessMsg--signupemailtxtboxerrmsg|signupmobiletxtboxerrmsg|signuppasswdtxtboxerrmsg|afterloginusername|signuperrmsg--Please enter an Email Address]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_btn]]]>
             </line>
             <line>
               <![CDATA[close----]]>
             </line>
           </reporter-output>
-        </test-method> <!-- normalSignUpTestcase -->
-      </class> <!-- com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest -->
+        </test-method> <!-- normalFlowLoginTestcase -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
