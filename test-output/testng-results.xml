@@ -2,13 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Executable test cases name is :normalFlowLoginTestcase]]>
+      <![CDATA[Executable test cases name is :flightSearchlistTestCase]]>
     </line>
     <line>
       <![CDATA[openBrowser--browserName--]]>
-    </line>
-    <line>
-      <![CDATA[Opening the chromeBrowser in Windows 7System]]>
     </line>
     <line>
       <![CDATA[navigateURL--URL--]]>
@@ -17,57 +14,124 @@
       <![CDATA[Navigating the URL. The Domain Name is https://www.makemytrip.com/]]>
     </line>
     <line>
-      <![CDATA[verifyTitle--homepageTitle--MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
+      <![CDATA[click--homepage.from.box--]]>
     </line>
     <line>
-      <![CDATA[Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & HolidayExpected Title is: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sfrom]]]>
     </line>
     <line>
-      <![CDATA[verifyLink--login_link--]]>
+      <![CDATA[selectdivOptions--homepage.from.options--Delhi]]>
     </line>
     <line>
-      <![CDATA[click--login_link--]]>
+      <![CDATA[click--homepage.to.box--]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> xpath: //*[@id='ch_login_icon']/span[2]]]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sTo]]]>
     </line>
     <line>
-      <![CDATA[input--loginemailtxtbox--jakay507@gmail.com]]>
+      <![CDATA[selectdivOptions--homepage.to.options--Mumbai]]>
     </line>
     <line>
-      <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_email]]]>
+      <![CDATA[click--homepage.go.date--]]>
     </line>
     <line>
-      <![CDATA[input--loginpasswdtxtbox--jakay07@]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__depart]]]>
     </line>
     <line>
-      <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_password]]]>
+      <![CDATA[chooseDate----12-October 2017]]>
     </line>
     <line>
-      <![CDATA[click--loginlinkbtn--]]>
+      <![CDATA[click--homepage.passenger--]]>
     </line>
     <line>
-      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_btn]]]>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__paxCounter]]]>
     </line>
     <line>
-      <![CDATA[close----]]>
+      <![CDATA[chooseAdults----2]]>
+    </line>
+    <line>
+      <![CDATA[chooseChildrans----0]]>
+    </line>
+    <line>
+      <![CDATA[chooseInfants----0]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.passenger.done--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]]]>
+    </line>
+    <line>
+      <![CDATA[verifyHiddenValue--homepage.passenger--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.class--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__class]]]>
+    </line>
+    <line>
+      <![CDATA[chooseClass----Economy]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.searchbtn--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: searchBtn]]]>
+    </line>
+    <line>
+      <![CDATA[verifyTotalinSplit--listingpage.total--]]>
+    </line>
+    <line>
+      <![CDATA[scrollDownVerifyCount--listingpage.nameslist|listingpage.total--]]>
+    </line>
+    <line>
+      <![CDATA[printAllprojectnames--listingpage.nameslist--]]>
+    </line>
+    <line>
+      <![CDATA[chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957]]>
+    </line>
+    <line>
+      <![CDATA[verifyReviewPageGrandTotal--flightreviewpage.basefire|flightreviewpage.feesurcharges|flightreviewpage.grandtotal|flightreviewpage.total--]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\10_09_2017_10_44_37.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\10_09_2017_10_44_37.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36705" started-at="2017-09-03T16:17:36Z" finished-at="2017-09-03T16:18:13Z">
+  <suite name="Make My trip Regression Test cases" duration-ms="70687" started-at="2017-09-10T17:13:29Z" finished-at="2017-09-10T17:14:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36705" started-at="2017-09-03T16:17:36Z" finished-at="2017-09-03T16:18:13Z">
-      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
-        <test-method status="PASS" signature="normalFlowLoginTestcase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest@523884b2]" name="normalFlowLoginTestcase" duration-ms="36673" started-at="2017-09-03T21:47:36Z" finished-at="2017-09-03T21:48:13Z">
+    <test name="Flight Search Listing page Regression Test" duration-ms="70687" started-at="2017-09-10T17:13:29Z" finished-at="2017-09-10T17:14:39Z">
+      <class name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase">
+        <test-method status="PASS" signature="selectBrowser(java.lang.String)[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351]" name="selectBrowser" is-config="true" duration-ms="4734" started-at="2017-09-10T22:43:29Z" finished-at="2017-09-10T22:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="beforeExecution(java.lang.reflect.Method)[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351]" name="beforeExecution" is-config="true" duration-ms="8" started-at="2017-09-10T22:43:33Z" finished-at="2017-09-10T22:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase.flight_SearchListingTestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeExecution -->
+        <test-method status="PASS" signature="flight_SearchListingTestCase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351]" name="flight_SearchListingTestCase" duration-ms="63289" started-at="2017-09-10T22:43:33Z" finished-at="2017-09-10T22:44:37Z">
           <reporter-output>
             <line>
-              <![CDATA[Executable test cases name is :normalFlowLoginTestcase]]>
+              <![CDATA[Executable test cases name is :flightSearchlistTestCase]]>
             </line>
             <line>
               <![CDATA[openBrowser--browserName--]]>
-            </line>
-            <line>
-              <![CDATA[Opening the chromeBrowser in Windows 7System]]>
             </line>
             <line>
               <![CDATA[navigateURL--URL--]]>
@@ -76,44 +140,107 @@
               <![CDATA[Navigating the URL. The Domain Name is https://www.makemytrip.com/]]>
             </line>
             <line>
-              <![CDATA[verifyTitle--homepageTitle--MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
+              <![CDATA[click--homepage.from.box--]]>
             </line>
             <line>
-              <![CDATA[Verifing the given domain Url title.And the Title is =>>MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & HolidayExpected Title is: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sfrom]]]>
             </line>
             <line>
-              <![CDATA[verifyLink--login_link--]]>
+              <![CDATA[selectdivOptions--homepage.from.options--Delhi]]>
             </line>
             <line>
-              <![CDATA[click--login_link--]]>
+              <![CDATA[click--homepage.to.box--]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> xpath: //*[@id='ch_login_icon']/span[2]]]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sTo]]]>
             </line>
             <line>
-              <![CDATA[input--loginemailtxtbox--jakay507@gmail.com]]>
+              <![CDATA[selectdivOptions--homepage.to.options--Mumbai]]>
             </line>
             <line>
-              <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_email]]]>
+              <![CDATA[click--homepage.go.date--]]>
             </line>
             <line>
-              <![CDATA[input--loginpasswdtxtbox--jakay07@]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__depart]]]>
             </line>
             <line>
-              <![CDATA[Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_password]]]>
+              <![CDATA[chooseDate----12-October 2017]]>
             </line>
             <line>
-              <![CDATA[click--loginlinkbtn--]]>
+              <![CDATA[click--homepage.passenger--]]>
             </line>
             <line>
-              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (42a520053be4e9df7d44c974e46b5137)] -> id: ch_login_btn]]]>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__paxCounter]]]>
             </line>
             <line>
-              <![CDATA[close----]]>
+              <![CDATA[chooseAdults----2]]>
+            </line>
+            <line>
+              <![CDATA[chooseChildrans----0]]>
+            </line>
+            <line>
+              <![CDATA[chooseInfants----0]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.passenger.done--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]]]>
+            </line>
+            <line>
+              <![CDATA[verifyHiddenValue--homepage.passenger--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.class--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__class]]]>
+            </line>
+            <line>
+              <![CDATA[chooseClass----Economy]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.searchbtn--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: searchBtn]]]>
+            </line>
+            <line>
+              <![CDATA[verifyTotalinSplit--listingpage.total--]]>
+            </line>
+            <line>
+              <![CDATA[scrollDownVerifyCount--listingpage.nameslist|listingpage.total--]]>
+            </line>
+            <line>
+              <![CDATA[printAllprojectnames--listingpage.nameslist--]]>
+            </line>
+            <line>
+              <![CDATA[chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957]]>
+            </line>
+            <line>
+              <![CDATA[verifyReviewPageGrandTotal--flightreviewpage.basefire|flightreviewpage.feesurcharges|flightreviewpage.grandtotal|flightreviewpage.total--]]>
             </line>
           </reporter-output>
-        </test-method> <!-- normalFlowLoginTestcase -->
-      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- flight_SearchListingTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351]" name="afterExecution" is-config="true" duration-ms="1294" started-at="2017-09-10T22:44:37Z" finished-at="2017-09-10T22:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flight_SearchListingTestCase status=SUCCESS method=TC005_Flight_SearchListingTestCase.flight_SearchListingTestCase()[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351] output=Executable test cases name is :flightSearchlistTestCase]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\10_09_2017_10_44_37.png'> <img src='C:\Users\admin\housingman\workspace\hybridframework_Selenium\src\main\java\com\hybridframework_Selenium\FailureScreenShot\10_09_2017_10_44_37.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="endingTest()[pri:0, instance:com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351]" name="endingTest" is-config="true" duration-ms="1323" started-at="2017-09-10T22:44:38Z" finished-at="2017-09-10T22:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingTest -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase -->
+    </test> <!-- Flight Search Listing page Regression Test -->
+  </suite> <!-- Make My trip Regression Test cases -->
 </testng-results>

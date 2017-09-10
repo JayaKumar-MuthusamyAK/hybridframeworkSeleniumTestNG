@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Hotel Search listing page Regression Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 03 22:10:27 IST 2017</td>
+<td>Started on:</td><td>Sun Sep 10 22:49:52 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>145 seconds (145905 ms)</td>
+<tr><td>Total time:</td><td>205 seconds (205362 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,68 +76,114 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase()'><b>hotelSearchlistTestCase</b><br>Test class: com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase<br/>
-<a href="#Output-804959508" onClick='toggleBox("Output-804959508", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-551375540" onClick='toggleBox("Output-551375540", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-804959508" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-804959508">
-Automation test is Start, Test name is: hotelSearchlistTestCase<br/>
+<a href="#Output-551375540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551375540">
 Executable test cases name is :hotelSearchlistTestCase<br/>
 openBrowser--browserName--<br/>
-Opening the chromeBrowser in Windows 7System<br/>
 navigateURL--URL--<br/>
 Navigating the URL. The Domain Name is https://www.makemytrip.com/<br/>
 click--homepage.header.hotellink--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> id: header_tab_hotels]<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: header_tab_hotels]<br/>
 verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
 Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
 click--homepage.hotel.city.hoteltxt--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> id: hp-widget__sDest]<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__sDest]<br/>
 waitForElementPresent--homepage.citylist.optionheader--<br/>
-selectdivOptions--homepage.hotel.city.hoteloptions--Bangalore<br/>
+selectdivOptions--homepage.hotel.city.hoteloptions--Mumbai<br/>
 waitForElementPresent--homepage.datepicker.leftside.monthyear--<br/>
-chooseDate----22-November 2017<br/>
-chooseDateReturn----26-November 2017<br/>
+chooseDate----12-November 2017<br/>
+chooseDateReturn----20-November 2017<br/>
 waitForInvisibility--homepage.datepicker.leftside.monthyear--<br/>
 click--homepage.hotel.roomguests--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> id: hp-widget__paxCounter]<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__paxCounter]<br/>
 waitForElementPresent--homepage.passenger.room--<br/>
 chooseAdults----2<br/>
-chooseChildrenswiththeirAge----2|4|2<br/>
+chooseChildrenswiththeirAge----2|1|1<br/>
 waitForInvisibility--homepage.hotel.roomguests.done--<br/>
 verifyHiddenValue--homepage.passenger--<br/>
 click--homepage.searchbtn--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> id: searchBtn]<br/>
-waitForTextPresent--listingpage.hotelpageheading--Hotels in Bangalore<br/>
-clickOngivenName----Royal Orchid Central<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: searchBtn]<br/>
+waitForTextPresent--listingpage.hotelpageheading--Hotels in Mumbai<br/>
+clickOnFirstHotel--listingpage.hotelnamelist--<br/>
 switchtoWindow----<br/>
-waitForTextPresent--hotel.viewpage.hotelname--Royal Orchid Central<br/>
-verifyTextPresent--hotel.viewpage.hotelname--Royal Orchid Central<br/>
+waitForVisibilityOfElement--hotel.viewpage.hotelname--20<br/>
 click--hotel.viewpage.roomtype.header.taboption--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='details-nav-roomtype']]<br/>
-waitForTextPresent--hotel.viewpage.roomonly.bookbtn--Book Now<br/>
-moveCusoronElement--hotel.viewpage.roomonly.bookbtn--<br/>
-click--hotel.viewpage.roomonly.bookbtn--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: (//div[@class='room-info clearfix'])[1]/div/div[2]/a]<br/>
-waitForTextPresent--booking.confimationpage.headingname--Booking Confirmation Details<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='details-nav-roomtype']]<br/>
+moveCusoronElement--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--<br/>
+clickWhichElementPresent--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--<br/>
+waitForTextPresent--booking.confirmationpage.totaltxt--Total<br/>
 click--booking.confirmationpage.breakingup.arrow--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]<br/>
 verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--<br/>
 selectDropdown--booking.confirmationpage.titledropdown--Ms.<br/>
 input--booking.confirmationpage.firstnametxtbox--test<br/>
-Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='htR-trvlr-guestName']]<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestName']]<br/>
 input--booking.confirmationpage.lastnametxtbox--test<br/>
-Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='htR-trvlr-guestLastName']]<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestLastName']]<br/>
 input--booking.confirmationpage.emailtxtbox--text<br/>
-Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='htR-trvlr-guestEmail']]<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestEmail']]<br/>
 input--booking.confirmationpage.contactnotxtbox--text<br/>
-Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //*[@id='htR-trvlr-guestNum']]<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestNum']]<br/>
 click--booking.confirmationpage.paynowbtn--<br/>
-Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (cc3c61366da2c1e98a27a66b9c76e679)] -> xpath: //a[@id='makePaymentId']]<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //a[@id='makePaymentId']]<br/>
 </div>
 </td>
-<td></td>
-<td>134</td>
-<td>com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@6483f5ae</td></tr>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element &lt;a href=&quot;javascript:void(0);&quot; class=&quot;btn htR-paymnt-btn text-uppercase append_bottom10&quot; id=&quot;makePaymentId&quot; onclick=&quot;makePayment(this);&quot;&gt;&lt;/a&gt; is not clickable at point (1091.5, 30). Other element would receive the click: &lt;span&gt;&lt;/span&gt;
+Command duration or timeout: 104 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 412b4cad-61d9-4c3b-a6ed-38855449aebe
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.hybridframework_Selenium.testScripts.Keywords.click(Keywords.java:304)
+	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:85)
+	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace551375540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace551375540'><pre>org.openqa.selenium.WebDriverException: Element &lt;a href=&quot;javascript:void(0);&quot; class=&quot;btn htR-paymnt-btn text-uppercase append_bottom10&quot; id=&quot;makePaymentId&quot; onclick=&quot;makePayment(this);&quot;&gt;&lt;/a&gt; is not clickable at point (1091.5, 30). Other element would receive the click: &lt;span&gt;&lt;/span&gt;
+Command duration or timeout: 104 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 412b4cad-61d9-4c3b-a6ed-38855449aebe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.hybridframework_Selenium.testScripts.Keywords.click(Keywords.java:304)
+	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:85)
+	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>196</td>
+<td>com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@80169cf</td></tr>
 </table><p>
 </body>
 </html>

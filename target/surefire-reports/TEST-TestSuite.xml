@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="85.628" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="348.273" tests="14" errors="0" skipped="7" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_71\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\admin\housingman\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2910160819593192493.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\admin\housingman\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4453019435358224204.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_71\jre\bin;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\platform-tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\admin\Documents\source\gradle-2.10\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\nodejs;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Java\jre1.8.0_71\bin;C:\Users\admin\AppData\Roaming\npm;D:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\platform-tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\admin\Documents\source\gradle-2.10\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\nodejs;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_71\bin;E:\SDK\tools;E:\SDK\platforms;C:\Program Files\nodejs\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Java\jre1.8.0_71\bin;C:\Users\admin\AppData\Roaming\npm;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,247 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="normalFlowLoginTestcase" classname="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest" time="85.628"/>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
+    <skipped/>
+    <system-out><![CDATA[...
+... TestNG 6.10 by Cédric Beust (cedric@beust.com)
+...
+
+Test cases started row number :1
+Test cases total column count are :5
+Test cases total rows count are :6
+Runmode--N --Email-- --Password-- --Expected_Result--Please enter an Email Address --Status--SKIP --
+Runmode--N --Email--test@yopmail.com --Password--hjkhjhdjd^7 --Expected_Result--Username and password doesn't match --Status--SKIP --
+Runmode--N --Email--jakay507@gmail.com --Password--jakay07@ --Expected_Result--Hey  --Status--SKIP --
+Runmode--Y --Email-- --Password--545 --Expected_Result--Please enter an Email Address --Status--PASS --
+Runmode--Y --Email--Jkay@yopmail.com --Password-- --Expected_Result--Please enter a password --Status--PASS --
+Runmode--N --Email--jakay34@gmail.com --Password--12345678 --Expected_Result--User is not registered --Status--SKIP --
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Sep 10, 2017 10:46:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+1
+6
+2
+3
+Runmode
+N --
+Email
+ --
+Password
+ --
+Expected_Result
+Please enter an Email Address --
+Status
+SKIP --
+]]></system-out>
+  </testcase>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+1
+6
+2
+3
+Runmode
+N --
+Email
+ --
+Password
+ --
+Expected_Result
+Please enter an Email Address --
+Status
+SKIP --
+]]></system-out>
+  </testcase>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="35.602"/>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="17.154"/>
+  <testcase name="loginTestwithDifferentscenarios" classname="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+1
+6
+2
+3
+Runmode
+N --
+Email
+ --
+Password
+ --
+Expected_Result
+Please enter an Email Address --
+Status
+SKIP --
+]]></system-out>
+  </testcase>
+  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="19.73"/>
+  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+10
+4
+11
+12
+Runmode
+Y --
+Email
+ --
+Mobile
+9985652000 --
+Password
+1.2345678E7 --
+Expected_Result
+Please enter an Email Address --
+Status
+PASS --
+]]></system-out>
+  </testcase>
+  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+10
+4
+11
+12
+Runmode
+Y --
+Email
+ --
+Mobile
+9985652000 --
+Password
+1.2345678E7 --
+Expected_Result
+Please enter an Email Address --
+Status
+PASS --
+]]></system-out>
+  </testcase>
+  <testcase name="signUpPageTestcases" classname="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases" time="0">
+    <skipped/>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+10
+4
+11
+12
+Runmode
+Y --
+Email
+ --
+Mobile
+9985652000 --
+Password
+1.2345678E7 --
+Expected_Result
+Please enter an Email Address --
+Status
+PASS --
+]]></system-out>
+  </testcase>
+  <testcase name="normalFlowLoginTestcase" classname="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest" time="15.535"/>
+  <testcase name="normalSignUpTestcase" classname="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest" time="63.053"/>
+  <testcase name="flight_SearchListingTestCase" classname="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase" time="53.457"/>
+  <testcase name="hotelSearchlistTestCase" classname="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase" time="196.498">
+    <failure message="Element &lt;a href=&quot;javascript:void(0);&quot; class=&quot;btn htR-paymnt-btn text-uppercase append_bottom10&quot; id=&quot;makePaymentId&quot; onclick=&quot;makePayment(this);&quot;&gt;&lt;/a&gt; is not clickable at point (1091.5, 30). Other element would receive the click: &lt;span&gt;&lt;/span&gt;&#10;Command duration or timeout: 104 milliseconds&#10;Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 412b4cad-61d9-4c3b-a6ed-38855449aebe" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element <a href="javascript:void(0);" class="btn htR-paymnt-btn text-uppercase append_bottom10" id="makePaymentId" onclick="makePayment(this);"></a> is not clickable at point (1091.5, 30). Other element would receive the click: <span></span>
+Command duration or timeout: 104 milliseconds
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'ADMIN-PC', ip: '169.254.230.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 412b4cad-61d9-4c3b-a6ed-38855449aebe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.hybridframework_Selenium.testScripts.Keywords.click(Keywords.java:304)
+	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:85)
+	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:24)
+]]></failure>
+    <system-out><![CDATA[C:\Users\admin\housingman\workspace\hybridframework_Selenium/src/main/java/com/hybridframework_Selenium/testdata/Test Suite1.xlsx
+2017-09-10 22:49:59 INFO  Keywords:472 - Executable test cases name is :hotelSearchlistTestCase
+2017-09-10 22:49:59 INFO  Keywords:472 - openBrowser--browserName--
+browserNameBrowser is Opened...
+2017-09-10 22:49:59 INFO  Keywords:472 - navigateURL--URL--
+2017-09-10 22:49:59 INFO  Keywords:472 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-09-10 22:50:10 INFO  Keywords:472 - click--homepage.header.hotellink--
+2017-09-10 22:50:10 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: header_tab_hotels]
+2017-09-10 22:50:11 INFO  Keywords:472 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-09-10 22:50:14 INFO  Keywords:472 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-09-10 22:50:14 INFO  Keywords:472 - click--homepage.hotel.city.hoteltxt--
+2017-09-10 22:50:15 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__sDest]
+2017-09-10 22:50:16 INFO  Keywords:472 - waitForElementPresent--homepage.citylist.optionheader--
+2017-09-10 22:50:16 INFO  Keywords:472 - selectdivOptions--homepage.hotel.city.hoteloptions--Mumbai
+2017-09-10 22:50:17 INFO  Keywords:472 - waitForElementPresent--homepage.datepicker.leftside.monthyear--
+2017-09-10 22:50:17 INFO  Keywords:472 - chooseDate----12-November 2017
+12
+November 2017
+12
+November 2017
+Selected Date:12
+2017-09-10 22:50:21 INFO  Keywords:472 - chooseDateReturn----20-November 2017
+20
+November 2017
+Selected Date:20
+2017-09-10 22:50:26 INFO  Keywords:472 - waitForInvisibility--homepage.datepicker.leftside.monthyear--
+Not Matching Keyword :waitForInvisibility
+2017-09-10 22:50:26 INFO  Keywords:472 - click--homepage.hotel.roomguests--
+2017-09-10 22:50:26 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__paxCounter]
+2017-09-10 22:50:27 INFO  Keywords:472 - waitForElementPresent--homepage.passenger.room--
+2017-09-10 22:50:27 INFO  Keywords:472 - chooseAdults----2
+2017-09-10 22:50:28 INFO  Keywords:472 - chooseChildrenswiththeirAge----2|1|1
+2017-09-10 22:50:29 INFO  Keywords:472 - waitForInvisibility--homepage.hotel.roomguests.done--
+Not Matching Keyword :waitForInvisibility
+2017-09-10 22:50:29 INFO  Keywords:472 - verifyHiddenValue--homepage.passenger--
+1 Room, 4 Guests
+2017-09-10 22:50:29 INFO  Keywords:472 - click--homepage.searchbtn--
+2017-09-10 22:50:29 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: searchBtn]
+2017-09-10 22:50:32 INFO  Keywords:472 - waitForTextPresent--listingpage.hotelpageheading--Hotels in Mumbai
+2017-09-10 22:50:48 INFO  Keywords:472 - clickOnFirstHotel--listingpage.hotelnamelist--
+2017-09-10 22:50:48 INFO  Keywords:472 - switchtoWindow----
+firefox
+2017-09-10 22:50:50 INFO  Keywords:472 - waitForVisibilityOfElement--hotel.viewpage.hotelname--20
+2017-09-10 22:50:54 INFO  Keywords:472 - click--hotel.viewpage.roomtype.header.taboption--
+2017-09-10 22:50:57 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='details-nav-roomtype']]
+2017-09-10 22:50:59 INFO  Keywords:472 - moveCusoronElement--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--
+2017-09-10 22:51:31 INFO  Keywords:472 - clickWhichElementPresent--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--
+2017-09-10 22:52:02 INFO  Keywords:472 - waitForTextPresent--booking.confirmationpage.totaltxt--Total
+2017-09-10 22:52:10 INFO  Keywords:472 - click--booking.confirmationpage.breakingup.arrow--
+2017-09-10 22:52:10 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]
+2017-09-10 22:52:11 INFO  Keywords:472 - verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--
+72000
+5040
+10000
+0
+0
+67040
+2017-09-10 22:53:13 INFO  Keywords:472 - selectDropdown--booking.confirmationpage.titledropdown--Ms.
+2017-09-10 22:53:13 INFO  Keywords:472 - input--booking.confirmationpage.firstnametxtbox--test
+2017-09-10 22:53:13 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestName']]
+2017-09-10 22:53:14 INFO  Keywords:472 - input--booking.confirmationpage.lastnametxtbox--test
+2017-09-10 22:53:14 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestLastName']]
+2017-09-10 22:53:15 INFO  Keywords:472 - input--booking.confirmationpage.emailtxtbox--text
+2017-09-10 22:53:15 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestEmail']]
+2017-09-10 22:53:15 INFO  Keywords:472 - input--booking.confirmationpage.contactnotxtbox--text
+2017-09-10 22:53:15 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestNum']]
+2017-09-10 22:53:15 INFO  Keywords:472 - click--booking.confirmationpage.paynowbtn--
+2017-09-10 22:53:15 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //a[@id='makePaymentId']]
+]]></system-out>
+    <system-err><![CDATA[Sep 10, 2017 10:49:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
 </testsuite>

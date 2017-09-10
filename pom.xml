@@ -82,8 +82,6 @@
 			<version>2.41.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
-		
-
 
 	</dependencies>
 
@@ -99,7 +97,9 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+			
 			<plugin>
+
 				<groupId>ch.fortysix</groupId>
 				<artifactId>maven-postman-plugin</artifactId>
 				<executions>

@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.585 sec - in TestSuite
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 449.097 sec <<< FAILURE! - in TestSuite
+hotelSearchlistTestCase(com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase)  Time elapsed: 196.498 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element <a href="javascript:void(0);" class="btn htR-paymnt-btn text-uppercase append_bottom10" id="makePaymentId" onclick="makePayment(this);"></a> is not clickable at point (1091.5, 30). Other element would receive the click: <span></span>
+Command duration or timeout: 104 milliseconds
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'ADMIN-PC', ip: '169.254.230.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 412b4cad-61d9-4c3b-a6ed-38855449aebe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.hybridframework_Selenium.testScripts.Keywords.click(Keywords.java:304)
+	at com.hybridframework_Selenium.testScripts.Keywords.executeKeywords(Keywords.java:85)
+	at com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase(TC006_HotelSearchlistTestCase.java:24)
+

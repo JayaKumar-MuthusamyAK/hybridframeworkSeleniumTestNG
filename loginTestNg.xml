@@ -1,44 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Make My trip Regression Test cases" thread-count="1" parallel="classes" verbose="10"> 
-	 <listeners> <listener class-name="com.hybridframework_Selenium.customListner.Listners"></listener> 
+<suite
+	name="Make My trip Regression Test cases"
+	thread-count="1"
+	parallel="classes"
+	verbose="10">
+	<!-- <listeners> <listener class-name="com.hybridframework_Selenium.customListner.Listners"></listener> 
 		<listener class-name="com.hybridframework_Selenium.customListner.RetryListners"></listener> 
-		</listeners>
-	<!--  <test name="Login Regression Test">
+		</listeners> -->
+	<test name="Login Regression Test">
+		<parameter
+			name="browser"
+			value="firefox"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase"></class>
 		</classes>
-	</test> 
+	</test>
+
 	<test name="Sign Up Regression Test">
+		<parameter
+			name="browser"
+			value="firefox"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases"></class>
 		</classes>
-	</test> -->
+	</test>
 	<test name="Normal Login Flow Regression Test">
+		<parameter
+			name="browser"
+			value="chrome"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest"></class>
 		</classes>
 	</test>
-	<!-- <test name="Normal Sign up flow Regression Test">
+	<test name="Normal Sign up flow Regression Test">
+		<parameter
+			name="browser"
+			value="chrome"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest"></class>
 		</classes>
-	</test> 
+	</test>
 	<test name="Flight Search Listing page Regression Test">
+		<parameter
+			name="browser"
+			value="chrome"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase"></class>
 		</classes>
-	</test> 
-	 <test name="Hotel Search listing page Regression Test">
+	</test>
+	<test name="Hotel Search listing page Regression Test">
+		<parameter
+			name="browser"
+			value="firefox"></parameter>
 		<classes>
 			<class
 				name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase"></class>
 		</classes>
-	</test>   -->
-	
+	</test>
+
 </suite>

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Make My trip Regression Test cases]" parallel="classes">
+  <test name="Sign Up Regression Test(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
         <methods>
-          <include name="normalFlowLoginTestcase"/>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="signUpPageTestcases" invocation-numbers="1 2 3"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
         </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Sign Up Regression Test(failed) -->
+</suite> <!-- Failed suite [Make My trip Regression Test cases] -->

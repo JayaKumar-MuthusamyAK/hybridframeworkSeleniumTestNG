@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
         <methods>
-          <include name="normalFlowLoginTestcase"/>
+          <include name="hotelSearchlistTestCase"/>
         </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
+      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,120 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Make My trip Regression Test cases]" parallel="classes">
-  <listeners>
-    <listener class-name="com.hybridframework_Selenium.customListner.Listners"/>
-    <listener class-name="com.hybridframework_Selenium.customListner.RetryListners"/>
-  </listeners>
   <test name="Login Regression Test(failed)" parallel="classes">
-    <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="loginTestwithDifferentscenarios" invocation-numbers="0 1 2 5"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
-      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
-    </classes>
-  </test> <!-- Login Regression Test(failed) -->
-  <test name="Sign Up Regression Test(failed)" parallel="classes">
-    <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="signUpPageTestcases" invocation-numbers="1 2 3"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
-      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
-    </classes>
-  </test> <!-- Sign Up Regression Test(failed) -->
-  <test name="Normal Login Flow Regression Test(failed)" parallel="classes">
-    <classes>
-      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
-        <methods>
-          <include name="normalFlowLoginTestcase"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
-      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
-    </classes>
-  </test> <!-- Normal Login Flow Regression Test(failed) -->
-  <test name="Normal Sign up flow Regression Test(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest">
         <methods>
-          <include name="normalSignUpTestcase"/>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
         </methods>
       </class> <!-- com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest -->
       <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
         <methods>
           <include name="afterExecution"/>
           <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
           <include name="endingTest"/>
         </methods>
       </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
-      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
-        <methods>
-          <include name="afterExecution"/>
-          <include name="beforeExecution"/>
-          <include name="endingTest"/>
-        </methods>
-      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
       <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
         <methods>
           <include name="afterExecution"/>
           <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
           <include name="endingTest"/>
         </methods>
       </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="loginTestwithDifferentscenarios" invocation-numbers="0 1 2 5"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
+      <class name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
     </classes>
-  </test> <!-- Normal Sign up flow Regression Test(failed) -->
+  </test> <!-- Login Regression Test(failed) -->
+  <test name="Sign Up Regression Test(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest -->
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="signUpPageTestcases" invocation-numbers="1 2 3"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
+      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
+      <class name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
+    </classes>
+  </test> <!-- Sign Up Regression Test(failed) -->
+  <test name="Hotel Search listing page Regression Test(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC004_NormalSignUpFlowTest -->
+      <class name="com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC002_SignUpPageTestcases -->
+      <class name="com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="hotelSearchlistTestCase"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC001_LoginPageTestcase -->
+      <class name="com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase -->
+      <class name="com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="beforeExecution"/>
+          <include name="selectBrowser"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- com.hybridframework_Selenium.testcases.TC003_NormalFlowLoginTest -->
+    </classes>
+  </test> <!-- Hotel Search listing page Regression Test(failed) -->
 </suite> <!-- Failed suite [Make My trip Regression Test cases] -->

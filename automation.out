@@ -1,15 +1,48 @@
-2017-09-03 22:39:59 INFO  Keywords:442 - Executable test cases name is :normalFlowLoginTestcase
-2017-09-03 22:39:59 INFO  Keywords:442 - openBrowser--browserName--
-2017-09-03 22:40:02 INFO  Keywords:442 - Opening the chromeBrowser in Windows 7System
-2017-09-03 22:40:03 INFO  Keywords:442 - navigateURL--URL--
-2017-09-03 22:40:03 INFO  Keywords:442 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
-2017-09-03 22:40:29 INFO  Keywords:442 - verifyLink--login_link--
-2017-09-03 22:40:30 INFO  Keywords:442 - click--login_link--
-2017-09-03 22:40:30 INFO  Keywords:442 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> xpath: //*[@id='ch_login_icon']/span[2]]
-2017-09-03 22:40:31 INFO  Keywords:442 - input--loginemailtxtbox--jakay507@gmail.com
-2017-09-03 22:41:21 INFO  Keywords:442 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_email]
-2017-09-03 22:41:21 INFO  Keywords:442 - input--loginpasswdtxtbox--jakay07@
-2017-09-03 22:41:21 INFO  Keywords:442 - Entering the values in given webelement. The element name is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_password]
-2017-09-03 22:41:21 INFO  Keywords:442 - click--loginlinkbtn--
-2017-09-03 22:41:21 INFO  Keywords:442 - Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (0b127a2c7abdaa0f1f125ce8981f7f4a)] -> id: ch_login_btn]
-2017-09-03 22:41:23 INFO  Keywords:442 - close----
+2017-09-10 22:49:59 INFO  Keywords:472 - Executable test cases name is :hotelSearchlistTestCase
+2017-09-10 22:49:59 INFO  Keywords:472 - openBrowser--browserName--
+2017-09-10 22:49:59 INFO  Keywords:472 - navigateURL--URL--
+2017-09-10 22:49:59 INFO  Keywords:472 - Navigating the URL. The Domain Name is https://www.makemytrip.com/
+2017-09-10 22:50:10 INFO  Keywords:472 - click--homepage.header.hotellink--
+2017-09-10 22:50:10 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: header_tab_hotels]
+2017-09-10 22:50:11 INFO  Keywords:472 - verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-09-10 22:50:14 INFO  Keywords:472 - Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com
+2017-09-10 22:50:14 INFO  Keywords:472 - click--homepage.hotel.city.hoteltxt--
+2017-09-10 22:50:15 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__sDest]
+2017-09-10 22:50:16 INFO  Keywords:472 - waitForElementPresent--homepage.citylist.optionheader--
+2017-09-10 22:50:16 INFO  Keywords:472 - selectdivOptions--homepage.hotel.city.hoteloptions--Mumbai
+2017-09-10 22:50:17 INFO  Keywords:472 - waitForElementPresent--homepage.datepicker.leftside.monthyear--
+2017-09-10 22:50:17 INFO  Keywords:472 - chooseDate----12-November 2017
+2017-09-10 22:50:21 INFO  Keywords:472 - chooseDateReturn----20-November 2017
+2017-09-10 22:50:26 INFO  Keywords:472 - waitForInvisibility--homepage.datepicker.leftside.monthyear--
+2017-09-10 22:50:26 INFO  Keywords:472 - click--homepage.hotel.roomguests--
+2017-09-10 22:50:26 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: hp-widget__paxCounter]
+2017-09-10 22:50:27 INFO  Keywords:472 - waitForElementPresent--homepage.passenger.room--
+2017-09-10 22:50:27 INFO  Keywords:472 - chooseAdults----2
+2017-09-10 22:50:28 INFO  Keywords:472 - chooseChildrenswiththeirAge----2|1|1
+2017-09-10 22:50:29 INFO  Keywords:472 - waitForInvisibility--homepage.hotel.roomguests.done--
+2017-09-10 22:50:29 INFO  Keywords:472 - verifyHiddenValue--homepage.passenger--
+2017-09-10 22:50:29 INFO  Keywords:472 - click--homepage.searchbtn--
+2017-09-10 22:50:29 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> id: searchBtn]
+2017-09-10 22:50:32 INFO  Keywords:472 - waitForTextPresent--listingpage.hotelpageheading--Hotels in Mumbai
+2017-09-10 22:50:48 INFO  Keywords:472 - clickOnFirstHotel--listingpage.hotelnamelist--
+2017-09-10 22:50:48 INFO  Keywords:472 - switchtoWindow----
+2017-09-10 22:50:50 INFO  Keywords:472 - waitForVisibilityOfElement--hotel.viewpage.hotelname--20
+2017-09-10 22:50:54 INFO  Keywords:472 - click--hotel.viewpage.roomtype.header.taboption--
+2017-09-10 22:50:57 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='details-nav-roomtype']]
+2017-09-10 22:50:59 INFO  Keywords:472 - moveCusoronElement--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--
+2017-09-10 22:51:31 INFO  Keywords:472 - clickWhichElementPresent--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--
+2017-09-10 22:52:02 INFO  Keywords:472 - waitForTextPresent--booking.confirmationpage.totaltxt--Total
+2017-09-10 22:52:10 INFO  Keywords:472 - click--booking.confirmationpage.breakingup.arrow--
+2017-09-10 22:52:10 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]
+2017-09-10 22:52:11 INFO  Keywords:472 - verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--
+2017-09-10 22:53:13 INFO  Keywords:472 - selectDropdown--booking.confirmationpage.titledropdown--Ms.
+2017-09-10 22:53:13 INFO  Keywords:472 - input--booking.confirmationpage.firstnametxtbox--test
+2017-09-10 22:53:13 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestName']]
+2017-09-10 22:53:14 INFO  Keywords:472 - input--booking.confirmationpage.lastnametxtbox--test
+2017-09-10 22:53:14 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestLastName']]
+2017-09-10 22:53:15 INFO  Keywords:472 - input--booking.confirmationpage.emailtxtbox--text
+2017-09-10 22:53:15 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestEmail']]
+2017-09-10 22:53:15 INFO  Keywords:472 - input--booking.confirmationpage.contactnotxtbox--text
+2017-09-10 22:53:15 INFO  Keywords:472 - Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //*[@id='htR-trvlr-guestNum']]
+2017-09-10 22:53:15 INFO  Keywords:472 - click--booking.confirmationpage.paynowbtn--
+2017-09-10 22:53:15 INFO  Keywords:472 - Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (412b4cad-61d9-4c3b-a6ed-38855449aebe)] -> xpath: //a[@id='makePaymentId']]

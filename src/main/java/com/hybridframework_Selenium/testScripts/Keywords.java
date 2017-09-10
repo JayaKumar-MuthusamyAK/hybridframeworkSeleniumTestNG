@@ -11,6 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -70,6 +71,9 @@ public class Keywords extends TestBase{
 					break;
 				case "navigateURL":
 					result= navigateURL(objectkeys);
+					break;
+				case "closeAnyadverdisement":
+					result=closeAnyadverdisement(objectkeys);
 					break;
 				case "verifyTitle":
 					result = verifyTitle(datakeys);
@@ -176,6 +180,12 @@ public class Keywords extends TestBase{
 				case "waitForInvisibilityElement":
 					result = waitForInvisibilityElement(objectkeys);
 					break;
+				case "clickOnFirstHotel":
+					result = clickOnFirstHotel(objectkeys);
+					break;
+				case "clickWhichElementPresent":
+					result = clickWhichElementPresent(objectkeys);
+					break;
 				default:
 					System.out.println("Not Matching Keyword :"+keyword);
 					break;
@@ -191,6 +201,24 @@ public class Keywords extends TestBase{
 		}
 		
 		
+	}
+
+	public String closeAnyadverdisement(String objectkeys) throws Exception {
+		
+		// If Ads is comes this code will call otherwise not call.
+		String text1 = objectkeys.split("\\|")[0];
+		System.out.println(text1);
+		
+		if(driver.findElements(By.xpath("//*[@class='slide']")).size()!=0){
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("notification-frame-31764456"));
+			getWebElement(objectkeys.split("\\|")[1]).click();
+			driver.switchTo().defaultContent();
+		}
+		
+		
+		//driver.switchTo().frame("notification-frame-31764456");   
+		return "Pass";
 	}
 
 	public String randomPhonenoGenerator(String objectkeys) throws Exception {
@@ -242,7 +270,8 @@ public class Keywords extends TestBase{
 
 
 	public String openBrowser(String objectkeys) {
-		selectBrowser(prop.getProperty(objectkeys));
+		//selectBrowser(prop.getProperty(objectkeys));
+		System.out.println(objectkeys+"Browser is Opened...");
 		return "Pass";
 	}
 	
@@ -279,6 +308,7 @@ public class Keywords extends TestBase{
 	
 	public String input(String objectkeys, String string) throws Exception {
 		log("Entering the values in given webelement. The element name is =>>"+getWebElement(objectkeys));
+		getWebElement(objectkeys).clear();
 		getWebElement(objectkeys).sendKeys(string);
 		return "Pass";
 	}
@@ -631,7 +661,20 @@ public class Keywords extends TestBase{
 		System.out.println("Final COunt is :"+total);
 		return "Pass";
 	}
-	
+	public String scrollingAndViewAllProject(String objectkeys) throws Exception{
+		
+		String text1 = objectkeys.split("\\|")[0];
+		String text2 = objectkeys.split("\\|")[1];
+		List<WebElement> hotelNameslist=getWebElements(text2);
+		Actions act = new Actions(driver);
+		while(getWebElements(text1).size()!=0){
+			
+			act.moveToElement(hotelNameslist.get(hotelNameslist.size()-1)).build().perform();
+		}
+		return objectkeys;
+		
+		
+	}
 	public String waitForVisibilityOfElement(String objectkeys,int seconds) throws Exception{
 		WebElement element = getWebElement(objectkeys);
 		WebDriverWait wait = new WebDriverWait(driver,seconds);
@@ -667,9 +710,10 @@ public class Keywords extends TestBase{
 		
 	}
 	
-	public String clickOngivenName(String datakeys) {
+	public String clickOngivenName(String datakeys) throws InterruptedException {
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.xpath("(//*[contains(text(),'"+datakeys+"')])[2]"))).build().perform();
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("(//*[contains(text(),'"+datakeys+"')])[2]")).click();
 		
 		return "Pass";
@@ -759,8 +803,85 @@ public class Keywords extends TestBase{
 	
 	public String moveCusoronElement(String objectkeys) throws Exception{
 		
+		Thread.sleep(2000);
 		Actions act = new Actions(driver);
+		if(objectkeys.contains("|")){
+			if(getWebElements(objectkeys.split("\\|")[0]).size()!=0)
+				act.moveToElement(getWebElement(objectkeys.split("\\|")[0])).build().perform();
+			else if(getWebElements(objectkeys.split("\\|")[1]).size()!=0)
+				act.moveToElement(getWebElement(objectkeys.split("\\|")[1])).build().perform();
+		}
+		else{
 		act.moveToElement(getWebElement(objectkeys)).build().perform();
+		}
+		return "Pass";
+		
+	}
+	public String randomSelectWithFilter() throws Exception{
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		  wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='hotel_lis_main_sec']/div[1]/span[2]")));
+		  
+		  if(getWebElement("listingpage.resulterrormsg").isDisplayed()){
+			  log("oops Error");
+		  }
+		  else{
+		  //wait = new WebDriverWait(driver, 45);
+		  wait.until(ExpectedConditions.visibilityOf(getWebElement("listingpage.hotelpageheading")));
+		  
+		  getWebElement("listingpage.locationfilteroption").click();
+		  driver.findElement(By.xpath("//*[@class='filterListRow']/a[text()='Thane']")).click();
+		  
+		  
+		  wait.until(ExpectedConditions.visibilityOf(getWebElement("listingpage.hotelpageheading")));
+		  
+		  List<WebElement> listof_name=getWebElements("listingpage.hotelnamelist");
+		  
+		  Actions act = new Actions(driver);
+		  
+		  
+		  while(getWebElements("listingpage.bouncemsgtxt").size()!=0){
+			  
+			  System.out.println("Scrolling");
+			  act.moveToElement(listof_name.get(listof_name.size()-1)).build().perform();
+			  Thread.sleep(3000);
+			  listof_name=getWebElements("listingpage.hotelnamelist");
+			  act.moveToElement(listof_name.get(listof_name.size()-3)).build().perform();
+			  if(getWebElement("listingpage.bouncemsgtxt").isDisplayed()){
+				  break;
+			  }
+		  }
+		  
+		 // List<WebElement> imaglink = driver.findElements(By.xpath("//img[@class='img-responsive']"));
+		 /* for(int i=0; i<listof_name.size();i++){
+			  if(listof_name.get(i).getText().equals("Hotel Sea N Rock Pure Veg")){
+				  act.moveToElement(listof_name.get(i)).build().perform();
+				  listof_name.get(i).click();
+			  }
+		  }*/
+		  System.out.println("Choose any hotel");
+		  act.moveToElement(getWebElement("listingpage.hotelpageheading")).build().perform();
+		  Thread.sleep(2000);
+		  System.out.println(listof_name.get(0).getText());
+		  listof_name.get(0).click();
+		 
+		  }
+		return "Pass";
+	}
+	
+	public String clickOnFirstHotel(String objectkeys) throws Exception
+	{
+		 List<WebElement> listof_name=getWebElements("listingpage.hotelnamelist");
+		 listof_name.get(0).click();
+		return "Pass";
+	}
+	public String clickWhichElementPresent(String objectkeys) throws Exception{
+		
+		if(getWebElements(objectkeys.split("\\|")[0]).size()!=0){
+			getWebElement(objectkeys.split("\\|")[0]).click();
+		}
+		else if(getWebElements(objectkeys.split("\\|")[1]).size()!=0){
+			getWebElement(objectkeys.split("\\|")[1]).click();
+		}
 		return "Pass";
 		
 	}

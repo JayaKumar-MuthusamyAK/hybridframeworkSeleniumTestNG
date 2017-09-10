@@ -21,16 +21,21 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
+import com.hybridframework_Selenium.constants.Constants;
 import com.hybridframework_Selenium.testScripts.Keywords;
 import com.hybridframework_Selenium.testUtils.TestUtils;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -59,46 +64,7 @@ public class TestBase {
 		}	
 	}
 	
-	public void selectBrowser(String browserName) {
-
-		if(System.getProperty("os.name").contains("Windows")){
-		if (browserName.equalsIgnoreCase("firefox")) {
-
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//Drivers//geckodriver.exe");
-			DesiredCapabilities cap = new DesiredCapabilities();
-			cap.setCapability("marionette", false);
-			driver = new FirefoxDriver(cap);
-			driver.manage().window().maximize();
-			log("Opening the "+browserName+"Browser in "+System.getProperty("os.name")+"System");
-
-		} else if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
-			driver = new ChromeDriver();
-			log("Opening the "+browserName+"Browser in "+System.getProperty("os.name")+"System");
-
-		}
-		}
-		else if(System.getProperty("os.name").contains("Mac")){
-			if (browserName.equalsIgnoreCase("firefox")) {
-
-				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//Drivers//geckodriver.exe");
-				DesiredCapabilities cap = new DesiredCapabilities();
-				cap.setCapability("marionette", false);
-				driver = new FirefoxDriver(cap);
-				driver.manage().window().maximize();
-				log("Opening the "+browserName+"Browser in "+System.getProperty("os.name")+"System");
-
-			} else if (browserName.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
-				driver = new ChromeDriver();
-				log("Opening the "+browserName+"Browser in "+System.getProperty("os.name")+"System");
-
-			}
-			}
-		
-	}
+	
 
 	public void loadproperties() throws IOException {
 		prop = new Properties();
@@ -136,8 +102,65 @@ public class TestBase {
 		}
 
 	}
-	
+
+	@Parameters("browser")
+	@BeforeClass
+	public void selectBrowser(String browser) {
+
+		
+		if(!TestUtils.isTestcasesExecutable("hotelSearchlistTestCase", Keywords.xls))
+			throw new SkipException("User Set the test case Run mode is NO");
+		{
+			
+		
+		if(System.getProperty("os.name").contains("Windows")){
+		if (browser.equalsIgnoreCase("firefox")) {
+
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//Drivers//geckodriver.exe");
+			DesiredCapabilities cap = new DesiredCapabilities();
+			cap.setCapability("marionette", false);
+			driver = new FirefoxDriver(cap);
+			driver.manage().window().maximize();
+			//log("Opening the "+Constants.browserName+"Browser in "+System.getProperty("os.name")+"System");
+			
+
+		} else if (browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("test-type");
+			options.addArguments("start-maximized");
+			options.addArguments("--enable-automation");
+			options.addArguments("test-type=browser");
+			options.addArguments("disable-infobars");
+			
+			driver = new ChromeDriver(options);
+			//log("Opening the "+Constants.browserName+"Browser in "+System.getProperty("os.name")+"System");
+
+		}
+		}
+		else if(System.getProperty("os.name").contains("Mac")){
+			if (browser.equalsIgnoreCase("firefox")) {
+
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//Drivers//geckodriver.exe");
+				DesiredCapabilities cap = new DesiredCapabilities();
+				cap.setCapability("marionette", false);
+				driver = new FirefoxDriver(cap);
+				driver.manage().window().maximize();
+				//log("Opening the "+Constants.browserName+"Browser in "+System.getProperty("os.name")+"System");
+
+			} else if (browser.equalsIgnoreCase("chrome")) {
+				System.setProperty("webdriver.chrome.driver",
+						System.getProperty("user.dir") + "//Drivers//chromedriverf1.exe");
+				driver = new ChromeDriver();
+				//log("Opening the "+Constants.browserName+"Browser in "+System.getProperty("os.name")+"System");
+
+			}
+			}
+		}
+	}
 	public void navigateGivenDomain(String objectkeys){
+		
 		log("Navigating the URL. The Domain Name is "+ prop.getProperty(objectkeys));
 		driver.get(prop.getProperty(objectkeys));
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -247,6 +270,7 @@ public class TestBase {
 		
 	}
 	
+	
 	@BeforeMethod
 	public void beforeExecution(Method result){
 		
@@ -254,15 +278,16 @@ public class TestBase {
 	}
 	
 	@AfterMethod
-	public void afterExecution(ITestResult result){
+	public void afterExecution(ITestResult result) {
 		getStatus(result);
+		
 		
 	}
 
 	@AfterClass
-	public void endingTest(){
-		closeBrowser();
+	public void endingTest() {
 		
+		closeBrowser();
 	}
 	public void closeBrowser() {
 		if(driver!=null){
@@ -279,18 +304,21 @@ public class TestBase {
 			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "PASS");
 			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "PASS");
 			extenttest.log(LogStatus.PASS, "test is pass"+result.getName());
+			extenttest.log(LogStatus.PASS, extenttest.addScreenCapture(catureScreen("Pass")));
 		}
 		else if(result.getStatus()==ITestResult.FAILURE){
 			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "FAIL");
 			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "FAIL");
 			extenttest.log(LogStatus.ERROR, result.getName()+"test is failed"+result.getThrowable());
 			extenttest.log(LogStatus.FAIL, result.getName()+"test is failed"+extenttest.addScreenCapture(catureScreen("")));
+			extenttest.log(LogStatus.FAIL, extenttest.addScreenCapture(catureScreen("Fail")));
 			closeBrowser();
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
 			//Keywords.xls.setCellData("Test Data", "Status", TestUtils.getNum(result.getMethod().getMethodName(), Keywords.xls,"Status"), "SKIP");
 			Keywords.xls.setCellDataInparticularCell(result.getMethod().getMethodName(), "Test Data", "Status", "SKIP");
 			extenttest.log(LogStatus.SKIP, result.getName()+"test is skip"+result.getThrowable());
+			
 		}
 		else if(result.getStatus()==ITestResult.STARTED){
 			extenttest.log(LogStatus.INFO, result.getName()+"Test is Started");
@@ -325,6 +353,7 @@ public class TestBase {
 	public void log(String data){
 		
 		log.info(data);
+		extenttest.log(LogStatus.INFO, data);
 		Reporter.log(data);
 	}
 

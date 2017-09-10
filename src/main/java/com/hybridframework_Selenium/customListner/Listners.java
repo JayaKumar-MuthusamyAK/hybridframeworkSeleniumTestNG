@@ -36,7 +36,7 @@ public class Listners extends TestBase implements ITestListener {
 			
 			
 			try{
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()+"//src//main//java//com//hybridframework_Selenium//successScreenshots";
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()+"//src//main//java//com//hybridframework_Selenium//successScreenshots//";
 				File destFile = new File((String) reportDirectory +methodName +"-"+formater.format(calendar.getTime())+".png");
 				FileUtils.copyFile(scrFile, destFile);
 				Reporter.log("<a href='"+destFile.getAbsolutePath()+"'><img src='"+destFile.getAbsolutePath()+"'height ='100' widght ='100'/> </a>" );

@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>TestNG:  Hotel Search listing page Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Hotel Search listing page Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 10 22:07:02 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>240 seconds (240751 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase.hotelSearchlistTestCase()'><b>hotelSearchlistTestCase</b><br>Test class: com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase<br/>
+<a href="#Output-647364103" onClick='toggleBox("Output-647364103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-647364103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-647364103">
+Executable test cases name is :hotelSearchlistTestCase<br/>
+openBrowser--browserName--<br/>
+navigateURL--URL--<br/>
+Navigating the URL. The Domain Name is https://www.makemytrip.com/<br/>
+click--homepage.header.hotellink--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> id: header_tab_hotels]<br/>
+verifyTitle----Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
+Verifing the given domain Url title.And the Title is =>>Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.comExpected Title is: Online Hotel Booking for Cheap, Budget & Luxury Hotels in India | MakeMyTrip.com<br/>
+click--homepage.hotel.city.hoteltxt--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> id: hp-widget__sDest]<br/>
+waitForElementPresent--homepage.citylist.optionheader--<br/>
+selectdivOptions--homepage.hotel.city.hoteloptions--Mumbai<br/>
+waitForElementPresent--homepage.datepicker.leftside.monthyear--<br/>
+chooseDate----12-November 2017<br/>
+chooseDateReturn----20-November 2017<br/>
+waitForInvisibility--homepage.datepicker.leftside.monthyear--<br/>
+click--homepage.hotel.roomguests--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> id: hp-widget__paxCounter]<br/>
+waitForElementPresent--homepage.passenger.room--<br/>
+chooseAdults----2<br/>
+chooseChildrenswiththeirAge----2|1|1<br/>
+waitForInvisibility--homepage.hotel.roomguests.done--<br/>
+verifyHiddenValue--homepage.passenger--<br/>
+click--homepage.searchbtn--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> id: searchBtn]<br/>
+waitForTextPresent--listingpage.hotelpageheading--Hotels in Mumbai<br/>
+clickOnFirstHotel--listingpage.hotelnamelist--<br/>
+switchtoWindow----<br/>
+waitForVisibilityOfElement--hotel.viewpage.hotelname--20<br/>
+click--hotel.viewpage.roomtype.header.taboption--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='details-nav-roomtype']]<br/>
+moveCusoronElement--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--<br/>
+clickWhichElementPresent--hotel.viewpage.roomonly.bookbtn|hotel.viewpage.roomonly.bookbtn1--<br/>
+waitForTextPresent--booking.confirmationpage.totaltxt--Total<br/>
+click--booking.confirmationpage.breakingup.arrow--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='begin_review']/div[2]/div/div[1]/p]<br/>
+verify_BookingConfirmationDetailsprice--booking.confirmationpage.roomandnights|booking.confirmationpage.servicecharge|booking.confirmationpage.coupon|booking.confirmationpage.promodiscount|booking.confirmationpage.extracost|booking.confirmationpage.totalprice--<br/>
+selectDropdown--booking.confirmationpage.titledropdown--Ms.<br/>
+input--booking.confirmationpage.firstnametxtbox--test<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='htR-trvlr-guestName']]<br/>
+input--booking.confirmationpage.lastnametxtbox--test<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='htR-trvlr-guestLastName']]<br/>
+input--booking.confirmationpage.emailtxtbox--text<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='htR-trvlr-guestEmail']]<br/>
+input--booking.confirmationpage.contactnotxtbox--text<br/>
+Entering the values in given webelement. The element name is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //*[@id='htR-trvlr-guestNum']]<br/>
+click--booking.confirmationpage.paynowbtn--<br/>
+Clicking the given object. and the element is =>>[[FirefoxDriver: firefox on WINDOWS (d9e9f7ab-3d2c-4cee-bd6c-c6c5961f892d)] -> xpath: //a[@id='makePaymentId']]<br/>
+</div>
+</td>
+<td></td>
+<td>231</td>
+<td>com.hybridframework_Selenium.testcases.TC006_HotelSearchlistTestCase@64d2d351</td></tr>
+</table><p>
+</body>
+</html>

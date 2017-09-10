@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>TestNG:  Flight Search Listing page Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Flight Search Listing page Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 10 22:43:29 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70687 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase.flight_SearchListingTestCase()'><b>flight_SearchListingTestCase</b><br>Test class: com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase<br/>
+<a href="#Output-629880987" onClick='toggleBox("Output-629880987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-629880987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-629880987">
+Executable test cases name is :flightSearchlistTestCase<br/>
+openBrowser--browserName--<br/>
+navigateURL--URL--<br/>
+Navigating the URL. The Domain Name is https://www.makemytrip.com/<br/>
+click--homepage.from.box--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sfrom]<br/>
+selectdivOptions--homepage.from.options--Delhi<br/>
+click--homepage.to.box--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__sTo]<br/>
+selectdivOptions--homepage.to.options--Mumbai<br/>
+click--homepage.go.date--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__depart]<br/>
+chooseDate----12-October 2017<br/>
+click--homepage.passenger--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__paxCounter]<br/>
+chooseAdults----2<br/>
+chooseChildrans----0<br/>
+chooseInfants----0<br/>
+click--homepage.passenger.done--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> xpath: //*[@id='js-filterOptins']/div/div[9]/div/p/a]<br/>
+verifyHiddenValue--homepage.passenger--<br/>
+click--homepage.class--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: hp-widget__class]<br/>
+chooseClass----Economy<br/>
+click--homepage.searchbtn--<br/>
+Clicking the given object. and the element is =>>[[ChromeDriver: chrome on XP (dfbac1b855d99f40404467b469b000a6)] -> id: searchBtn]<br/>
+verifyTotalinSplit--listingpage.total--<br/>
+scrollDownVerifyCount--listingpage.nameslist|listingpage.total--<br/>
+printAllprojectnames--listingpage.nameslist--<br/>
+chooseOnBook--listingpage.nameslist|listingpage.flightprice|flightreviewpage.finalprice--6E-957<br/>
+verifyReviewPageGrandTotal--flightreviewpage.basefire|flightreviewpage.feesurcharges|flightreviewpage.grandtotal|flightreviewpage.total--<br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>com.hybridframework_Selenium.testcases.TC005_Flight_SearchListingTestCase@64d2d351</td></tr>
+</table><p>
+</body>
+</html>
